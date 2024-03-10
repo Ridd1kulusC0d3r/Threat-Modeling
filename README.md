@@ -7,3 +7,12 @@
 - STRIDE - Microsoft Threat Modeling: https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats
 - PASTA: https://versprite.com/blog/what-is-pasta-threat-modeling/
 - AWS Threat Modeling: https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling
+
+## Curses
+## Models
+## Books
+## References:
+- Baralho de cartas de modelagem de ameaças EOP: elevação de privilégio: https://github.com/adamshostack/eop 
+
+
+
