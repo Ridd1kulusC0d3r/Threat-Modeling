@@ -10,8 +10,10 @@
 - SDLC
 
 ## Curses
-## Models
+## Documentação
 - Threat Modeling Within GitLab: Threat Modeling Within GitLab
+- AppSec Threat Modeling Process Gitlab: https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/
+## Modelos Visuais
 
 ## Books
 ## References:
