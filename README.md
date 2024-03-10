@@ -10,9 +10,10 @@
 
 ## Curses
 ## Models
+
 ## Books
 ## References:
 - Baralho de cartas de modelagem de ameaças EOP: elevação de privilégio: https://github.com/adamshostack/eop 
-
+- Tutamantic: Processo de teste de estresse de arquitetura de software seguro: https://github.com/geoffrey-hill-tutamantic?tab=repositories
 
 
