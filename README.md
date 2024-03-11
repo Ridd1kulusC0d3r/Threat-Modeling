@@ -13,6 +13,7 @@
 ## Documentação
 - Threat Modeling Within GitLab: Threat Modeling Within GitLab
 - AppSec Threat Modeling Process Gitlab: https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/
+- Modelagem de ameaças OpenStack: https://wiki.openstack.org/wiki/Security/Threat_Analysis
 ## Modelos Visuais
 
 ## Books
