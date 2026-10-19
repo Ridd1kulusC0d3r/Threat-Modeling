@@ -1,27 +1,45 @@
-# Cyber Threat-Modeling
+<p align="center"><img src="assets/identity/banner.svg" alt="Threat Modeling — Manuais para desenhar perguntas melhores." width="100%"></p>
 
-## Frameworks
-- Mitre Attack: https://attack.mitre.org/
-- Mitre navigator: https://mitre-attack.github.io/attack-navigator/
-- DREAD - Threat Model Your Security Risks: https://learn.microsoft.com/en-us/archive/msdn-magazine/2003/november/resource-file-threat-model-your-security-risks
-- STRIDE - Microsoft Threat Modeling: https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats
-- STRIDE-LM - https://csf.tools/reference/stride-lm/
-- PASTA: https://versprite.com/blog/what-is-pasta-threat-modeling/
-- AWS Threat Modeling: https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling
-- SDLC
-- NIST SP 800-53 Rev. 5: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
-- NIST 800-53 CONTROLS TO ATT&CK MAPPING: https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/nist-800-53-control-mappings/
+# Threat Modeling
 
-## Curses
-## Documentação
-- Threat Modeling Within GitLab: Threat Modeling Within GitLab
-- AppSec Threat Modeling Process Gitlab: https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/
-- Modelagem de ameaças OpenStack: https://wiki.openstack.org/wiki/Security/Threat_Analysis
-## Modelos Visuais
+**Manuais para desenhar perguntas melhores.**
 
-## Books
-## References:
-- Baralho de cartas de modelagem de ameaças EOP: elevação de privilégio: https://github.com/adamshostack/eop 
-- Tutamantic: Processo de teste de estresse de arquitetura de software seguro: https://github.com/geoffrey-hill-tutamantic?tab=repositories
+Organizar links de manuais, métodos, livros e ferramentas de modelagem de ameaças por objetivo e nível de profundidade.
 
+[Comece aqui](docs/COMECE-AQUI.md) · [Referências comentadas](docs/REFERENCIAS.md) · [Identidade visual](docs/IDENTIDADE-VISUAL.md)
 
+## Objetivo e fronteiras
+
+É uma biblioteca de referências. TCEM — Threat Context Engineering Method — é a metodologia autoral mantida em Cyber-Threat-Context-Modeling. Este catálogo não substitui nem redefine o TCEM.
+
+## Caminhos de uso
+
+| Etapa | Pergunta de trabalho | Entrega |
+|---|---|---|
+| Aprender | Entender processo e perguntas | Manual introdutório |
+| Selecionar | Comparar abordagem e contexto | Referência metodológica |
+| Aplicar | Encontrar exemplos e ferramentas | Guia de aplicação |
+
+## Começar
+
+1. Leia o [guia de entrada](docs/COMECE-AQUI.md).
+2. Escolha uma [referência pelo problema](docs/REFERENCIAS.md), não pela popularidade.
+3. Registre objetivo, fonte, data e limitações do recurso selecionado.
+
+## Estado atual
+
+Catálogo documental de links com orientação editorial. Não há execução de ferramentas ou monitoramento ao vivo.
+
+## Contribuir
+
+Inclua problema resolvido, fonte original, data, limitações e condições de reutilização. Diferencie observação, interpretação e hipótese. Recursos externos permanecem sujeitos às licenças e condições dos respectivos autores.
+
+## Conexões no portfólio
+
+[Cyber-Threat-Context-Modeling](https://github.com/Ridd1kulusC0d3r/Cyber-Threat-Context-Modeling) · [CyberFrameworks](https://github.com/Ridd1kulusC0d3r/CyberFrameworks) · [AppSec](https://github.com/Ridd1kulusC0d3r/AppSec)
+
+As fronteiras acima definem a direção deste projeto; links relacionados não significam integrações implementadas.
+
+## Biblioteca organizada
+
+[Manuais por finalidade](docs/CATALOGO.md) · [Acervo histórico preservado](docs/ACERVO-ANTERIOR.md)
