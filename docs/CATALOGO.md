@@ -20,6 +20,69 @@ Seleção organizada por finalidade. Links históricos não consultados nesta ro
 | [OpenStack Threat Analysis](https://wiki.openstack.org/wiki/Security/Threat_Analysis) | Exemplo de processo em plataforma | Material histórico; conferir atualidade |
 | [Elevation of Privilege](https://github.com/adamshostack/eop) | Facilitação com cartas | Ferramenta de discussão; não substitui análise |
 
+## Livros e leitura acadêmica
+
+Livros, artigos e normas estão na [bibliografia comentada](BIBLIOGRAFIA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 15 semanas.
+
+## Métodos complementares
+
+| Referência | Finalidade | Nota editorial |
+|---|---|---|
+| [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org) | Valores, princípios e as quatro perguntas | Consultado em 22/10/2026 |
+| [LINDDUN](https://linddun.org) | Ameaças à privacidade | Site oficial; não foi possível consultar nesta edição |
+| PASTA — UcedaVélez & Morana (2015) | Modelagem centrada em risco de negócio | Livro dos proponentes; ver [bibliografia](BIBLIOGRAFIA.md#1-fundamentos) |
+
+## Modelagem como código e ferramentas
+
+Repositórios públicos confirmados em 22/10/2026. Confirmar maturidade, manutenção e licença antes de adotar.
+
+| Ferramenta | Uso | Nota editorial |
+|---|---|---|
+| [OWASP pytm](https://github.com/OWASP/pytm) | Descrever o sistema em Python e gerar DFD e ameaças | Usado em Tarandach & Coles (2020) |
+| [Threagile](https://github.com/Threagile/threagile) | Modelo em YAML com análise de riscos automatizada | Agile threat modeling as code |
+| [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon) | Diagramas e ameaças em interface gráfica | Bom para facilitar sessões |
+| [AWS Threat Composer](https://github.com/awslabs/threat-composer) | Declarações de ameaça estruturadas e mitigação | Orientado a times de produto |
+| [enterpriseLang (MAL)](https://github.com/mal-lang/enterpriselang) | Simular caminhos de ataque em arquiteturas corporativas | Base de Xiong et al. (2022) |
+| [Elevation of Privilege](https://github.com/adamshostack/eop) | Facilitação com cartas | Já listado acima |
+
+## IA e agentes
+
+| Referência | Uso | Nota editorial |
+|---|---|---|
+| [MITRE ATLAS](https://atlas.mitre.org) | Táticas e técnicas contra sistemas de IA | Consultado em 22/10/2026 |
+| [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) | Riscos de aplicações com LLM | Edição 2025 confirmada em 22/10/2026 |
+| [CSA MAESTRO](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) | Modelagem por camadas para IA agêntica | Publicado em 06/02/2025; framework recente |
+
+## Pontes com inteligência e detecção
+
+Ajudam a levar o resultado do modelo para monitoramento. Não são métodos de modelagem.
+
+| Referência | Uso | Nota editorial |
+|---|---|---|
+| [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | Representar sequências de técnicas | MITRE CTID |
+| [MITRE D3FEND](https://d3fend.mitre.org) | Contramedidas ligadas a técnicas | Ontologia; ver Kaloroumakis & Smith (2021) |
+| [TRAM](https://github.com/center-for-threat-informed-defense/tram) | Mapear relatórios para ATT&CK com apoio de ML | Saída exige revisão humana |
+| [DeTT&CT](https://github.com/rabobank-cdc/DeTTECT) | Visibilidade e qualidade de fontes de dados por técnica | Útil para achar lacunas de telemetria |
+| [Summiting the Pyramid](https://ctid.mitre.org/projects/summiting-the-pyramid-v2) | Robustez de analíticas | v2, dez. 2024 |
+| [Palantir ADS](https://github.com/palantir/alerting-detection-strategy-framework) | Modelo de especificação de detecção | Inclui pontos cegos e validação |
+| [Sigma specification](https://github.com/SigmaHQ/sigma-specification) | Formato portátil de regras | — |
+
+## Normas e guias oficiais
+
+Links oficiais; conferir a versão vigente antes de citar.
+
+| Referência | Uso |
+|---|---|
+| [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final) | Avaliação de risco |
+| [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | Catálogo de controles |
+| [NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final) | Arquitetura zero trust |
+| [NIST CSF 2.0](https://www.nist.gov/cyberframework) | Estrutura de gestão de cibersegurança |
+| ISO/IEC 27005:2022 · ABNT NBR ISO/IEC 27005:2023 | Gestão de riscos de segurança da informação (confirmar status da edição ABNT) |
+| [FIRST CVSS v4.0](https://www.first.org/cvss/v4.0/specification-document) | Severidade técnica |
+| [FIRST EPSS](https://www.first.org/epss/) | Probabilidade de exploração |
+| [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | Vulnerabilidades com exploração confirmada |
+| [CERT/CC SSVC](https://certcc.github.io/SSVC/) | Priorização por árvore de decisão |
+
 ## Contexto complementar
 
 [MITRE ATT&CK](https://attack.mitre.org/) ajuda a contextualizar comportamentos, mas não equivale a um método completo de modelagem. [NIST SSDF](https://csrc.nist.gov/projects/ssdf) conecta práticas de segurança ao desenvolvimento.

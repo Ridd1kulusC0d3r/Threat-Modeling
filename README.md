@@ -6,7 +6,7 @@
 
 Organizar links de manuais, métodos, livros e ferramentas de modelagem de ameaças por objetivo e nível de profundidade.
 
-[Comece aqui](docs/COMECE-AQUI.md) · [Referências comentadas](docs/REFERENCIAS.md) · [Identidade visual](docs/IDENTIDADE-VISUAL.md)
+[Comece aqui](docs/COMECE-AQUI.md) · [Referências comentadas](docs/REFERENCIAS.md) · [Bibliografia](docs/BIBLIOGRAFIA.md) · [Trilha de leitura](docs/TRILHA-DE-LEITURA.md) · [Identidade visual](docs/IDENTIDADE-VISUAL.md)
 
 ## Objetivo e fronteiras
 
@@ -28,7 +28,7 @@ Organizar links de manuais, métodos, livros e ferramentas de modelagem de amea�
 
 ## Estado atual
 
-Catálogo documental de links com orientação editorial. Não há execução de ferramentas ou monitoramento ao vivo.
+Catálogo documental de links, bibliografia comentada e trilha de leitura, com orientação editorial. Não há execução de ferramentas ou monitoramento ao vivo.
 
 ## Contribuir
 
@@ -42,4 +42,6 @@ As fronteiras acima definem a direção deste projeto; links relacionados não s
 
 ## Biblioteca organizada
 
-[Manuais por finalidade](docs/CATALOGO.md) · [Acervo histórico preservado](docs/ACERVO-ANTERIOR.md)
+[Manuais e ferramentas por finalidade](docs/CATALOGO.md) · [Bibliografia comentada — 131 obras, ABNT + BibTeX](docs/BIBLIOGRAFIA.md) · [Trilha de leitura de 15 semanas](docs/TRILHA-DE-LEITURA.md) · [Acervo histórico preservado](docs/ACERVO-ANTERIOR.md)
+
+Para citar em trabalhos acadêmicos, use [`referencias/referencias.bib`](referencias/referencias.bib). O campo `keywords` de cada entrada traz o eixo e o status de verificação.
