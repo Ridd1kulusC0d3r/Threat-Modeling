@@ -1,36 +1,32 @@
-# Comece aqui — Threat Modeling
+# Comece aqui
 
-## Para quem
+[Início](../README.md) · [Bibliografia](BIBLIOGRAFIA.md) · [Cases](../cases/README.md)
 
-Pessoas que precisam organizar links de manuais, métodos, livros e ferramentas de modelagem de ameaças por objetivo e nível de profundidade.
+## Rota 1 — fundamentos
+1. Manifesto: formular escopo, ameaças, respostas e revisão.
+2. Shostack: estruturar o processo.
+3. PASTA e Schoenfield: ligar negócio, arquitetura e risco.
+4. Threat Modeling with ATT&CK: contextualizar comportamento adversário.
 
-## Rota guiada
+**Entregável:** modelo com missão, fronteiras, evidências e pressupostos.
 
-### 1. Aprender
+## Rota 2 — análise de inteligência
+Ler Diamond Model, Heuer e Intelligence-Driven Incident Response. Depois, Attack Flow e Threat Models over Space and Time.
 
-**Atividade:** Entender processo e perguntas.
+**Entregável:** hipótese com suporte, contradições, confiança e gatilhos de revisão.
 
-**Saída:** Manual introdutório.
+## Rota 3 — engenharia de detecção
+Estudar Threat Hunter Playbook, Summiting the Pyramid, Sensor Mappings e DeTT&CT no [guia](ENGENHARIA-DE-DETECCAO.md). Escolher [DCSync](../cases/01-dcsync.md), [CloudTrail](../cases/03-cloudtrail.md) ou [degradação](../cases/06-degradacao.md).
 
-### 2. Selecionar
+**Entregável:** contrato de telemetria, implementação identificada e testes positivos/benignos/variantes/degradação.
 
-**Atividade:** Comparar abordagem e contexto.
+## Rota 4 — aprofundamento científico
+Revisão de Xiong e Lagerström → enterpriseLang → HOLMES → POIROT → UNICORN → Procedural Semantics Gap. Os links e limitações estão na [bibliografia](BIBLIOGRAFIA.md).
 
-**Saída:** Referência metodológica.
-
-### 3. Aplicar
-
-**Atividade:** Encontrar exemplos e ferramentas.
-
-**Saída:** Guia de aplicação.
-
+**Entregável:** comparação de abordagens, dependências de dados e limites de generalização.
 
 ## Sessão inicial
-
-Escolha uma pergunta concreta e abra um recurso do [catálogo](REFERENCIAS.md). Registre o que o documento ensina, para qual contexto foi escrito e qual dúvida permanece. O objetivo é encontrar o manual certo, não acumular links.
+Escolha uma pergunta concreta, leia uma fonte e preencha missão, hipótese e lacunas no [template](../templates/CASE-DETECCAO.md). Não preencha resultados antes de executar.
 
 ## Fronteira editorial
-
-É uma biblioteca de referências. TCEM — Threat Context Engineering Method — é a metodologia autoral mantida em Cyber-Threat-Context-Modeling. Este catálogo não substitui nem redefine o TCEM.
-
-[Início](../README.md) · [Referências](REFERENCIAS.md)
+Esta biblioteca contém referências e propostas de exercício. A metodologia formal [TCEM](https://github.com/Ridd1kulusC0d3r/Cyber-Threat-Context-Modeling) permanece em seu repositório.

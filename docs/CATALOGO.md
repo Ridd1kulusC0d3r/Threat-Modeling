@@ -33,3 +33,13 @@ Este repositório organiza manuais de terceiros. O [TCEM](https://github.com/Rid
 ## Adicionar um manual
 
 Informe autor, URL original, método, nível, contexto, versão/data, razão de inclusão e limitações. Não copie livros ou documentos integrais sem autorização.
+
+
+## Novas rotas de aplicação
+
+- [Bibliografia comentada](BIBLIOGRAFIA.md): fundamentos e trabalhos relacionados.
+- [Engenharia de detecção](ENGENHARIA-DE-DETECCAO.md): observáveis, datasets e validação.
+- [Conferências](CONFERENCIAS.md): apresentações e exercícios.
+- [Cases](../cases/README.md): roteiros educacionais, não executados.
+
+Os links históricos acima permanecem identificados como tais; a inclusão de novas fontes não valida automaticamente o acervo anterior.

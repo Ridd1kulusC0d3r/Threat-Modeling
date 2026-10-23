@@ -1,25 +1,24 @@
 # Identidade visual — Threat Modeling
 
+[Início](../README.md)
+
 **Assinatura:** Manuais para desenhar perguntas melhores.
+**Linha de apoio:** Da pergunta à evidência defensiva.
 
 | Elemento | Direção |
 |---|---|
-| Fundo | `#1E263D` |
-| Acento | `#9FB8F6` |
-| Texto principal | `#F7F8FA` |
-| Texto secundário | `#DFE6ED` |
-| Tipografia do SVG | DejaVu Sans, com fallback sans-serif |
-| Símbolo próprio | blueprint |
-| Composição | Nome à esquerda, símbolo à direita, navegação textual abaixo |
+| Fundo | Azul profundo #111A2D e #1E263D |
+| Acento principal | Azul #9FB8F6 |
+| Acento de evidência | Verde #78D9C0, sem significar validação automática |
+| Texto | #F7F8FA e #DFE6ED |
+| Texto secundário | #A9B6CD |
+| Tipografia SVG | DejaVu Sans, Arial, sans-serif |
+| Símbolo | Arquitetura geométrica com fronteira de confiança |
+| Hierarquia | Título, propósito, três rotas e referências |
 
-O banner é SVG local, sem fontes remotas, scripts ou dependências. A identidade usa geometria original; não reproduz marcas das organizações referenciadas. O título e o propósito também devem aparecer em texto no README para acessibilidade.
+## Aplicação
+Banner local em proporção 3:1, sem fontes remotas, scripts ou imagens de terceiros. O nome e o propósito também aparecem como texto no README. O SVG contém title e desc para acessibilidade. Em telas pequenas, o texto do README oferece a informação essencial.
 
-## Uso
+Navegação em links de texto; tabelas para comparação; diagrama Mermaid apenas para relações. Evitar badges decorativos e números de cobertura sem evidência. Estados sempre escritos, nunca indicados apenas por cor.
 
-- Preserve o contraste e o espaço livre ao redor do símbolo.
-- Não use cor como único indicador de estado.
-- Separe documentação disponível de funcionalidades planejadas.
-- Use o nome do repositório em links, mesmo quando o título editorial tiver espaços.
-- Para banners, mantenha a proporção 10:3; em telas estreitas, priorize o título textual do README.
-
-Arquivo: [banner.svg](../assets/identity/banner.svg).
+[Banner](../assets/identity/banner.svg). Geometria original, sem reprodução de marcas das organizações citadas.
