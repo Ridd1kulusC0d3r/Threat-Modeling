@@ -2,6 +2,8 @@
 
 [Início](../README.md) · [Cases](../cases/README.md) · [Template](../templates/CASE-DETECCAO.md)
 
+> **Lista estruturada:** os links desta tabela também estão em [`data/resources.json`](../data/resources.json), com grau, acesso e limite, e na [lista gerada](AWESOME.md). Este texto mantém o comentário editorial.
+
 Um case liga missão, cenário plausível, evidência, observáveis, lógica analítica, teste e decisão. Visibilidade possível, dados disponíveis e detecção validada são estados distintos.
 
 ## Materiais para produzir casos

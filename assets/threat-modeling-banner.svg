@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+  <title id="t">Threat Modeling: métodos, fontes e evidência</title>
+  <desc id="d">Diagrama de fluxo com uma fronteira de confiança tracejada. Uma seta marcada como ameaça cruza a fronteira. Abaixo, os graus de fonte A a E.</desc>
+  <rect width="1280" height="340" fill="#f3f0e8"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" fill="none" stroke="#17150f"/>
+  <g font-family="'Courier New',Courier,monospace" font-size="12" letter-spacing="2" fill="#4a463c" font-weight="700">
+    <text x="48" y="44">THREAT MODELING / MÉTODOS E EVIDÊNCIA</text>
+    <text x="1232" y="44" text-anchor="end">TLP:CLEAR</text>
+  </g>
+  <line x1="48" y1="62" x2="1232" y2="62" stroke="#17150f"/>
+  <text x="48" y="168" font-family="Georgia,'Times New Roman',serif" font-size="78" font-weight="700" fill="#17150f" letter-spacing="-2">Threat Modeling</text>
+  <text x="50" y="214" font-family="Georgia,'Times New Roman',serif" font-size="25" font-style="italic" fill="#4a463c">Métodos, fontes e evidência para fazer perguntas melhores.</text>
+  <line x1="50" y1="250" x2="170" y2="250" stroke="#b43c0e" stroke-width="4"/>
+  <g font-family="'Courier New',Courier,monospace" font-size="12" letter-spacing="2" fill="#4a463c" font-weight="700">
+    <text x="50" y="286">FUNDAMENTAR · PROJETAR · DEMONSTRAR</text>
+  </g>
+  <!-- trust-boundary diagram -->
+  <g transform="translate(790 86)">
+    <rect width="442" height="212" fill="#fbf9f3" stroke="#17150f"/>
+    <rect x="176" y="22" width="244" height="102" fill="none" stroke="#17150f" stroke-dasharray="7 5"/>
+    <text x="188" y="40" font-family="'Courier New',Courier,monospace" font-size="10" font-weight="700" fill="#4a463c" letter-spacing="2">FRONTEIRA DE CONFIANÇA</text>
+    <g font-family="'Courier New',Courier,monospace" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle">
+      <rect x="22" y="62" width="104" height="44" fill="#fbf9f3" stroke="#17150f"/><text x="74" y="89" fill="#17150f">ATOR</text>
+      <rect x="196" y="62" width="92" height="44" fill="#fbf9f3" stroke="#17150f"/><text x="242" y="89" fill="#17150f">SERVIÇO</text>
+      <rect x="316" y="62" width="88" height="44" fill="#17150f"/><text x="360" y="89" fill="#fbf9f3">DADOS</text>
+    </g>
+    <path d="M126 84H190" stroke="#b43c0e" stroke-width="4"/>
+    <path d="M186 76L198 84L186 92Z" fill="#b43c0e"/>
+    <path d="M288 84H310" stroke="#17150f" stroke-width="2"/>
+    <text x="22" y="145" font-family="'Courier New',Courier,monospace" font-size="10" font-weight="700" fill="#b43c0e" letter-spacing="2">AMEAÇA CRUZA A FRONTEIRA.</text>
+    <line x1="22" y1="156" x2="420" y2="156" stroke="#cfc9ba"/>
+    <text x="22" y="178" font-family="'Courier New',Courier,monospace" font-size="10" font-weight="700" fill="#4a463c" letter-spacing="2">GRAU DA FONTE</text>
+    <g font-family="'Courier New',Courier,monospace" font-size="13" font-weight="700" text-anchor="middle">
+      <rect x="170" y="164" width="30" height="26" fill="#17150f"/><text x="185" y="182" fill="#fbf9f3">A</text>
+      <rect x="208" y="164" width="30" height="26" fill="#4a463c"/><text x="223" y="182" fill="#fbf9f3">B</text>
+      <rect x="246" y="164" width="30" height="26" fill="#fbf9f3" stroke="#4a463c"/><text x="261" y="182" fill="#4a463c">C</text>
+      <rect x="284" y="164" width="30" height="26" fill="#fbf9f3" stroke="#cfc9ba"/><text x="299" y="182" fill="#4a463c">D</text>
+      <rect x="322" y="164" width="30" height="26" fill="#b43c0e"/><text x="337" y="182" fill="#fff">E</text>
+    </g>
+    <text x="360" y="182" font-family="'Courier New',Courier,monospace" font-size="10" fill="#4a463c" letter-spacing="1">legado</text>
+  </g>
+</svg>

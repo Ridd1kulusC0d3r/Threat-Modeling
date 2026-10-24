@@ -1,0 +1,36 @@
+name: Validate library
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate data
+        run: python scripts/validate.py
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generated files are up to date
+        run: python scripts/build_readme.py --check
+
+      - name: Smoke test queries
+        run: |
+          python scripts/query.py search "apt provenance" > /dev/null
+          python scripts/query.py method stride > /dev/null
+          python scripts/query.py stats > /dev/null

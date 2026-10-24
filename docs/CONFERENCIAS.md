@@ -2,6 +2,8 @@
 
 [Início](../README.md) · [Bibliografia](BIBLIOGRAFIA.md)
 
+> **Lista estruturada:** os links desta tabela também estão em [`data/resources.json`](../data/resources.json), com grau, acesso e limite, e na [lista gerada](AWESOME.md). Este texto mantém o comentário editorial.
+
 Programação, slides e gravação são evidências diferentes. Uma página de evento não garante vídeo público. Não redistribuímos livros, slides ou gravações; os links levam às fontes.
 
 | Material | Origem / formato | Exercício |

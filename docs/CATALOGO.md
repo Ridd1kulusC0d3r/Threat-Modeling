@@ -1,5 +1,7 @@
 # Biblioteca de manuais e métodos
 
+> **Lista estruturada:** os links desta tabela também estão em [`data/resources.json`](../data/resources.json), com grau, acesso e limite, e na [lista gerada](AWESOME.md). Este texto mantém o comentário editorial.
+
 Seleção organizada por finalidade. Links históricos não consultados nesta rodada estão identificados abaixo. Não são apresentados como validação de disponibilidade ou atualização.
 
 ## Processo e introdução
