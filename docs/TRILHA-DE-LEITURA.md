@@ -1,10 +1,10 @@
 # Trilha de leitura — Threat Modeling
 
-Um caminho de 15 semanas pela [bibliografia comentada](BIBLIOGRAFIA.md), uma leitura por vez. Cada passo tem uma ação e uma saída. Marque a caixa quando registrar a saída.
+Um caminho de 15 semanas pela [bibliografia comentada](BIBLIOGRAFIA-COMENTADA.md), uma leitura por vez. Cada passo tem uma ação e uma saída. Marque a caixa quando registrar a saída.
 
 ## Como usar cada passo
 
-1. Abra a fonte original (links e DOIs estão na [bibliografia](BIBLIOGRAFIA.md)).
+1. Abra a fonte original (links e DOIs estão na [bibliografia](BIBLIOGRAFIA-COMENTADA.md)).
 2. Leia só o trecho indicado.
 3. Registre em três linhas: **o que ensina**, **para qual contexto foi escrito** e **qual dúvida ficou**.
 
@@ -63,4 +63,4 @@ Obras marcadas com ⭐ na bibliografia. Se o tempo for curto, leia estas antes d
 - [ ] Kitchenham & Charters (2007) ou Petersen et al. (2015): protocolo de revisão ou mapeamento.
 - [ ] Basili et al. (1994): métricas a partir de objetivos (GQM).
 
-[Início](../README.md) · [Bibliografia](BIBLIOGRAFIA.md) · [Catálogo](CATALOGO.md)
+[Início](../README.md) · [Bibliografia](BIBLIOGRAFIA-COMENTADA.md) · [Catálogo](CATALOGO.md)

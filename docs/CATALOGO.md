@@ -1,5 +1,7 @@
 # Biblioteca de manuais e métodos
 
+> **Lista estruturada:** os links desta tabela também estão em [`data/resources.json`](../data/resources.json), com grau, acesso e limite, e na [lista gerada](AWESOME.md). Este texto mantém o comentário editorial.
+
 Seleção organizada por finalidade. Links históricos não consultados nesta rodada estão identificados abaixo. Não são apresentados como validação de disponibilidade ou atualização.
 
 ## Processo e introdução
@@ -22,15 +24,15 @@ Seleção organizada por finalidade. Links históricos não consultados nesta ro
 
 ## Livros e leitura acadêmica
 
-Livros, artigos e normas estão na [bibliografia comentada](BIBLIOGRAFIA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 15 semanas.
+Livros, artigos e normas estão na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 15 semanas.
 
 ## Métodos complementares
 
 | Referência | Finalidade | Nota editorial |
 |---|---|---|
-| [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org) | Valores, princípios e as quatro perguntas | Consultado em 22/10/2026 |
-| [LINDDUN](https://linddun.org) | Ameaças à privacidade | Site oficial; não foi possível consultar nesta edição |
-| PASTA — UcedaVélez & Morana (2015) | Modelagem centrada em risco de negócio | Livro dos proponentes; ver [bibliografia](BIBLIOGRAFIA.md#1-fundamentos) |
+| [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | Valores, princípios e as quatro perguntas | Consultado em 22/10/2026 |
+| [LINDDUN](https://linddun.org/) | Ameaças à privacidade | Site oficial; não foi possível consultar nesta edição |
+| PASTA — UcedaVélez & Morana (2015) | Modelagem centrada em risco de negócio | Livro dos proponentes; ver [bibliografia](BIBLIOGRAFIA-COMENTADA.md#1-fundamentos) |
 
 ## Modelagem como código e ferramentas
 
@@ -39,8 +41,8 @@ Repositórios públicos confirmados em 22/10/2026. Confirmar maturidade, manuten
 | Ferramenta | Uso | Nota editorial |
 |---|---|---|
 | [OWASP pytm](https://github.com/OWASP/pytm) | Descrever o sistema em Python e gerar DFD e ameaças | Usado em Tarandach & Coles (2020) |
-| [Threagile](https://github.com/Threagile/threagile) | Modelo em YAML com análise de riscos automatizada | Agile threat modeling as code |
-| [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon) | Diagramas e ameaças em interface gráfica | Bom para facilitar sessões |
+| [Threagile](https://threagile.io/) | Modelo em YAML com análise de riscos automatizada | Agile threat modeling as code |
+| [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) | Diagramas e ameaças em interface gráfica | Bom para facilitar sessões |
 | [AWS Threat Composer](https://github.com/awslabs/threat-composer) | Declarações de ameaça estruturadas e mitigação | Orientado a times de produto |
 | [enterpriseLang (MAL)](https://github.com/mal-lang/enterpriselang) | Simular caminhos de ataque em arquiteturas corporativas | Base de Xiong et al. (2022) |
 | [Elevation of Privilege](https://github.com/adamshostack/eop) | Facilitação com cartas | Já listado acima |
@@ -49,7 +51,7 @@ Repositórios públicos confirmados em 22/10/2026. Confirmar maturidade, manuten
 
 | Referência | Uso | Nota editorial |
 |---|---|---|
-| [MITRE ATLAS](https://atlas.mitre.org) | Táticas e técnicas contra sistemas de IA | Consultado em 22/10/2026 |
+| [MITRE ATLAS](https://atlas.mitre.org/) | Táticas e técnicas contra sistemas de IA | Consultado em 22/10/2026 |
 | [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) | Riscos de aplicações com LLM | Edição 2025 confirmada em 22/10/2026 |
 | [CSA MAESTRO](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) | Modelagem por camadas para IA agêntica | Publicado em 06/02/2025; framework recente |
 
@@ -60,12 +62,12 @@ Ajudam a levar o resultado do modelo para monitoramento. Não são métodos de m
 | Referência | Uso | Nota editorial |
 |---|---|---|
 | [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | Representar sequências de técnicas | MITRE CTID |
-| [MITRE D3FEND](https://d3fend.mitre.org) | Contramedidas ligadas a técnicas | Ontologia; ver Kaloroumakis & Smith (2021) |
+| [MITRE D3FEND](https://d3fend.mitre.org/) | Contramedidas ligadas a técnicas | Ontologia; ver Kaloroumakis & Smith (2021) |
 | [TRAM](https://github.com/center-for-threat-informed-defense/tram) | Mapear relatórios para ATT&CK com apoio de ML | Saída exige revisão humana |
 | [DeTT&CT](https://github.com/rabobank-cdc/DeTTECT) | Visibilidade e qualidade de fontes de dados por técnica | Útil para achar lacunas de telemetria |
-| [Summiting the Pyramid](https://ctid.mitre.org/projects/summiting-the-pyramid-v2) | Robustez de analíticas | v2, dez. 2024 |
+| [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/) | Robustez de analíticas | v2, dez. 2024 |
 | [Palantir ADS](https://github.com/palantir/alerting-detection-strategy-framework) | Modelo de especificação de detecção | Inclui pontos cegos e validação |
-| [Sigma specification](https://github.com/SigmaHQ/sigma-specification) | Formato portátil de regras | — |
+| [Sigma specification](https://sigmahq.io/sigma-specification/specification/sigma-correlation-rules-specification.html) | Formato portátil de regras | — |
 
 ## Normas e guias oficiais
 
@@ -96,3 +98,13 @@ Este repositório organiza manuais de terceiros. O [TCEM](https://github.com/Rid
 ## Adicionar um manual
 
 Informe autor, URL original, método, nível, contexto, versão/data, razão de inclusão e limitações. Não copie livros ou documentos integrais sem autorização.
+
+
+## Novas rotas de aplicação
+
+- [Bibliografia comentada](BIBLIOGRAFIA-COMENTADA.md): fundamentos e trabalhos relacionados.
+- [Engenharia de detecção](ENGENHARIA-DE-DETECCAO.md): observáveis, datasets e validação.
+- [Conferências](CONFERENCIAS.md): apresentações e exercícios.
+- [Cases](../cases/README.md): roteiros educacionais, não executados.
+
+Os links históricos acima permanecem identificados como tais; a inclusão de novas fontes não valida automaticamente o acervo anterior.

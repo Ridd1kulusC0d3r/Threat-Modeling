@@ -13,10 +13,22 @@ Seleção editorial consultada em **19/10/2026**. A inclusão indica pertinênci
 
 ## Para aprofundar
 
-A [bibliografia comentada](BIBLIOGRAFIA.md) reúne 131 livros, artigos e normas em 13 eixos, com referência ABNT, status de verificação e [arquivo BibTeX](../referencias/referencias.bib). A [trilha de leitura](TRILHA-DE-LEITURA.md) indica por onde começar.
+A [bibliografia comentada](BIBLIOGRAFIA-COMENTADA.md) reúne 131 livros, artigos e normas em 13 eixos, com referência ABNT, status de verificação e [arquivo BibTeX](../referencias/referencias.bib). A [trilha de leitura](TRILHA-DE-LEITURA.md) indica por onde começar.
 
 ## Antes de reutilizar
 
 Acesse a fonte original, registre versão/data e confira licença, requisitos e limitações. Este repositório fornece descrições autorais e links; não redistribui o conteúdo dessas fontes.
+
+## Navegação ampliada — 23/10/2026
+
+| Coleção | Conteúdo |
+|---|---|
+| [Bibliografia](BIBLIOGRAFIA.md) | Manifestos, livros, papers, métodos e guias |
+| [Engenharia de detecção](ENGENHARIA-DE-DETECCAO.md) | Recursos, datasets, testes e métricas |
+| [Conferências](CONFERENCIAS.md) | DEF CON, apresentações e materiais completos nas fontes |
+| [Cases](../cases/README.md) | Seis propostas de laboratório |
+| [Template](../templates/CASE-DETECCAO.md) | Ficha reutilizável com critérios de evidência |
+
+A seleção anterior foi preservada. A pesquisa ampliada foi consolidada em 23/10/2026. Não há promessa de disponibilidade permanente dos links. Preprints são identificados e exemplos não são apresentados como testes executados.
 
 [Voltar ao início](../README.md)

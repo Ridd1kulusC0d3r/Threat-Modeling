@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Se você usar esta biblioteca em pesquisa, inteligência de ameaças, engenharia de detecção ou treinamento, cite o repositório."
+title: "Threat Modeling: biblioteca de métodos, fontes e evidência"
+type: dataset
+authors:
+  - family-names: "Ridd1kulusC0d3r"
+repository-code: "https://github.com/Ridd1kulusC0d3r/Threat-Modeling"
+url: "https://github.com/Ridd1kulusC0d3r/Threat-Modeling"
+keywords:
+  - threat-modeling
+  - threat-intelligence
+  - detection-engineering
+  - mitre-attack
+  - awesome

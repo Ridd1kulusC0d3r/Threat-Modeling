@@ -1,25 +1,28 @@
 # Identidade visual — Threat Modeling
 
-**Assinatura:** Manuais para desenhar perguntas melhores.
+[Início](../README.md)
+
+**Assinatura:** Métodos, fontes e evidência para fazer perguntas melhores.
+**Linha de apoio:** Fundamentar · Projetar · Demonstrar.
+
+A identidade segue a do [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection): papel, tinta e um único acento, com aparência de dossiê de inteligência.
 
 | Elemento | Direção |
 |---|---|
-| Fundo | `#1E263D` |
-| Acento | `#9FB8F6` |
-| Texto principal | `#F7F8FA` |
-| Texto secundário | `#DFE6ED` |
-| Tipografia do SVG | DejaVu Sans, com fallback sans-serif |
-| Símbolo próprio | blueprint |
-| Composição | Nome à esquerda, símbolo à direita, navegação textual abaixo |
+| Papel | Fundo `#f3f0e8`; cartão `#fbf9f3` |
+| Tinta | `#17150f` para título, bordas e blocos de dados |
+| Texto secundário | `#4a463c` |
+| Linhas e preenchimentos neutros | `#cfc9ba` |
+| Acento | Ferrugem `#b43c0e`, reservado para **ameaça, alerta ou legado** |
+| Tipografia | Georgia (título, itálico no subtítulo) e Courier New (rótulos e legendas) |
+| Marcação | Cabeçalho em caixa-alta com espaçamento e `TLP:CLEAR` à direita |
+| Símbolo | Fronteira de confiança tracejada atravessada por uma seta de ameaça |
+| Graus | Chips A–E: tinta cheia, tinta secundária, contorno, contorno claro e ferrugem para o legado |
 
-O banner é SVG local, sem fontes remotas, scripts ou dependências. A identidade usa geometria original; não reproduz marcas das organizações referenciadas. O título e o propósito também devem aparecer em texto no README para acessibilidade.
+## Aplicação
 
-## Uso
+Banner local 1280×340, sem fontes remotas, scripts ou imagens de terceiros. O SVG tem `title` e `desc` para acessibilidade, e o nome e o propósito também aparecem como texto no README. Emblemas apenas funcionais (CI, modo, graus) nas mesmas cores. Estados sempre escritos, nunca indicados apenas por cor: o grau é uma letra, e o legado diz "legado".
 
-- Preserve o contraste e o espaço livre ao redor do símbolo.
-- Não use cor como único indicador de estado.
-- Separe documentação disponível de funcionalidades planejadas.
-- Use o nome do repositório em links, mesmo quando o título editorial tiver espaços.
-- Para banners, mantenha a proporção 10:3; em telas estreitas, priorize o título textual do README.
+Navegação em links de texto; tabelas para comparação; diagrama Mermaid apenas para relações. Evitar números de cobertura sem evidência.
 
-Arquivo: [banner.svg](../assets/identity/banner.svg).
+[Banner](../assets/threat-modeling-banner.svg). Geometria original, sem reprodução de marcas das organizações citadas.
