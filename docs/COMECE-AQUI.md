@@ -25,6 +25,16 @@ Revisão de Xiong e Lagerström → enterpriseLang → HOLMES → POIROT → UNI
 
 **Entregável:** comparação de abordagens, dependências de dados e limites de generalização.
 
+## Rota 5 — vieses e análise de hipóteses
+Ler Heuer e o Tradecraft Primer da CIA; depois aplicar o Modelo Diamante a um caso e montar uma matriz de hipóteses concorrentes ([método](METODOS.md#análise-de-hipóteses-concorrentes)). Útil em investigação digital, onde o viés de confirmação custa caro.
+
+**Entregável:** matriz hipótese × evidência, com a evidência que mais discrimina e o que mudaria a conclusão.
+
+## Rota 6 — sistemas de IA e agentes
+Keynote da SANS sobre IA agêntica → MAESTRO → MITRE ATLAS → OWASP Top 10 para LLM; o panorama de evidência está no [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection). Veja os [métodos de IA](METODOS.md#mitre-atlas).
+
+**Entregável:** modelo que separa modelo, ferramentas, memória e permissões, com as fronteiras de confiança entre eles.
+
 ## Sessão inicial
 Escolha uma pergunta concreta, leia uma fonte e preencha missão, hipótese e lacunas no [template](../templates/CASE-DETECCAO.md). Não preencha resultados antes de executar.
 

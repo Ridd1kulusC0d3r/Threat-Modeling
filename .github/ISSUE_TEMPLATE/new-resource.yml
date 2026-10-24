@@ -1,0 +1,58 @@
+name: Novo recurso
+description: Sugira um livro, paper, método, ferramenta, dataset ou conferência.
+title: "[recurso] "
+labels: ["resource"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Título
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL da fonte original
+      description: Link para a obra no site do autor ou da editora. Não envie cópias de terceiros.
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Autoria
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo
+      options: [manifesto, guide, method, book, paper, article, conference, course, tool, dataset]
+    validations:
+      required: true
+  - type: dropdown
+    id: grade
+    attributes:
+      label: Grau de fonte proposto
+      description: A institucional ou revisado por pares · B primário sem revisão formal · C fornecedor ou ferramenta · D secundário · E legado
+      options: [A, B, C, D, E]
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: O que a fonte contém
+      description: Descreva a fonte, sem opinião.
+    validations:
+      required: true
+  - type: textarea
+    id: limit
+    attributes:
+      label: Limite
+      description: O que a fonte não demonstra ou onde a aplicação exige cuidado.
+    validations:
+      required: true
+  - type: input
+    id: topics
+    attributes:
+      label: Temas
+      description: threat-modeling, detection-engineering, cti, apt, ai, ics-cps, privacy, psychology, emulation, provenance, cloud, supply-chain

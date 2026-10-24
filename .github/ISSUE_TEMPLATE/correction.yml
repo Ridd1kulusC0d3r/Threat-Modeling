@@ -1,0 +1,23 @@
+name: Correção
+description: Link quebrado, grau mal atribuído, autoria errada ou limite que faltou.
+title: "[correção] "
+labels: ["correction"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Id do recurso
+      description: O campo `id` em data/resources.json, por exemplo `holmes`.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: O que está errado e qual a correção
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidência
+      description: URL ou citação que sustenta a correção.

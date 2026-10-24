@@ -1,0 +1,25 @@
+name: Link report
+
+on:
+  schedule:
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check links
+        # Report only. Blocked and unreachable results are not failures; 404s are.
+        run: python scripts/check_links.py | tee -a "$GITHUB_STEP_SUMMARY"

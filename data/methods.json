@@ -1,0 +1,286 @@
+[
+  {
+    "id": "four-questions",
+    "name": "Quatro perguntas de Shostack",
+    "approach": "processo",
+    "question": "O que estamos construindo? O que pode dar errado? O que vamos fazer a respeito? Fizemos um bom trabalho?",
+    "centered_on": "processo",
+    "outputs": "Modelo, lista de ameaças, respostas e revisão",
+    "use_when": "Como esqueleto de qualquer sessão de modelagem, antes de escolher técnica.",
+    "limits": "É um quadro de processo, não uma técnica de enumeração.",
+    "status": "core",
+    "resources": [
+      "threat-modeling-manifesto",
+      "owasp-threat-modeling-cheat-sheet",
+      "shostack-what-why-how"
+    ]
+  },
+  {
+    "id": "stride",
+    "name": "STRIDE",
+    "approach": "software",
+    "question": "O que pode dar errado em cada elemento e fronteira do desenho?",
+    "centered_on": "software",
+    "outputs": "Ameaças por categoria (spoofing, tampering, repudiation, information disclosure, denial of service, elevation of privilege)",
+    "use_when": "Desenhos de software com diagrama de fluxo de dados e fronteiras de confiança.",
+    "limits": "Categoriza, mas não prioriza risco; depende da qualidade do diagrama.",
+    "status": "core",
+    "resources": [
+      "stride-microsoft",
+      "shostack-designing-for-security",
+      "eop-cards",
+      "owasp-threat-dragon"
+    ]
+  },
+  {
+    "id": "pasta",
+    "name": "PASTA",
+    "approach": "risco",
+    "question": "Qual ataque realista causa impacto de negócio, dado o contexto técnico?",
+    "centered_on": "risco",
+    "outputs": "Cenários de ataque ligados a objetivos de negócio e impacto, em sete etapas",
+    "use_when": "Quando é preciso ligar arquitetura, ameaça e impacto de negócio.",
+    "limits": "Processo pesado; material de proponentes não é comparação independente.",
+    "status": "core",
+    "resources": [
+      "pasta-risk-centric-tm",
+      "pasta-versprite"
+    ]
+  },
+  {
+    "id": "atasm",
+    "name": "ATASM",
+    "approach": "arquitetura",
+    "question": "Quais superfícies de ataque a arquitetura expõe e quais mitigações se aplicam?",
+    "centered_on": "arquitetura",
+    "outputs": "Arquitetura, ameaças, superfícies de ataque e mitigações",
+    "use_when": "Revisão de arquitetura de segurança antes da implementação.",
+    "limits": "Exige arquitetura real documentada.",
+    "status": "core",
+    "resources": [
+      "atasm",
+      "schoenfield-securing-systems"
+    ]
+  },
+  {
+    "id": "linddun",
+    "name": "LINDDUN",
+    "approach": "privacidade",
+    "question": "Quais ameaças de privacidade existem no fluxo de dados?",
+    "centered_on": "privacidade",
+    "outputs": "Ameaças de vinculação, identificação, não repúdio, detecção, divulgação, desconhecimento e não conformidade",
+    "use_when": "Sistemas que tratam dados pessoais.",
+    "limits": "Vai além de confidencialidade; exige conhecimento do domínio de dados.",
+    "status": "core",
+    "resources": [
+      "linddun",
+      "threat-models-space-time"
+    ]
+  },
+  {
+    "id": "attack-trees",
+    "name": "Árvores de ataque",
+    "approach": "atacante",
+    "question": "Como um atacante alcança este objetivo e quais condições o impedem?",
+    "centered_on": "atacante",
+    "outputs": "Árvore com objetivo, caminhos alternativos e condições",
+    "use_when": "Decompor um objetivo adversário em caminhos comparáveis.",
+    "limits": "A árvore não prova probabilidade real; custos e chances são estimativas.",
+    "status": "core",
+    "resources": [
+      "attack-trees"
+    ]
+  },
+  {
+    "id": "diamond-model",
+    "name": "Modelo Diamante",
+    "approach": "inteligência",
+    "question": "Quem fez o quê, com qual capacidade, infraestrutura e contra qual vítima?",
+    "centered_on": "inteligência",
+    "outputs": "Eventos descritos por adversário, capacidade, infraestrutura e vítima, e pivôs entre eles",
+    "use_when": "Análise e correlação de intrusões.",
+    "limits": "Correlação não confirma atribuição.",
+    "status": "core",
+    "resources": [
+      "diamond-model"
+    ]
+  },
+  {
+    "id": "kill-chain",
+    "name": "Intrusion Kill Chain",
+    "approach": "inteligência",
+    "question": "Em que fase uma campanha pode ser interrompida?",
+    "centered_on": "inteligência",
+    "outputs": "Campanha descrita em fases e pontos de interrupção",
+    "use_when": "Pensar defesas por fase de uma intrusão.",
+    "limits": "Não force todos os casos a uma sequência linear.",
+    "status": "core",
+    "resources": [
+      "intrusion-kill-chain"
+    ]
+  },
+  {
+    "id": "tm-with-attack",
+    "name": "Threat Modeling com ATT&CK",
+    "approach": "atacante",
+    "question": "Que comportamentos adversários são relevantes para esta arquitetura?",
+    "centered_on": "atacante",
+    "outputs": "Modelo de ameaças ancorado em técnicas ATT&CK relevantes",
+    "use_when": "Quando já existe arquitetura e se precisa de vocabulário de comportamento.",
+    "limits": "ATT&CK não substitui a análise da arquitetura; há críticas fundamentadas.",
+    "status": "core",
+    "resources": [
+      "tm-with-attack",
+      "mitre-attack",
+      "attack-navigator",
+      "shostack-attack-tmt"
+    ]
+  },
+  {
+    "id": "attack-flow",
+    "name": "Attack Flow",
+    "approach": "atacante",
+    "question": "Em que sequência os comportamentos se encadeiam?",
+    "centered_on": "atacante",
+    "outputs": "Grafo de comportamentos e pré-condições",
+    "use_when": "Comunicar e comparar cadeias de comportamento.",
+    "limits": "Um grafo não prova que a sequência foi executada.",
+    "status": "core",
+    "resources": [
+      "attack-flow",
+      "procedural-semantics-gap"
+    ]
+  },
+  {
+    "id": "tara",
+    "name": "TARA (MITRE)",
+    "approach": "risco",
+    "question": "Quais ameaças priorizar e quais contramedidas selecionar?",
+    "centered_on": "risco",
+    "outputs": "Avaliação de ameaças e seleção de contramedidas",
+    "use_when": "Seleção de contramedidas em sistemas.",
+    "limits": "Não confundir com TARA automotiva.",
+    "status": "core",
+    "resources": [
+      "mitre-tara"
+    ]
+  },
+  {
+    "id": "enterpriselang",
+    "name": "enterpriseLang / MAL",
+    "approach": "simulação",
+    "question": "Quais caminhos de ataque a arquitetura permite, dado o modelo de ativos?",
+    "centered_on": "simulação",
+    "outputs": "Simulação de caminhos de ataque sobre modelo de ativos baseado em ATT&CK",
+    "use_when": "Pesquisa e análise quantitativa de caminhos.",
+    "limits": "Resultados dependem dos parâmetros do modelo.",
+    "status": "emerging",
+    "resources": [
+      "enterpriselang-attack-matrix",
+      "xiong-lagerstrom-slr-2019"
+    ]
+  },
+  {
+    "id": "ach",
+    "name": "Análise de Hipóteses Concorrentes",
+    "approach": "inteligência",
+    "question": "Qual hipótese é menos inconsistente com a evidência?",
+    "centered_on": "inteligência",
+    "outputs": "Matriz hipótese × evidência, com destaque ao que discrimina",
+    "use_when": "Reduzir viés de confirmação em análise de inteligência e investigação digital.",
+    "limits": "Método de análise de inteligência, não de modelagem de ameaças.",
+    "status": "complementary",
+    "resources": [
+      "heuer-psychology-of-intel",
+      "cia-tradecraft-primer"
+    ],
+    "psychology": true
+  },
+  {
+    "id": "dread",
+    "name": "DREAD",
+    "approach": "risco",
+    "question": "Qual a gravidade relativa desta ameaça?",
+    "centered_on": "risco",
+    "outputs": "Pontuação por dano, reprodutibilidade, exploração, usuários afetados e descoberta",
+    "use_when": "Apenas como referência histórica.",
+    "limits": "Pontuações subjetivas e pouco repetíveis; não recomendado como padrão.",
+    "status": "legacy",
+    "resources": [
+      "dread-msdn"
+    ]
+  },
+  {
+    "id": "stride-lm",
+    "name": "STRIDE-LM",
+    "approach": "software",
+    "question": "O que pode dar errado, incluindo movimento lateral?",
+    "centered_on": "software",
+    "outputs": "STRIDE acrescido da categoria de movimento lateral",
+    "use_when": "Quando o movimento lateral é central ao cenário.",
+    "limits": "Fonte herdada; confirme a origem da extensão.",
+    "status": "legacy",
+    "resources": [
+      "stride-lm"
+    ]
+  },
+  {
+    "id": "mitre-atlas",
+    "name": "MITRE ATLAS",
+    "approach": "ia",
+    "question": "Que técnicas adversárias visam sistemas de IA?",
+    "centered_on": "ia",
+    "outputs": "Táticas, técnicas e estudos de caso contra sistemas de IA",
+    "use_when": "Mapear ameaças a sistemas com modelos de aprendizado.",
+    "limits": "Cobertura de técnicas não equivale a cobertura de detecção.",
+    "status": "emerging",
+    "resources": [
+      "mitre-atlas",
+      "llminjection"
+    ]
+  },
+  {
+    "id": "owasp-llm",
+    "name": "OWASP Top 10 para LLM",
+    "approach": "ia",
+    "question": "Quais riscos comuns afetam aplicações com LLM?",
+    "centered_on": "ia",
+    "outputs": "Lista de riscos para enumeração inicial",
+    "use_when": "Ponto de partida para aplicações com LLM.",
+    "limits": "Lista de riscos não é modelo de ameaças do seu sistema.",
+    "status": "emerging",
+    "resources": [
+      "owasp-llm-top-10",
+      "phantom-b-llm-threat-modeling"
+    ]
+  },
+  {
+    "id": "plot4ai",
+    "name": "PLOT4ai",
+    "approach": "ia",
+    "question": "Quais ameaças de IA, privacidade e responsabilidade se aplicam?",
+    "centered_on": "ia",
+    "outputs": "Biblioteca de ameaças e baralho de discussão",
+    "use_when": "Sessões de modelagem de sistemas de IA.",
+    "limits": "Confirme versão e licença antes de redistribuir.",
+    "status": "emerging",
+    "resources": [
+      "plot4ai"
+    ]
+  },
+  {
+    "id": "maestro",
+    "name": "MAESTRO",
+    "approach": "ia",
+    "question": "Que ameaças existem em cada camada de um sistema de IA agêntica?",
+    "centered_on": "ia",
+    "outputs": "Modelo em camadas para IA agêntica",
+    "use_when": "Sistemas agênticos com múltiplos agentes e ferramentas.",
+    "limits": "Publicação recente de blog; acompanhe revisões.",
+    "status": "emerging",
+    "resources": [
+      "csa-maestro",
+      "sans-keynote-agentic-ai-tm"
+    ]
+  }
+]
