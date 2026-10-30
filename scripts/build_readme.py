@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generate the browsable lists from data/*.json.
 
-Writes docs/AWESOME.md, docs/TEMAS.md and docs/METODOS.md in full, and refreshes the
+Writes docs/AWESOME.md, docs/TEMAS.md, docs/METODOS.md, docs/REFERENCIAS-ABNT.md and
+referencias/referencias.bib in full, and refreshes the
 `<!-- gen:NAME:start -->` ... `<!-- gen:NAME:end -->` blocks in README.md and README.en.md.
 Use --check in CI: it exits 1 when a generated file is out of date.
 """
@@ -16,6 +17,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from citations import render_abnt, render_bib  # noqa: E402
 from common import (  # noqa: E402
     ACCESS, GRADES, LEVELS, METHOD_STATUS, ROOT, TOPICS, TYPES, methods, resources,
 )
@@ -31,7 +33,8 @@ EN_TOPICS = {
     "cti": "Cyber threat intelligence", "apt": "APT and persistent campaigns", "ai": "AI and agentic systems",
     "ics-cps": "ICS and cyber-physical systems", "privacy": "Privacy", "psychology": "Psychology, bias and analysis",
     "emulation": "Adversary emulation", "provenance": "Provenance and graphs", "cloud": "Cloud",
-    "supply-chain": "Supply chain",
+    "supply-chain": "Supply chain", "attack-graphs": "Attack trees and graphs", "risk": "Risk and prioritization",
+    "architecture": "Architecture and identity", "research-methods": "Research methods",
 }
 EN_GRADES = {
     "A": "Primary or institutional: standard, public body, peer-reviewed or the method's maintainer.",
@@ -204,6 +207,8 @@ def main() -> int:
         ROOT / "docs/AWESOME.md": render_awesome(items),
         ROOT / "docs/TEMAS.md": render_topics(items),
         ROOT / "docs/METODOS.md": render_methods(meths, items),
+        ROOT / "docs/REFERENCIAS-ABNT.md": render_abnt(items),
+        ROOT / "referencias/referencias.bib": render_bib(items),
     }
     for readme, lang in ((ROOT / "README.md", "pt"), (ROOT / "README.en.md", "en")):
         text = readme.read_text(encoding="utf-8")
@@ -223,6 +228,7 @@ def main() -> int:
         print("ok: arquivos gerados estão em dia")
         return 0
     for path, content in outputs.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8")
     print("escrito:", *[str(p.relative_to(ROOT)) for p in outputs], sep="\n  ")
     return 0

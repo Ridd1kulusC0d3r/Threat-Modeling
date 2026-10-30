@@ -14,7 +14,7 @@
 **Português** · [English](README.en.md)
 <!-- /lang-bar -->
 
-**[Acervo completo](docs/AWESOME.md)** · [Por tema](docs/TEMAS.md) · [Métodos](docs/METODOS.md) · [Metodologia](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contribuir](CONTRIBUTING.md)
+**[Acervo completo](docs/AWESOME.md)** · [Por tema](docs/TEMAS.md) · [Métodos](docs/METODOS.md) · [Trilha de leitura](docs/TRILHA-DE-LEITURA.md) · [Citar (ABNT/BibTeX)](docs/REFERENCIAS-ABNT.md) · [Metodologia](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contribuir](CONTRIBUTING.md)
 
 > **Estado do acervo:** curadoria e documentação. Os seis cases são propostas de laboratório, ainda não executadas. O catálogo não declara cobertura operacional, e listar uma ferramenta não é avaliá-la.
 
@@ -82,7 +82,8 @@ Grau mede o **tipo de fonte**, não a qualidade das ideias: um guia de comunidad
 | **Acervo** | Recursos com grau de fonte, acesso, nível e limite, em dados estruturados | [`data/resources.json`](data/resources.json) · [Acervo completo](docs/AWESOME.md) |
 | **Métodos** | Cada método com a pergunta que responde, o que produz, quando usar e o limite | [Métodos](docs/METODOS.md) · [`data/methods.json`](data/methods.json) |
 | **Temas** | Lista no formato awesome por tema: CTI, detecção, APT, IA agêntica, psicologia da análise | [Por tema](docs/TEMAS.md) |
-| **Guias** | Rota guiada, bibliografia comentada, engenharia de detecção e conferências | [Comece aqui](docs/COMECE-AQUI.md) |
+| **Guias** | Rota guiada, bibliografia comentada, trilha de leitura, engenharia de detecção e conferências | [Comece aqui](docs/COMECE-AQUI.md) · [Trilha de leitura](docs/TRILHA-DE-LEITURA.md) |
+| **Citar** | Todo o acervo em referências ABNT e BibTeX, gerados dos dados | [Referências ABNT](docs/REFERENCIAS-ABNT.md) · [`referencias.bib`](referencias/referencias.bib) |
 | **Cases** | Roteiros de laboratório com hipótese, benignos, variantes e degradação | [Cases](cases/README.md) · [Template](templates/CASE-DETECCAO.md) |
 | **Ferramentas** | Busca, validação e geração em Python, só biblioteca padrão | [Guia rápido](#guia-rápido) |
 

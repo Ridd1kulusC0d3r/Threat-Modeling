@@ -8,7 +8,7 @@
 [Português](README.md) · **English**
 <!-- /lang-bar -->
 
-**[Full collection](docs/AWESOME.md)** · [By topic](docs/TEMAS.md) · [Methods](docs/METODOS.md) · [Methodology](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contributing](CONTRIBUTING.md)
+**[Full collection](docs/AWESOME.md)** · [By topic](docs/TEMAS.md) · [Methods](docs/METODOS.md) · [Reading path](docs/TRILHA-DE-LEITURA.md) · [Cite (ABNT/BibTeX)](docs/REFERENCIAS-ABNT.md) · [Methodology](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contributing](CONTRIBUTING.md)
 
 > The guides and record text are written in Portuguese; titles, authors and sources are original. Source grades, topics and filters work the same in both languages, and `python scripts/query.py` is language-neutral.
 >

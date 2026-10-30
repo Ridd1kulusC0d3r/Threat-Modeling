@@ -30,6 +30,19 @@ Um recurso de grau **D** ou **E** não pode ser destaque.
 
 Acesso aberto e licença de reutilização são coisas diferentes. Código público de um livro não torna o livro gratuito.
 
+## Campos de citação
+
+Recursos citáveis podem trazer campos opcionais que alimentam as [referências ABNT](REFERENCIAS-ABNT.md) e o [BibTeX](../referencias/referencias.bib), ambos gerados:
+
+| Campo | Regra |
+|---|---|
+| `venue` | Periódico com volume, número e páginas; evento; editora e cidade; ou órgão e número do relatório |
+| `doi` | Forma curta, `10.xxxx/…`, sem `https://doi.org/` |
+| `isbn` | Só dígitos, `X` e hífen |
+| `essential` | `true` quando a obra faz parte do [núcleo essencial](TRILHA-DE-LEITURA.md#núcleo-essencial); exige grau A, B ou C |
+
+A referência gerada segue a ABNT NBR 6023:2018 de forma aproximada. Autoria institucional, leis e normas pedem revisão antes de depositar um trabalho.
+
 ## Limite e fatos
 
 Todo recurso precisa de um **limite**: o que ele não demonstra ou onde a aplicação exige cuidado. Exemplos: "visibilidade não equivale a detecção"; "mapeamento não comprova eficácia"; "material do proponente, não comparação independente". Fato, inferência e hipótese ficam separados; resumos descrevem o que a fonte contém, não o que concluímos dela.
@@ -53,7 +66,7 @@ Um método só entra em [`data/methods.json`](../data/methods.json) com a pergun
 
 ## Origem dos registros
 
-O campo `origin` conta de onde veio cada registro: `bibliografia`, `engenharia`, `conferencias` e `catalogo` (documentos desta biblioteca), `acervo` e `referencias` (seleções anteriores), `notion` (notas de estudo importadas) e `curadoria` (adições desta rodada). Veja [Fontes e proveniência](FONTES-E-PROVENIENCIA.md).
+O campo `origin` conta de onde veio cada registro: `bibliografia`, `engenharia`, `conferencias` e `catalogo` (documentos desta biblioteca), `acervo` e `referencias` (seleções anteriores), `notion` (notas de estudo importadas), `curadoria` (adições de curadoria) e `referencial` (referencial teórico verificado em 30/10/2026). Veja [Fontes e proveniência](FONTES-E-PROVENIENCIA.md).
 
 ## O que esta biblioteca não faz
 

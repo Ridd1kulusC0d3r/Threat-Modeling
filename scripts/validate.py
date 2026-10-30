@@ -19,8 +19,11 @@ ID = re.compile(r"^[a-z0-9][a-z0-9-]{1,59}$")
 RESOURCE_FIELDS = {
     "id", "title", "url", "authors", "year", "type", "topics", "access", "grade", "level", "lang",
     "summary", "limit", "origin", "added", "checked", "featured", "exercise",
+    "doi", "venue", "isbn", "essential",
 }
-RESOURCE_REQUIRED = RESOURCE_FIELDS - {"exercise", "year", "checked"}
+RESOURCE_REQUIRED = RESOURCE_FIELDS - {"exercise", "year", "checked", "doi", "venue", "isbn", "essential"}
+DOI = re.compile(r"^10\.\d{4,9}/\S+$")
+ISBN = re.compile(r"^[0-9Xx-]{10,17}$")
 METHOD_FIELDS = {
     "id", "name", "approach", "question", "centered_on", "outputs", "use_when", "limits", "status",
     "resources", "psychology",
@@ -100,6 +103,16 @@ def check_resources(items: list[dict]) -> list[str]:
             errors.append(f"{where}: featured precisa ser booleano")
         if item["featured"] and item["grade"] in {"D", "E"}:
             errors.append(f"{where}: destaque exige grau A, B ou C")
+        if "doi" in item and not (isinstance(item["doi"], str) and DOI.match(item["doi"])):
+            errors.append(f"{where}: doi inválido (use a forma 10.xxxx/…, sem https://doi.org/)")
+        if "isbn" in item and not (isinstance(item["isbn"], str) and ISBN.match(item["isbn"])):
+            errors.append(f"{where}: isbn inválido")
+        if "venue" in item and not nonblank(item["venue"]):
+            errors.append(f"{where}: venue vazio")
+        if "essential" in item and not isinstance(item["essential"], bool):
+            errors.append(f"{where}: essential precisa ser booleano")
+        if item.get("essential") and item["grade"] in {"D", "E"}:
+            errors.append(f"{where}: núcleo essencial exige grau A, B ou C")
     featured = sum(1 for item in items if item.get("featured"))
     if featured > MAX_FEATURED:
         errors.append(f"destaques demais: {featured} (máximo {MAX_FEATURED})")

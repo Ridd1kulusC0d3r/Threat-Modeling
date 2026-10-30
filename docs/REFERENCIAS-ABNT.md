@@ -1,0 +1,114 @@
+# Referências (ABNT NBR 6023)
+
+[Início](../README.md) · [Bibliografia comentada](BIBLIOGRAFIA.md) · [Trilha de leitura](TRILHA-DE-LEITURA.md) · [BibTeX](../referencias/referencias.bib)
+
+> Arquivo **gerado** por `scripts/build_readme.py` a partir de [`data/resources.json`](../data/resources.json). Segue a ABNT NBR 6023:2018 de forma aproximada: revise pontuação de autoria institucional, leis e normas antes de depositar um trabalho. A data de acesso é a da última verificação do link ou, sem ela, a da inclusão no acervo.
+
+⭐ núcleo essencial · a letra entre colchetes é o [grau da fonte](METODOLOGIA.md#graus-de-fonte).
+
+- ALLODI, Luca; ETALLE, Sandro. **Towards Realistic Threat Modeling: Attack Commodification, Irrelevant Vulnerabilities, and Unrealistic Assumptions**. 2018. Disponível em: https://arxiv.org/abs/1801.04569. Acesso em: 24 out. 2026. **[B]**
+- ANDERSON, Ross. **Security Engineering**: A Guide to Building Dependable Distributed Systems. 2020. Disponível em: https://www.cl.cam.ac.uk/archive/rja14/book.html. Acesso em: 24 out. 2026. **[B]**
+- ANVILOGIC. **Anvilogic**. Disponível em: https://www.anvilogic.com/. Acesso em: 24 out. 2026. **[C]**
+- ATOMIC RED TEAM. **Atomic Red Team**. Disponível em: https://www.atomicredteam.io/docs/atomic-red-team. Acesso em: 24 out. 2026. **[C]**
+- AUTORES DO MANIFESTO. **Threat Modeling Capabilities**. 2020. Disponível em: https://www.threatmodelingmanifesto.org/capabilities/. Acesso em: 24 out. 2026. **[B]**
+- AWS. **AWS Threat Modeling Workshop**. Disponível em: https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling. Acesso em: 24 out. 2026. **[E]**
+- BOUSSEADEN, Samir. **EVTX-ATTACK-SAMPLES**. Disponível em: https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES. Acesso em: 23 out. 2026. **[B]**
+- BROOK S. E. SCHOENFIELD. CRC PRESS. **Securing Systems**: Applied Security Architecture and Threat Models. 2015. Disponível em: https://brookschoenfield.com/?page_id=245. Acesso em: 24 out. 2026. **[B]**
+- BROWN, Rebekah; ED, Scott J. Roberts. 2ª; O’REILLY. **Intelligence-Driven Incident Response**. 2023. Disponível em: https://www.oreilly.com/library/view/intelligence-driven-incident-response/9781098120672/. Acesso em: 24 out. 2026. **[B]**
+- CALTAGIRONE, Sergio; PENDERGAST, Andrew; BETZ, Christopher. **The Diamond Model of Intrusion Analysis**. 2013. Disponível em: https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf. Acesso em: 24 out. 2026. **[B]**
+- CISA; PARCEIROS. **Shifting the Balance of Cybersecurity Risk**. 2023. Disponível em: https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf. Acesso em: 23 out. 2026. **[A]**
+- CLOUD SECURITY ALLIANCE. **MAESTRO — Agentic AI Threat Modeling Framework**. 2025. Disponível em: https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro. Acesso em: 24 out. 2026. **[B]**
+- COMUNIDADE DE AUTORES. **Threat Modeling Manifesto**. 2020. Disponível em: https://www.threatmodelingmanifesto.org/. Acesso em: 24 out. 2026. **[B]**
+- CONNECT, Threat Modeling. **Threat Modeling Connect — On Demand**. Disponível em: https://www.threatmodelingconnect.com/resources/on-demand. Acesso em: 24 out. 2026. **[C]**
+- CSF TOOLS. **STRIDE-LM**. Disponível em: https://csf.tools/reference/stride-lm/. Acesso em: 19 out. 2026. **[E]**
+- CTI ACADEMY. **CTI Academy**. Disponível em: https://ctiacademy.io/. Acesso em: 24 out. 2026. **[C]**
+- CYBER, Tidal. **Tidal Cyber**. Disponível em: https://www.tidalcyber.com/. Acesso em: 24 out. 2026. **[C]**
+- DAS CHOWDHURY, Partha et al. **Threat Models over Space and Time: A Case Study of E2EE Messaging Applications**. 2023. Disponível em: https://arxiv.org/abs/2301.05653. Acesso em: 24 out. 2026. **[B]**
+- DATADOG. **Stratus Red Team**. Disponível em: https://stratus-red-team.cloud/. Acesso em: 24 out. 2026. **[C]**
+- DEF CON. **DC’s Next Top Threat Model**. Disponível em: https://threatmodel.us/. Acesso em: 24 out. 2026. **[B]**
+- DETECTIONENGINEERING.IO. **Detection Engineering Maturity Matrix**. Disponível em: https://detectionengineering.io/. Acesso em: 24 out. 2026. **[C]**
+- ELASTIC. **Elastic Detection Rules**. Disponível em: https://github.com/elastic/detection-rules. Acesso em: 23 out. 2026. **[B]**
+- ELASTIC. **Elastic — Validate and test rules**. Disponível em: https://www.elastic.co/docs/solutions/security/detect-and-alert/validate-and-test-rules. Acesso em: 24 out. 2026. **[C]**
+- FERRAZ, Ágney Lopes Roth et al. **The Procedural Semantics Gap in Structured CTI: A Measurement-Driven STIX Analysis for APT Emulation**. 2025. Disponível em: https://arxiv.org/abs/2512.12078. Acesso em: 24 out. 2026. **[B]**
+- FORGE, Open Threat Research. **OTRF Security Datasets**. Disponível em: https://github.com/OTRF/Security-Datasets. Acesso em: 23 out. 2026. **[B]**
+- FORGE, Open Threat Research. **OTRF SimuLand**. Disponível em: https://github.com/OTRF/SimuLand. Acesso em: 23 out. 2026. **[B]**
+- FORGE, Open Threat Research. **Threat Hunter Playbook**. Disponível em: https://github.com/OTRF/ThreatHunter-Playbook. Acesso em: 23 out. 2026. **[B]**
+- GITGUARDIAN. **Detection Engineering: A Case Study — GitGuardian**. Disponível em: https://blog.gitguardian.com/detection-engineering-case-study/. Acesso em: 24 out. 2026. **[C]**
+- GITLAB. **GitLab AppSec Threat Modeling**. Disponível em: https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/. Acesso em: 19 out. 2026. **[E]**
+- GOVERNO DOS EUA. **A Tradecraft Primer**: Structured Analytic Techniques for Improving Intelligence Analysis. 2009. Disponível em: https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf. Acesso em: 24 out. 2026. **[A]**
+- GUISSO. **Threat Modeling Intro — Guisso**. Disponível em: https://guisso.dev/. Acesso em: 24 out. 2026. **[D]**
+- HAN, Xueyuan et al. **UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats**. 2020. Disponível em: https://arxiv.org/abs/2001.01525. Acesso em: 24 out. 2026. **[B]**
+- HUANG, Shaofei; POSKITT, Christopher M.; SHAR, Lwin Khin. **Security Modelling for Cyber-Physical Systems: A Systematic Literature Review**. 2024. Disponível em: https://arxiv.org/abs/2404.07527. Acesso em: 24 out. 2026. **[B]**
+- HUTCHINS, Eric M.; CLOPPERT, Michael J.; AMIN, Rohan M. **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains**. 2011. Disponível em: https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf. Acesso em: 24 out. 2026. **[B]**
+- JAMIL, Ameerah-Muhsinah; OTHMANE, Lotfi ben; VALANI, Altaz. **Threat Modeling of Cyber-Physical Systems in Practice**. 2021. Disponível em: https://arxiv.org/abs/2103.04226. Acesso em: 24 out. 2026. **[B]**
+- JOURNAL, Bruce Schneier. Dr. Dobb’s. **Attack Trees**. 1999. Disponível em: https://www.schneier.com/academic/archives/1999/12/attack_trees.html. Acesso em: 24 out. 2026. **[B]**
+- KOHNFELDER, Loren; SHOSTACK, Adam. **Publish Your Threat Models! The benefits far outweigh the dangers**. 2025. Disponível em: https://arxiv.org/abs/2511.08295. Acesso em: 24 out. 2026. **[B]**
+- KU LEUVEN. **LINDDUN**. Disponível em: https://linddun.org/. Acesso em: 23 out. 2026. **[B]**
+- LANDAUER, Max et al. **Red Team Redemption: A Structured Comparison of Open-Source Tools for Adversary Emulation**. 2024. Disponível em: https://arxiv.org/abs/2408.15645. Acesso em: 24 out. 2026. **[B]**
+- MICROSOFT. **SDL Threat Modeling**. Disponível em: https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling. Acesso em: 24 out. 2026. **[C]**
+- MICROSOFT. **Microsoft STRIDE**. Disponível em: https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats. Acesso em: 24 out. 2026. **[E]**
+- MICROSOFT. **DREAD — Threat Model Your Security Risks**. 2003. Disponível em: https://learn.microsoft.com/en-us/archive/msdn-magazine/2003/november/resource-file-threat-model-your-security-risks. Acesso em: 24 out. 2026. **[E]**
+- MILAJERDI, Sadegh M. et al. **HOLMES — IEEE S&P 2019**. Disponível em: https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Sadegh_Momeni_-_13-Sadegh-Momeni-Real_time_APT_Detection_through_Correlation_of_Suspicious_Information_Flows.pdf. Acesso em: 24 out. 2026. **[A]**
+- MILAJERDI, Sadegh M. et al. **POIROT: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting**. 2019. Disponível em: https://arxiv.org/abs/1910.00056. Acesso em: 24 out. 2026. **[B]**
+- MITRE. **ATT&CK Detection Strategies**. Disponível em: https://attack.mitre.org/detectionstrategies/. Acesso em: 24 out. 2026. **[A]**
+- MITRE. **D3FEND**. Disponível em: https://d3fend.mitre.org/. Acesso em: 24 out. 2026. **[A]**
+- MITRE. **MITRE ATLAS**. Disponível em: https://atlas.mitre.org/. Acesso em: 24 out. 2026. **[A]**
+- MITRE. **MITRE ATT&CK**. Disponível em: https://attack.mitre.org/. Acesso em: 24 out. 2026. **[A]**
+- MITRE. **TARA — Threat Assessment and Remediation Analysis**. Disponível em: https://www.mitre.org/news-insights/publication/threat-assessment-and-remediation-analysis-tara. Acesso em: 23 out. 2026. **[A]**
+- MITRE. **ATT&CK Navigator**. Disponível em: https://mitre-attack.github.io/attack-navigator/. Acesso em: 24 out. 2026. **[A]**
+- MITRE ATT; CK. **BZAR**. Disponível em: https://github.com/mitre-attack/bzar. Acesso em: 23 out. 2026. **[B]**
+- MITRE CTID. **Threat Modeling with ATT&CK — BSides Connecticut**. Disponível em: https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/presentations/tmwa-bsides-ct.pdf. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **Minimum Telemetry Requirements**. Disponível em: https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/data-readiness/min-telemetry-reqs/. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **Sensor Mappings to ATT&CK**. Disponível em: https://center-for-threat-informed-defense.github.io/sensor-mappings-to-attack/. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **Attack Flow**. Disponível em: https://center-for-threat-informed-defense.github.io/attack-flow/. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **Summiting the Pyramid**. Disponível em: https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **Threat Modeling with ATT&CK**. Disponível em: https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **CTID Adversary Emulation Library**. Disponível em: https://ctid.mitre.org/resources/adversary-emulation-library/. Acesso em: 24 out. 2026. **[A]**
+- MITRE CTID. **CTID Micro Emulation Plans**. Disponível em: https://ctid.mitre.org/projects/micro-emulation-plans/. Acesso em: 24 out. 2026. **[A]**
+- MITRE ENGENUITY CTID. **NIST 800-53 Controls to ATT&CK Mapping**. Disponível em: https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/nist-800-53-control-mappings/. Acesso em: 19 out. 2026. **[A]**
+- NCSC. **Threat Modelling**. Disponível em: https://www.ncsc.gov.uk/collection/risk-management/threat-modelling. Acesso em: 24 out. 2026. **[A]**
+- NIST. **NIST SP 800-53 Rev. 5**. Disponível em: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final. Acesso em: 24 out. 2026. **[A]**
+- NIST. **NIST SSDF — Secure Software Development Framework**. Disponível em: https://csrc.nist.gov/projects/ssdf. Acesso em: 24 out. 2026. **[A]**
+- NIST SP 800-160 VOL. 2 REV. 1. **Developing Cyber-Resilient Systems**. Disponível em: https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final. Acesso em: 24 out. 2026. **[A]**
+- OPENSTACK. **OpenStack Threat Analysis**. Disponível em: https://wiki.openstack.org/wiki/Security/Threat_Analysis. Acesso em: 19 out. 2026. **[E]**
+- OWASP. **OWASP Developer Guide — Threat Modeling**. Disponível em: https://devguide.owasp.org/en/04-design/01-threat-modeling/. Acesso em: 24 out. 2026. **[B]**
+- OWASP. **OWASP Threat Modeling Cheat Sheet**. Disponível em: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html. Acesso em: 24 out. 2026. **[B]**
+- OWASP. **Threat Modeling in Practice**. Disponível em: https://devguide.owasp.org/en/04-design/01-threat-modeling/07-practical-threat-modeling/. Acesso em: 24 out. 2026. **[B]**
+- OWASP. **Threat Model Library**. Disponível em: https://devguide.owasp.org/en/04-design/01-threat-modeling/06-threat-model-library/. Acesso em: 24 out. 2026. **[B]**
+- OWASP. **OWASP Threat Modeling Project**. Disponível em: https://owasp.github.io/www-project-threat-modeling/. Acesso em: 24 out. 2026. **[B]**
+- OWASP. **OWASP Threat Dragon**. Disponível em: https://owasp.org/www-project-threat-dragon/. Acesso em: 24 out. 2026. **[B]**
+- OWASP. **pytm**. Disponível em: https://github.com/OWASP/pytm. Acesso em: 24 out. 2026. **[B]**
+- OWASP GENAI SECURITY PROJECT. **OWASP Top 10 for LLM Applications**. Disponível em: https://genai.owasp.org/llm-top-10/. Acesso em: 24 out. 2026. **[B]**
+- PACKT, Dennis Chow. **Automating Security Detection Engineering**. Disponível em: https://github.com/PacktPublishing/Automating-Security-Detection-Engineering. Acesso em: 23 out. 2026. **[B]**
+- PALANTIR. **Palantir ADS Framework**. Disponível em: https://github.com/palantir/alerting-detection-strategy-framework. Acesso em: 23 out. 2026. **[B]**
+- PLOT4AI. **PLOT4ai**. Disponível em: https://plot4.ai/. Acesso em: 24 out. 2026. **[B]**
+- PRESS, Loren Kohnfelder. No Starch. **Designing Secure Software**: A Guide for Developers. 2022. Disponível em: https://designingsecuresoftware.com/. Acesso em: 24 out. 2026. **[B]**
+- RABOBANK CDC. **DeTT&CT — Data quality**. Disponível em: https://github.com/rabobank-cdc/DeTTECT/wiki/data-quality-scoring. Acesso em: 23 out. 2026. **[B]**
+- RICHARDS J. HEUER JR. CIA. **Psychology of Intelligence Analysis**. 1999. Disponível em: https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/. Acesso em: 24 out. 2026. **[A]**
+- RIDD1KULUSC0D3R. **LLMInjection**. Disponível em: https://github.com/Ridd1kulusC0d3r/LLmInjection. Acesso em: 24 out. 2026. **[B]**
+- RODDIE, Megan; DEYALSINGH, Jason; PACKT, Gary J. Katz. **Practical Threat Detection Engineering**. Disponível em: https://github.com/PacktPublishing/Practical-Threat-Detection-Engineering. Acesso em: 23 out. 2026. **[B]**
+- SADEGH M. MILAJERDI ET AL. IEEE S; P. **HOLMES: Real-Time APT Detection through Correlation of Suspicious Information Flows**. 2019. Disponível em: https://www.seclab.cs.sunysb.edu/seclab/pubs/holmes19.pdf. Acesso em: 24 out. 2026. **[A]**
+- SAFECODE. **Threat Modeling at Scale**. 2023. Disponível em: https://safecode.org/resource-publications/threat-modeling-at-scale/. Acesso em: 24 out. 2026. **[B]**
+- SANS INSTITUTE. **Keynote | Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience**. Disponível em: https://www.youtube.com/watch?v=R49Cv7pJ2KA. Acesso em: 24 out. 2026. **[B]**
+- SCHNEIDER, Christian. **Threagile**. Disponível em: https://threagile.io/. Acesso em: 24 out. 2026. **[B]**
+- SCHOENFIELD, Brook. **ATASM**. Disponível em: https://brookschoenfield.com/?page_id=341. Acesso em: 24 out. 2026. **[B]**
+- SHOSTACK, Adam. **Threat Modeling LLMs: The PHANTOM-B model**. Disponível em: https://shostack.org/blackhat. Acesso em: 24 out. 2026. **[B]**
+- SHOSTACK, Adam. **MITRE ATT&CK**: Threat Model Thursday. Disponível em: https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/. Acesso em: 24 out. 2026. **[B]**
+- SHOSTACK, Adam. **Threat Modeling**: What, Why, and How?. Disponível em: https://shostack.org/resources/whitepapers/threat-modeling-what-why-how. Acesso em: 24 out. 2026. **[B]**
+- SHOSTACK, Adam. **Elevation of Privilege**. Disponível em: https://github.com/adamshostack/eop. Acesso em: 19 out. 2026. **[E]**
+- SIGMAHQ. **Sigma Correlation Specification**. Disponível em: https://sigmahq.io/sigma-specification/specification/sigma-correlation-rules-specification.html. Acesso em: 24 out. 2026. **[B]**
+- SIGMAHQ. **Sigma Rules**. Disponível em: https://github.com/SigmaHQ/sigma. Acesso em: 23 out. 2026. **[B]**
+- SPLUNK. **Splunk Attack Data**. Disponível em: https://github.com/splunk/attack_data. Acesso em: 23 out. 2026. **[C]**
+- SPLUNK. **Splunk Attack Range**. Disponível em: https://github.com/splunk/attack_range. Acesso em: 23 out. 2026. **[C]**
+- SPLUNK. **Splunk Security Content**. Disponível em: https://github.com/splunk/security_content. Acesso em: 23 out. 2026. **[C]**
+- TARANDACH, Izar; O’REILLY, Matthew J. Coles. **Threat Modeling**: A Practical Guide for Development Teams. 2020. Disponível em: https://www.oreilly.com/library/view/threat-modeling/9781492056546/. Acesso em: 24 out. 2026. **[B]**
+- TATAM et al. **A review of threat modelling approaches for APT-style attacks**. 2021. Disponível em: https://doi.org/10.1016/j.heliyon.2021.e05969. Acesso em: 24 out. 2026. **[A]**
+- THE AEROSPACE CORPORATION. **Building Space Attack Chains using SPARTA**. Disponível em: https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf. Acesso em: 23 out. 2026. **[B]**
+- THREAT MODELING CONNECT / COMUNIDADE. **ThreatModCon**. Disponível em: https://www.threatmodcon.com/. Acesso em: 24 out. 2026. **[B]**
+- UCEDAVÉLEZ, Tony; WILEY, Marco M. Morana. **Risk Centric Threat Modeling**: Process for Attack Simulation and Threat Analysis. 2015. Disponível em: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118988374. Acesso em: 23 out. 2026. **[B]**
+- VERSPRITE. **PASTA — VerSprite**. Disponível em: https://versprite.com/blog/what-is-pasta-threat-modeling/. Acesso em: 24 out. 2026. **[E]**
+- WILEY, Adam Shostack. **Threat Modeling**: Designing for Security. 2014. Disponível em: https://threatmodelingbook.com/books. Acesso em: 24 out. 2026. **[B]**
+- WITHSECURE. **Chainsaw**. Disponível em: https://github.com/WithSecureOpenSource/chainsaw. Acesso em: 23 out. 2026. **[B]**
+- XIONG, Wenjun et al. **Threat modeling — A systematic literature review**. 2019. Disponível em: https://doi.org/10.1016/j.cose.2019.03.010. Acesso em: 24 out. 2026. **[A]**
+- XIONG, Wenjun et al. **Cyber security threat modeling based on the MITRE Enterprise ATT&CK Matrix**. 2021. Disponível em: https://doi.org/10.1007/s10270-021-00898-7. Acesso em: 24 out. 2026. **[A]**
+- ZHANG et al. **ATT&CK-based Advanced Persistent Threat attacks risk propagation assessment model for zero trust networks**. 2024. Disponível em: https://doi.org/10.1016/j.comnet.2024.110376. Acesso em: 24 out. 2026. **[A]**
