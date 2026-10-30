@@ -17,7 +17,7 @@ Esta biblioteca aceita recursos e métodos que ajudam a produzir um modelo de am
 | `id` | Minúsculas, números e hífen; único |
 | `title`, `authors`, `url` | Fonte original; `https` obrigatório; sem URL repetida |
 | `type` | `manifesto`, `guide`, `method`, `book`, `paper`, `article`, `conference`, `course`, `tool` ou `dataset` |
-| `topics` | Um ou mais de `threat-modeling`, `detection-engineering`, `cti`, `apt`, `ai`, `ics-cps`, `privacy`, `psychology`, `emulation`, `provenance`, `cloud`, `supply-chain` |
+| `topics` | Um ou mais de `threat-modeling`, `detection-engineering`, `cti`, `apt`, `ai`, `ics-cps`, `privacy`, `psychology`, `emulation`, `provenance`, `cloud`, `supply-chain`, `attack-graphs`, `risk`, `architecture`, `research-methods` |
 | `access` | `free`, `open-access`, `preprint`, `mixed` ou `paid` |
 | `grade` | A–E, conforme a [metodologia](docs/METODOLOGIA.md#graus-de-fonte) |
 | `level`, `lang` | `intro`, `intermediate` ou `advanced`; `en` ou `pt` |
@@ -25,12 +25,13 @@ Esta biblioteca aceita recursos e métodos que ajudam a produzir um modelo de am
 | `limit` | O que a fonte **não** demonstra ou onde a aplicação exige cuidado |
 | `origin`, `added` | De onde veio; data ISO |
 | `checked`, `featured` | `null` até verificar o link; `false` por padrão |
+| `venue`, `doi`, `isbn`, `essential` | Opcionais; alimentam as referências ABNT e o BibTeX ([regras](docs/METODOLOGIA.md#campos-de-citação)) |
 
 ## Fluxo
 
 ```bash
 # 1. edite data/resources.json (ou data/methods.json)
-make build     # regenera docs/AWESOME.md, docs/TEMAS.md, docs/METODOS.md e os blocos dos READMEs
+make build     # regenera AWESOME, TEMAS, METODOS, REFERENCIAS-ABNT, referencias.bib e os blocos dos READMEs
 make check     # valida, testa e confere se os arquivos gerados estão em dia
 python scripts/check_links.py --id seu-id --write   # opcional, precisa de rede
 ```

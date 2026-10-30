@@ -42,7 +42,7 @@
         "integer",
         "null"
       ],
-      "minimum": 1960
+      "minimum": 1900
     },
     "type": {
       "enum": [
@@ -75,7 +75,11 @@
           "emulation",
           "provenance",
           "cloud",
-          "supply-chain"
+          "supply-chain",
+          "attack-graphs",
+          "risk",
+          "architecture",
+          "research-methods"
         ]
       }
     },
@@ -127,6 +131,7 @@
         "curadoria",
         "engenharia",
         "notion",
+        "referencial",
         "referencias"
       ]
     },
@@ -150,6 +155,24 @@
     },
     "exercise": {
       "type": "string"
+    },
+    "doi": {
+      "type": "string",
+      "pattern": "^10\\.\\d{4,9}/\\S+$",
+      "description": "DOI sem prefixo https://doi.org/"
+    },
+    "venue": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Periódico, evento, editora ou órgão emissor, com volume, número e páginas quando houver"
+    },
+    "isbn": {
+      "type": "string",
+      "pattern": "^[0-9Xx-]{10,17}$"
+    },
+    "essential": {
+      "type": "boolean",
+      "description": "Faz parte do núcleo essencial de leitura"
     }
   },
   "additionalProperties": false

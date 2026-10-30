@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import build_readme  # noqa: E402
+import citations  # noqa: E402
 import check_links  # noqa: E402
 import common  # noqa: E402
 import query  # noqa: E402
@@ -165,6 +166,52 @@ class LinkClassification(unittest.TestCase):
     def test_network_failure_is_unreachable_not_broken(self):
         with mock.patch("urllib.request.urlopen", side_effect=urllib.error.URLError("dns")):
             self.assertEqual(check_links.probe("https://x", 1)[0], "unreachable")
+
+
+class CitationTests(unittest.TestCase):
+    def test_bibtex_keys_unique_and_braces_balanced(self):
+        bib = citations.render_bib(RES)
+        keys = re.findall(r"^@\w+\{([^,]+),", bib, re.M)
+        self.assertEqual(len(keys), len(RES))
+        self.assertEqual(len(keys), len(set(keys)))
+        for entry in bib.split("\n@")[1:]:
+            self.assertEqual(entry.count("{"), entry.count("}"), entry[:60])
+
+    def test_doi_must_be_bare(self):
+        bad = good()
+        bad["doi"] = "https://doi.org/10.1000/x"
+        self.assertTrue(any("doi inválido" in e for e in validate.check_resources([bad])))
+
+    def test_essential_requires_good_grade(self):
+        bad = good()
+        bad["essential"] = True
+        bad["grade"] = "E"
+        self.assertTrue(any("núcleo essencial" in e for e in validate.check_resources([bad])))
+
+    def test_abnt_person_names(self):
+        self.assertEqual(citations.abnt_person("Adam Shostack"), "SHOSTACK, Adam")
+        self.assertEqual(citations.abnt_person("Richards J. Heuer Jr."), "HEUER JR., Richards J.")
+        self.assertEqual(citations.abnt_person("Ludwig van Beethoven"), "VAN BEETHOVEN, Ludwig")
+
+    def test_abnt_authors_et_al_after_three(self):
+        self.assertEqual(citations.abnt_authors("A One; B Two; C Three; D Four"), "ONE, A et al.")
+        self.assertEqual(citations.abnt_authors("Wenjun Xiong e Robert Lagerström"), "XIONG, Wenjun; LAGERSTRÖM, Robert")
+
+    def test_organizations_are_not_inverted(self):
+        self.assertEqual(citations.abnt_authors("MITRE"), "MITRE")
+        self.assertEqual(citations.abnt_authors("CTI Academy"), "CTI ACADEMY")
+
+    def test_bibtex_types(self):
+        item = good()
+        item["venue"] = "IEEE Symposium on Security and Privacy"
+        self.assertEqual(citations.bib_type(item), "inproceedings")
+        item["venue"] = "Computers & Security, v. 84"
+        self.assertEqual(citations.bib_type(item), "article")
+
+    def test_essential_core_is_reasonable(self):
+        core = [r for r in RES if r.get("essential")]
+        self.assertGreaterEqual(len(core), 20)
+        self.assertLessEqual(len(core), 45)
 
 
 if __name__ == "__main__":

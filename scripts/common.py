@@ -40,6 +40,10 @@ TOPICS = {
     "provenance": "Proveniência e grafos",
     "cloud": "Nuvem",
     "supply-chain": "Cadeia de suprimentos",
+    "attack-graphs": "Árvores e grafos de ataque",
+    "risk": "Risco e priorização",
+    "architecture": "Arquitetura e identidade",
+    "research-methods": "Método de pesquisa",
 }
 ACCESS = {
     "free": "gratuito",
@@ -50,7 +54,7 @@ ACCESS = {
 }
 LEVELS = {"intro": "introdutório", "intermediate": "intermediário", "advanced": "avançado"}
 LANGS = {"en": "EN", "pt": "PT"}
-ORIGINS = {"bibliografia", "engenharia", "conferencias", "catalogo", "acervo", "referencias", "notion", "curadoria"}
+ORIGINS = {"bibliografia", "engenharia", "conferencias", "catalogo", "acervo", "referencias", "notion", "curadoria", "referencial"}
 APPROACHES = {"processo", "software", "risco", "arquitetura", "privacidade", "atacante", "inteligência", "simulação", "ia"}
 METHOD_STATUS = {
     "core": "núcleo",
