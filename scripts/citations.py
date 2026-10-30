@@ -12,7 +12,7 @@ import unicodedata
 MONTHS = ["jan.", "fev.", "mar.", "abr.", "maio", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."]
 ORG_HINTS = re.compile(
     r"\b(MITRE|NIST|OWASP|Microsoft|CISA|NCSC|ENISA|SANS|AWS|Amazon|Google|Splunk|Elastic|Palantir|Rabobank|OASIS|FIRST|IETF|"
-    r"ABNT|ISO|IEC|Brasil|ABIN|Comunidade|Autores|Foundation|Center|Centre|Agency|Institute|Project|Projeto|Inc\.?|"
+    r"ABNT|ISO|IEC|Brasil|ABIN|Agência|Associação|Organização|Organization|Union|Joint Task Force|National|Commission|Comissão|Forum|Special Interest|Comunidade|Autores|Foundation|Center|Centre|Agency|Institute|Project|Projeto|Inc\.?|"
     r"Corporation|SAFECode|OTRF|SigmaHQ|Red Canary|DataDog|Lockheed|CTID|Office|KU Leuven|Cloud Security Alliance|"
     r"Universit|Team|Group|Labs?|Community|Software Engineering|Carnegie|Department|Ministério|Presidência)\b",
     re.I,
@@ -25,6 +25,8 @@ def split_authors(raw: str) -> list[str]:
     text = re.sub(r"\s*\((?:[^)]*)\)\s*$", "", text)
     if ";" in text:
         parts = text.split(";")
+    elif ORG_HINTS.search(text) and not re.search(r",|\s+e\s+", text):
+        parts = [text]
     else:
         parts = re.split(r",\s*|\s+e\s+|\s+and\s+|\s*&\s*", text)
     return [p.strip().rstrip(".") for p in parts if p.strip() and p.strip().rstrip(".")]
@@ -149,14 +151,15 @@ def abnt_date(iso: str) -> str:
 def render_abnt_entry(item: dict) -> str:
     authors = abnt_authors(item["authors"])
     title = item["title"].strip().rstrip(".")
-    if ":" in title and item["type"] in {"book", "guide", "method", "tool", "dataset", "manifesto", "course"}:
-        main, sub = title.split(":", 1)
+    if ": " in title and item["type"] in {"book", "guide", "method", "tool", "dataset", "manifesto", "course"}:
+        main, sub = title.split(": ", 1)
         title_txt = f"**{main.strip()}**: {sub.strip()}"
     elif item["type"] == "paper" and item.get("venue"):
         title_txt = title
     else:
         title_txt = f"**{title}**"
-    parts = [f"{authors}." if authors and not authors.endswith(".") else authors, f"{title_txt}."]
+    end = "" if title_txt.rstrip("*").endswith(("?", "!")) else "."
+    parts = [f"{authors}." if authors and not authors.endswith(".") else authors, f"{title_txt}{end}"]
     venue = item.get("venue")
     year = item.get("year")
     if item["type"] == "paper" and venue:

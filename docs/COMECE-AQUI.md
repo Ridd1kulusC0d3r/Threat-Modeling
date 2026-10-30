@@ -1,6 +1,6 @@
 # Comece aqui
 
-[Início](../README.md) · [Bibliografia](BIBLIOGRAFIA.md) · [Cases](../cases/README.md)
+[Início](../README.md) · [Bibliografia](BIBLIOGRAFIA.md) · [Trilha de leitura](TRILHA-DE-LEITURA.md) · [Cases](../cases/README.md)
 
 ## Rota 1 — fundamentos
 1. Manifesto: formular escopo, ameaças, respostas e revisão.
@@ -34,6 +34,19 @@ Ler Heuer e o Tradecraft Primer da CIA; depois aplicar o Modelo Diamante a um ca
 Keynote da SANS sobre IA agêntica → MAESTRO → MITRE ATLAS → OWASP Top 10 para LLM; o panorama de evidência está no [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection). Veja os [métodos de IA](METODOS.md#mitre-atlas).
 
 **Entregável:** modelo que separa modelo, ferramentas, memória e permissões, com as fronteiras de confiança entre eles.
+
+## Rota 7 — a organização inteira
+Stevens et al. (*The Battle for New York*) → MAL e enterpriseLang → grafos de ataque (MulVAL) → grafos bayesianos. Os métodos estão em [Grafos de ataque](METODOS.md#grafos-de-ataque) e [Modelagem empresarial por centro de gravidade](METODOS.md#modelagem-empresarial-por-centro-de-gravidade).
+
+**Entregável:** mapa de ativos, identidades e relações de confiança até os ativos críticos, com os pontos onde vários caminhos convergem.
+
+## Rota 8 — risco, priorização e validação de escores
+Verendel → Allodi e Massacci → EPSS → SSVC → Hubbard e Seiersen. Leia antes de criar qualquer escala ou peso.
+
+**Entregável:** critério de priorização com a fonte de cada dado e um plano para medir se o critério acerta.
+
+## Para estudar em profundidade
+Siga a [trilha de leitura](TRILHA-DE-LEITURA.md): 16 semanas, uma leitura e uma saída por vez. Para citar, use as [referências ABNT](REFERENCIAS-ABNT.md) ou o [BibTeX](../referencias/referencias.bib).
 
 ## Sessão inicial
 Escolha uma pergunta concreta, leia uma fonte e preencha missão, hipótese e lacunas no [template](../templates/CASE-DETECCAO.md). Não preencha resultados antes de executar.

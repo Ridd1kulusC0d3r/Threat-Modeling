@@ -12,7 +12,9 @@
     "resources": [
       "threat-modeling-manifesto",
       "owasp-threat-modeling-cheat-sheet",
-      "shostack-what-why-how"
+      "shostack-what-why-how",
+      "shostack-designing-for-security",
+      "shostack2014eop"
     ]
   },
   {
@@ -29,7 +31,11 @@
       "stride-microsoft",
       "shostack-designing-for-security",
       "eop-cards",
-      "owasp-threat-dragon"
+      "owasp-threat-dragon",
+      "kohnfelder1999threats",
+      "hernan2006stride",
+      "scandariato2015descriptive",
+      "ms-tmt"
     ]
   },
   {
@@ -74,7 +80,9 @@
     "status": "core",
     "resources": [
       "linddun",
-      "threat-models-space-time"
+      "threat-models-space-time",
+      "deng2011linddun",
+      "wuyts2020linddungo"
     ]
   },
   {
@@ -88,7 +96,9 @@
     "limits": "A árvore não prova probabilidade real; custos e chances são estimativas.",
     "status": "core",
     "resources": [
-      "attack-trees"
+      "attack-trees",
+      "schneier2000secrets",
+      "mauw2005foundations"
     ]
   },
   {
@@ -133,7 +143,9 @@
       "tm-with-attack",
       "mitre-attack",
       "attack-navigator",
-      "shostack-attack-tmt"
+      "shostack-attack-tmt",
+      "strom2018attack",
+      "ctid-topattack"
     ]
   },
   {
@@ -177,7 +189,10 @@
     "status": "emerging",
     "resources": [
       "enterpriselang-attack-matrix",
-      "xiong-lagerstrom-slr-2019"
+      "xiong-lagerstrom-slr-2019",
+      "johnson2018mal",
+      "widel2023mal",
+      "johnson2016pwnpr3d"
     ]
   },
   {
@@ -192,7 +207,8 @@
     "status": "complementary",
     "resources": [
       "heuer-psychology-of-intel",
-      "cia-tradecraft-primer"
+      "cia-tradecraft-primer",
+      "heuer2020sat"
     ],
     "psychology": true
   },
@@ -281,6 +297,158 @@
     "resources": [
       "csa-maestro",
       "sans-keynote-agentic-ai-tm"
+    ]
+  },
+  {
+    "id": "attack-defense-trees",
+    "name": "Árvores de ataque e defesa",
+    "approach": "atacante",
+    "question": "Que contramedida interrompe cada ramo do ataque, e a que custo?",
+    "centered_on": "atacante e defensor",
+    "outputs": "Árvore com nós de ataque e de defesa, com atributos de custo ou probabilidade",
+    "use_when": "Quando a discussão é escolher entre mitigações para o mesmo objetivo de ataque.",
+    "limits": "Atributos quantitativos são estimativas; árvores grandes ficam difíceis de manter.",
+    "status": "complementary",
+    "resources": [
+      "kordy2011adtrees",
+      "kordy2014dag"
+    ]
+  },
+  {
+    "id": "attack-graphs",
+    "name": "Grafos de ataque",
+    "approach": "simulação",
+    "question": "Que sequências de passos levam de um ponto de exposição a um ativo crítico?",
+    "centered_on": "ambiente e alcançabilidade",
+    "outputs": "Grafo de caminhos, conjunto mínimo de medidas que corta os caminhos",
+    "use_when": "Ambientes com muitos ativos e relações de confiança, onde caminhos não cabem numa árvore.",
+    "limits": "A qualidade depende do inventário e das regras de interação; grafos explodem em tamanho.",
+    "status": "complementary",
+    "resources": [
+      "sheyner2002automated",
+      "ou2005mulval",
+      "ingols2006netspa",
+      "lallie2020review",
+      "wang2006minimum"
+    ]
+  },
+  {
+    "id": "bayesian-attack-graphs",
+    "name": "Grafos bayesianos de ataque",
+    "approach": "simulação",
+    "question": "Dada a evidência observada, quais nós estão mais provavelmente comprometidos e onde mitigar primeiro?",
+    "centered_on": "risco dinâmico",
+    "outputs": "Probabilidades por nó e plano de mitigação sob orçamento",
+    "use_when": "Quando há dados para estimar probabilidades e se quer atualizar o risco com evidência.",
+    "limits": "Probabilidades iniciais são subjetivas; inferência exata cresce rápido com o grafo.",
+    "status": "emerging",
+    "resources": [
+      "poolsappasit2012dynamic",
+      "frigault2008measuring",
+      "munozgonzalez2019exact"
+    ]
+  },
+  {
+    "id": "octave-allegro",
+    "name": "OCTAVE Allegro",
+    "approach": "risco",
+    "question": "Quais ativos de informação importam mais e que cenários de risco os afetam?",
+    "centered_on": "ativos de informação",
+    "outputs": "Perfis de ativos, contêineres, cenários de ameaça e planos de mitigação",
+    "use_when": "Avaliações organizacionais de risco com pouca equipe técnica.",
+    "limits": "Não enumera ameaças técnicas em profundidade.",
+    "status": "complementary",
+    "resources": [
+      "caralli2007octave"
+    ]
+  },
+  {
+    "id": "trike",
+    "name": "Trike",
+    "approach": "risco",
+    "question": "Que ações sobre os ativos violam o modelo de requisitos aceito pelos stakeholders?",
+    "centered_on": "requisitos e risco",
+    "outputs": "Modelo de requisitos, modelo de implementação e ameaças por ação",
+    "use_when": "Estudo histórico de modelagem orientada a requisitos.",
+    "limits": "Documentação em rascunho e ferramenta sem manutenção.",
+    "status": "legacy",
+    "resources": [
+      "saitta2005trike"
+    ]
+  },
+  {
+    "id": "unified-kill-chain",
+    "name": "Unified Kill Chain",
+    "approach": "inteligência",
+    "question": "Em que fase ampliada da intrusão está cada comportamento observado?",
+    "centered_on": "campanha adversária",
+    "outputs": "Fases e transições de ataque combinando Kill Chain e ATT&CK",
+    "use_when": "Comunicar campanhas que não seguem a sequência linear da Kill Chain.",
+    "limits": "Proposta individual; adoção e versões variam.",
+    "status": "complementary",
+    "resources": [
+      "pols2017ukc",
+      "intrusion-kill-chain"
+    ]
+  },
+  {
+    "id": "ics-kill-chain",
+    "name": "Kill chain para ICS",
+    "approach": "inteligência",
+    "question": "Que etapas um ataque precisa cumprir para causar efeito físico num processo industrial?",
+    "centered_on": "sistemas de controle industrial",
+    "outputs": "Fases de preparação e de ataque ao ICS, com oportunidades de detecção",
+    "use_when": "Modelagem de ameaças em OT/ICS, junto com ATT&CK for ICS.",
+    "limits": "Heurística de fases; plantas e protocolos variam muito.",
+    "status": "complementary",
+    "resources": [
+      "assante2015icskillchain",
+      "alexander2020icsattack"
+    ]
+  },
+  {
+    "id": "enterprise-cog",
+    "name": "Modelagem empresarial por centro de gravidade",
+    "approach": "processo",
+    "question": "Quais capacidades sustentam a missão da organização e o que, se atingido, a derruba?",
+    "centered_on": "missão e organização",
+    "outputs": "Centros de gravidade, ameaças priorizadas e plano de ação",
+    "use_when": "Modelar uma organização inteira, não uma aplicação.",
+    "limits": "Avaliado num único estudo de caso.",
+    "status": "emerging",
+    "resources": [
+      "stevens2018battle",
+      "mitre-cja"
+    ]
+  },
+  {
+    "id": "data-centric",
+    "name": "Modelagem centrada em dados (NIST SP 800-154)",
+    "approach": "arquitetura",
+    "question": "Onde um dado crítico é armazenado, transmitido e processado, e que controles o protegem em cada ponto?",
+    "centered_on": "dados",
+    "outputs": "Mapa de dados, vetores de ataque por ponto e controles",
+    "use_when": "Quando o ativo a proteger é um conjunto de dados que atravessa muitos sistemas.",
+    "limits": "Rascunho de 2016 nunca finalizado.",
+    "status": "complementary",
+    "resources": [
+      "nist800154"
+    ]
+  },
+  {
+    "id": "ssvc",
+    "name": "SSVC",
+    "approach": "risco",
+    "question": "Que ação tomar sobre esta vulnerabilidade, para este stakeholder, agora?",
+    "centered_on": "decisão de resposta a vulnerabilidades",
+    "outputs": "Decisão (rastrear, atender, agir) a partir de uma árvore de decisão",
+    "use_when": "Priorizar vulnerabilidades de um modelo de ameaças combinando exploração (KEV, EPSS) e impacto.",
+    "limits": "Árvores precisam ser ajustadas às decisões locais; não é modelagem de ameaças completa.",
+    "status": "complementary",
+    "resources": [
+      "spring2019ssvc",
+      "cisa-kev",
+      "jacobs2021epss"
     ]
   }
 ]

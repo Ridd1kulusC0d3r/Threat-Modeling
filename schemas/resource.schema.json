@@ -42,7 +42,7 @@
         "integer",
         "null"
       ],
-      "minimum": 1960
+      "minimum": 1900
     },
     "type": {
       "enum": [

@@ -93,7 +93,7 @@ def check_resources(items: list[dict]) -> list[str]:
             if len(set(item["topics"])) != len(item["topics"]):
                 errors.append(f"{where}: topics repetidos")
         year = item.get("year")
-        if year is not None and not (isinstance(year, int) and 1960 <= year <= date.today().year + 1):
+        if year is not None and not (isinstance(year, int) and 1900 <= year <= date.today().year + 1):
             errors.append(f"{where}: year fora do intervalo")
         if not valid_date(item["added"]):
             errors.append(f"{where}: added não é data ISO")
