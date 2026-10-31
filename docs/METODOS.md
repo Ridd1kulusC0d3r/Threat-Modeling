@@ -46,7 +46,7 @@
 - **Use quando:** Desenhos de software com diagrama de fluxo de dados e fronteiras de confiança.
 - **Limite:** Categoriza, mas não prioriza risco; depende da qualidade do diagrama.
 - **Estado:** núcleo
-- **Fontes:** [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) [E]; [Threat Modeling: Designing for Security](https://threatmodelingbook.com/books) [B]; [Elevation of Privilege](https://github.com/adamshostack/eop) [E]; [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) [B]
+- **Fontes:** [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) [A]; [Threat Modeling: Designing for Security](https://threatmodelingbook.com/books) [B]; [Elevation of Privilege](https://github.com/adamshostack/eop) [E]; [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) [B]
 
 ## PASTA
 
@@ -57,7 +57,7 @@
 - **Use quando:** Quando é preciso ligar arquitetura, ameaça e impacto de negócio.
 - **Limite:** Processo pesado; material de proponentes não é comparação independente.
 - **Estado:** núcleo
-- **Fontes:** [Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118988374) [B]; [PASTA — VerSprite](https://versprite.com/blog/what-is-pasta-threat-modeling/) [E]
+- **Fontes:** [Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118988374) [B]; [PASTA — VerSprite](https://versprite.com/blog/what-is-pasta-threat-modeling/) [C]
 
 ## ATASM
 
@@ -123,7 +123,7 @@
 - **Use quando:** Quando já existe arquitetura e se precisa de vocabulário de comportamento.
 - **Limite:** ATT&CK não substitui a análise da arquitetura; há críticas fundamentadas.
 - **Estado:** núcleo
-- **Fontes:** [Threat Modeling with ATT&CK](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/) [A]; [MITRE ATT&CK](https://attack.mitre.org/) [A]; [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) [A]; [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) [B]
+- **Fontes:** [Threat Modeling with ATT&CK](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/) [A]; [MITRE ATT&CK](https://attack.mitre.org/) [A]; [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) [A]; [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) [D]
 
 ## Attack Flow
 

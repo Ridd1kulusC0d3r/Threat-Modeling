@@ -24,15 +24,15 @@
 
 | Recursos | Métodos | Tipos | Temas | Links verificados |
 |:---:|:---:|:---:|:---:|:---:|
-| **106** | **19** | **10** | **11** | **79** |
+| **106** | **19** | **10** | **11** | **80** |
 
 | Grau | Recursos | Significado |
 |:---:|:---:|---|
-| **A** | 28 | Fonte primária ou institucional: padrão, órgão público, publicação com revisão por pares ou mantenedor do método. |
-| **B** | 56 | Fonte primária sem revisão formal: livro, preprint, guia de comunidade, página do autor ou repositório do mantenedor. |
-| **C** | 13 | Material de fornecedor, proponente comercial ou ferramenta de terceiros. |
+| **A** | 32 | Fonte primária ou institucional: padrão, órgão público, publicação com revisão por pares ou mantenedor do método. |
+| **B** | 52 | Fonte primária sem revisão formal: livro, preprint, guia de comunidade, página do autor ou repositório do mantenedor. |
+| **C** | 17 | Material de fornecedor, proponente comercial ou ferramenta de terceiros. |
 | **D** | 1 | Comentário ou fonte secundária. |
-| **E** | 8 | Legado: herdado do acervo anterior e ainda não revalidado. |
+| **E** | 4 | Legado: herdado do acervo anterior e ainda não revalidado. |
 
 <!-- gen:stats:end -->
 

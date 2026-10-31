@@ -25,10 +25,13 @@
 - [Cyber security threat modeling based on the MITRE Enterprise ATT&CK Matrix](https://doi.org/10.1007/s10270-021-00898-7) **[A]** — enterpriseLang/MAL, ativos e caminhos. _(papers, acesso aberto)_
 - [Threat modeling — A systematic literature review](https://doi.org/10.1016/j.cose.2019.03.010) **[A]** — Mapear métodos e trabalhos relacionados. _(papers, gratuito)_
 - [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) **[A]** — Sequência de comportamentos. _(métodos, gratuito)_
+- [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[A]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 - [D3FEND](https://d3fend.mitre.org/) **[A]** — Técnicas e artefatos defensivos. _(métodos, gratuito)_
 - [Developing Cyber-Resilient Systems](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final) **[A]** — Engenharia de resiliência. _(guias, gratuito)_
+- [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) **[A]** — Categorias de ameaça em desenho de sistemas _(guias, gratuito)_
 - [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) **[A]** — Catálogo de controles de segurança e privacidade. _(guias, gratuito)_
 - [NIST SSDF — Secure Software Development Framework](https://csrc.nist.gov/projects/ssdf) **[A]** — Práticas de desenvolvimento seguro ao longo do ciclo de vida de software. _(guias, gratuito)_
+- [SDL Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) **[A]** — Refinamento no ciclo de vida. _(guias, gratuito)_
 - [TARA — Threat Assessment and Remediation Analysis](https://www.mitre.org/news-insights/publication/threat-assessment-and-remediation-analysis-tara) **[A]** — Avaliar e selecionar contramedidas. _(métodos, gratuito)_
 - [Threat Modeling with ATT&CK](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/) **[A]** — Comportamento adversário na modelagem. _(métodos, gratuito)_
 - [Threat Modeling with ATT&CK — BSides Connecticut](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/presentations/tmwa-bsides-ct.pdf) **[A]** — Slides CTID. _(conferências, gratuito)_
@@ -36,6 +39,7 @@
 - [MAESTRO — Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) **[B]** — Framework em camadas para modelar ameaças a sistemas de IA agêntica. _(métodos, gratuito)_
 - [Publish Your Threat Models! The benefits far outweigh the dangers](https://arxiv.org/abs/2511.08295) **[B]** — Publicar pressupostos e decisões. _(papers, preprint)_
 - [Security Modelling for Cyber-Physical Systems: A Systematic Literature Review](https://arxiv.org/abs/2404.07527) **[B]** — Ameaças versus ataques em CPS. _(papers, preprint)_
+- [Threat Modeling Express: guia prático](https://guisso.dev/blog/threat-modeling-intro/) **[B]** — Guia prático em português: como engajar o time, mapear ativos críticos e aplicar controles rápidos com o Threat Modeling Express. _(artigos, gratuito)_
 - [Threat Modeling at Scale](https://safecode.org/resource-publications/threat-modeling-at-scale/) **[B]** — Institucionalização da modelagem. _(guias, gratuito)_
 - [Threat Models over Space and Time: A Case Study of E2EE Messaging Applications](https://arxiv.org/abs/2301.05653) **[B]** — Contexto temporal e fronteiras de confiança. _(papers, preprint)_
 - [Designing Secure Software: A Guide for Developers](https://designingsecuresoftware.com/) **[B]** — Pressupostos e escolhas de design. _(livros, pago)_
@@ -50,11 +54,9 @@
 - [Threat Modeling: Designing for Security](https://threatmodelingbook.com/books) **[B]** — Fundamentos e abordagens. _(livros, pago)_
 - [Attack Trees](https://www.schneier.com/academic/archives/1999/12/attack_trees.html) **[B]** — Objetivos e condições de ataque. _(papers, gratuito)_
 - [ATASM](https://brookschoenfield.com/?page_id=341) **[B]** — Arquitetura, ameaças, superfícies e mitigação. _(métodos, gratuito)_
-- [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[B]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 - [DC’s Next Top Threat Model](https://threatmodel.us/) **[B]** — Competição DEF CON. _(conferências, gratuito)_
 - [Keynote \| Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience](https://www.youtube.com/watch?v=R49Cv7pJ2KA) **[B]** — Keynote gravada sobre modelagem de ameaças para sistemas de IA agêntica. _(conferências, gratuito)_
 - [LINDDUN](https://linddun.org/) **[B]** — Ameaças de privacidade. _(métodos, gratuito)_
-- [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) **[B]** — Avaliar abordagem CTID. _(guias, gratuito)_
 - [OWASP Developer Guide — Threat Modeling](https://devguide.owasp.org/en/04-design/01-threat-modeling/) **[B]** — Relacionar modelagem ao desenvolvimento; fonte localizada nesta edição _(guias, gratuito)_
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) **[B]** — Ferramenta open source de diagramação e geração de ameaças (STRIDE e outras). _(ferramentas, gratuito)_
 - [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) **[B]** — Entender o processo e suas perguntas fundamentais; fonte consultada nesta edição _(guias, gratuito)_
@@ -66,24 +68,23 @@
 - [Threat Modeling LLMs: The PHANTOM-B model](https://shostack.org/blackhat) **[B]** — Página do autor; agenda Black Hat / DEF CON AppSec Village 2026 e links de material. _(conferências, gratuito)_
 - [Threat Modeling: What, Why, and How?](https://shostack.org/resources/whitepapers/threat-modeling-what-why-how) **[B]** — Introdução e propósito. _(guias, gratuito)_
 - [ThreatModCon](https://www.threatmodcon.com/) **[B]** — Conferência dedicada exclusivamente a threat modeling; fonte de talks para extrair ideias e exercícios. _(conferências, gratuito)_
+- [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) **[C]** — Aplicação em exercícios _(guias, gratuito)_
 - [CTI Academy](https://ctiacademy.io/) **[C]** — Plataforma de estudo para perfilamento de ameaças (threat profiling) e inteligência; módulos com lições online. _(cursos, parcial)_
-- [SDL Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) **[C]** — Refinamento no ciclo de vida. _(guias, gratuito)_
+- [GitLab AppSec Threat Modeling](https://handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/application-security/runbooks/threat-modeling/) **[C]** — Processo de uma equipe de produto _(guias, gratuito)_
+- [PASTA — VerSprite](https://versprite.com/blog/what-is-pasta-threat-modeling/) **[C]** — Abordagem orientada a risco e análise de ataques _(guias, gratuito)_
 - [Threat Modeling Connect — On Demand](https://www.threatmodelingconnect.com/resources/on-demand) **[C]** — Acervo de experiências e apresentações. _(conferências, gratuito)_
 - [Tidal Cyber](https://www.tidalcyber.com/) **[C]** — Plataforma de threat-informed defense que operacionaliza ATT&CK; listada para estudo comparativo. _(ferramentas, gratuito)_
-- [Threat Modeling Intro — Guisso](https://guisso.dev/) **[D]** — Introdução em português a threat modeling, anotada nas notas de estudo do Notion. _(artigos, gratuito)_
+- [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) **[D]** — Avaliar abordagem CTID. _(guias, gratuito)_
 - [DREAD — Threat Model Your Security Risks](https://learn.microsoft.com/en-us/archive/msdn-magazine/2003/november/resource-file-threat-model-your-security-risks) **[E]** — Artigo histórico que descreve a pontuação DREAD. _(artigos, gratuito)_
-- [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) **[E]** — Aplicação em exercícios _(guias, gratuito)_
 - [Elevation of Privilege](https://github.com/adamshostack/eop) **[E]** — Facilitação com cartas _(ferramentas, gratuito)_
-- [GitLab AppSec Threat Modeling](https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/) **[E]** — Processo de uma equipe de produto _(guias, gratuito)_
-- [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) **[E]** — Categorias de ameaça em desenho de sistemas _(guias, gratuito)_
 - [OpenStack Threat Analysis](https://wiki.openstack.org/wiki/Security/Threat_Analysis) **[E]** — Exemplo de processo em plataforma _(guias, gratuito)_
-- [PASTA — VerSprite](https://versprite.com/blog/what-is-pasta-threat-modeling/) **[E]** — Abordagem orientada a risco e análise de ataques _(guias, gratuito)_
 - [STRIDE-LM](https://csf.tools/reference/stride-lm/) **[E]** — Extensão do STRIDE que acrescenta movimento lateral (Lateral Movement) às categorias. _(métodos, gratuito)_
 
 ## Engenharia de detecção
 
 - [HOLMES: Real-Time APT Detection through Correlation of Suspicious Information Flows](https://www.seclab.cs.sunysb.edu/seclab/pubs/holmes19.pdf) **[A]** — Fluxos e correlação contextual. _(papers, gratuito)_
 - [ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/) **[A]** — Estratégias por comportamento. _(guias, gratuito)_
+- [BZAR](https://github.com/mitre-attack/bzar) **[A]** — Análise de rede com Zeek. _(ferramentas, gratuito)_
 - [CTID Adversary Emulation Library](https://ctid.mitre.org/resources/adversary-emulation-library/) **[A]** — Planos de emulação. _(ferramentas, gratuito)_
 - [CTID Micro Emulation Plans](https://ctid.mitre.org/projects/micro-emulation-plans/) **[A]** — Validação de recortes. _(ferramentas, gratuito)_
 - [Minimum Telemetry Requirements](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/data-readiness/min-telemetry-reqs/) **[A]** — Requisitos mínimos de dados. _(guias, gratuito)_
@@ -91,10 +92,7 @@
 - [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/) **[A]** — Robustez, decomposição e cobertura. _(métodos, gratuito)_
 - [Threat Modeling: A Practical Guide for Development Teams](https://www.oreilly.com/library/view/threat-modeling/9781492056546/) **[B]** — Automação e modelagem contínua. _(livros, pago)_
 - [Automating Security Detection Engineering](https://github.com/PacktPublishing/Automating-Security-Detection-Engineering) **[B]** — Detection as Code e pipelines. _(livros, pago)_
-- [BZAR](https://github.com/mitre-attack/bzar) **[B]** — Análise de rede com Zeek. _(ferramentas, gratuito)_
-- [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw) **[B]** — Análise EVTX / Sigma. _(ferramentas, gratuito)_
 - [DeTT&CT — Data quality](https://github.com/rabobank-cdc/DeTTECT/wiki/data-quality-scoring) **[B]** — Completude, atraso, consistência e retenção. _(guias, gratuito)_
-- [Elastic Detection Rules](https://github.com/elastic/detection-rules) **[B]** — Desenvolvimento e validação de regras. _(ferramentas, gratuito)_
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) **[B]** — Eventos Windows gravados. _(datasets, gratuito)_
 - [OTRF Security Datasets](https://github.com/OTRF/Security-Datasets) **[B]** — Dados maliciosos e benignos. _(datasets, gratuito)_
 - [OTRF SimuLand](https://github.com/OTRF/SimuLand) **[B]** — Infraestrutura e coleta. _(ferramentas, gratuito)_
@@ -105,8 +103,10 @@
 - [Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook) **[B]** — Notebooks de hipótese, consultas e evidências. _(ferramentas, gratuito)_
 - [Anvilogic](https://www.anvilogic.com/) **[C]** — Plataforma comercial de detecção e hunting listada para estudo comparativo. _(ferramentas, gratuito)_
 - [Atomic Red Team](https://www.atomicredteam.io/docs/atomic-red-team) **[C]** — Testes individuais. _(ferramentas, gratuito)_
+- [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw) **[C]** — Análise EVTX / Sigma. _(ferramentas, gratuito)_
 - [Detection Engineering Maturity Matrix](https://detectionengineering.io/) **[C]** — Capacidades da função de detecção. _(guias, gratuito)_
 - [Detection Engineering: A Case Study — GitGuardian](https://blog.gitguardian.com/detection-engineering-case-study/) **[C]** — Exemplo de detecção de execução remota DCOM. _(artigos, gratuito)_
+- [Elastic Detection Rules](https://github.com/elastic/detection-rules) **[C]** — Desenvolvimento e validação de regras. _(ferramentas, gratuito)_
 - [Elastic — Validate and test rules](https://www.elastic.co/docs/solutions/security/detect-and-alert/validate-and-test-rules) **[C]** — Categorias de testes. _(ferramentas, gratuito)_
 - [Splunk Attack Data](https://github.com/splunk/attack_data) **[C]** — Dados de teste. _(datasets, gratuito)_
 - [Splunk Attack Range](https://github.com/splunk/attack_range) **[C]** — Ambiente instrumentado. _(ferramentas, gratuito)_
@@ -122,6 +122,7 @@
 - [ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/) **[A]** — Estratégias por comportamento. _(guias, gratuito)_
 - [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) **[A]** — Interface para anotar e visualizar camadas da matriz ATT&CK (cobertura, hipóteses, priorização). _(ferramentas, gratuito)_
 - [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) **[A]** — Sequência de comportamentos. _(métodos, gratuito)_
+- [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[A]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 - [CTID Adversary Emulation Library](https://ctid.mitre.org/resources/adversary-emulation-library/) **[A]** — Planos de emulação. _(ferramentas, gratuito)_
 - [CTID Micro Emulation Plans](https://ctid.mitre.org/projects/micro-emulation-plans/) **[A]** — Validação de recortes. _(ferramentas, gratuito)_
 - [D3FEND](https://d3fend.mitre.org/) **[A]** — Técnicas e artefatos defensivos. _(métodos, gratuito)_
@@ -139,12 +140,11 @@
 - [POIROT: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting](https://arxiv.org/abs/1910.00056) **[B]** — Grafo de CTI e proveniência. _(papers, preprint)_
 - [The Diamond Model of Intrusion Analysis](https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf) **[B]** — Adversário, capacidade, infraestrutura e vítima. _(papers, gratuito)_
 - [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf) **[B]** — Campanhas e interrupção de ataques. _(papers, gratuito)_
-- [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[B]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 - [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection) **[B]** — Panorama de ameaças a sistemas LLM e agênticos, com evidência, graus de fonte e níveis de confiança por afirmação. _(datasets, gratuito)_
-- [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) **[B]** — Avaliar abordagem CTID. _(guias, gratuito)_
 - [Anvilogic](https://www.anvilogic.com/) **[C]** — Plataforma comercial de detecção e hunting listada para estudo comparativo. _(ferramentas, gratuito)_
 - [CTI Academy](https://ctiacademy.io/) **[C]** — Plataforma de estudo para perfilamento de ameaças (threat profiling) e inteligência; módulos com lições online. _(cursos, parcial)_
 - [Tidal Cyber](https://www.tidalcyber.com/) **[C]** — Plataforma de threat-informed defense que operacionaliza ATT&CK; listada para estudo comparativo. _(ferramentas, gratuito)_
+- [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) **[D]** — Avaliar abordagem CTID. _(guias, gratuito)_
 
 ## APT e campanhas persistentes
 
@@ -166,9 +166,9 @@
 
 ## ICS e sistemas ciberfísicos
 
+- [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[A]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 - [Security Modelling for Cyber-Physical Systems: A Systematic Literature Review](https://arxiv.org/abs/2404.07527) **[B]** — Ameaças versus ataques em CPS. _(papers, preprint)_
 - [Threat Modeling of Cyber-Physical Systems in Practice](https://arxiv.org/abs/2103.04226) **[B]** — Prática e atualização de modelos CPS. _(papers, preprint)_
-- [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[B]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 
 ## Privacidade
 
@@ -201,5 +201,5 @@
 
 ## Nuvem
 
+- [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) **[C]** — Aplicação em exercícios _(guias, gratuito)_
 - [Stratus Red Team](https://stratus-red-team.cloud/) **[C]** — Emulação em nuvem. _(ferramentas, gratuito)_
-- [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) **[E]** — Aplicação em exercícios _(guias, gratuito)_

@@ -20,15 +20,15 @@
 
 | Resources | Methods | Types | Topics | Links checked |
 |:---:|:---:|:---:|:---:|:---:|
-| **106** | **19** | **10** | **11** | **79** |
+| **106** | **19** | **10** | **11** | **80** |
 
 | Grade | Resources | Meaning |
 |:---:|:---:|---|
-| **A** | 28 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
-| **B** | 56 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
-| **C** | 13 | Vendor or commercial proponent material, or a third-party tool. |
+| **A** | 32 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
+| **B** | 52 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
+| **C** | 17 | Vendor or commercial proponent material, or a third-party tool. |
 | **D** | 1 | Commentary or secondary source. |
-| **E** | 8 | Legacy: inherited from the earlier collection and not yet revalidated. |
+| **E** | 4 | Legacy: inherited from the earlier collection and not yet revalidated. |
 
 <!-- gen:stats:end -->
 

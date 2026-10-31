@@ -12,6 +12,6 @@
 | [Engenharia de detecção](ENGENHARIA-DE-DETECCAO.md) | Do modelo à detecção testada |
 | [Conferências](CONFERENCIAS.md) | Apresentações e exercícios |
 | [Catálogo](CATALOGO.md) · [Referências](REFERENCIAS.md) · [Acervo anterior](ACERVO-ANTERIOR.md) | Seleções anteriores, preservadas |
-| [Identidade visual](IDENTIDADE-VISUAL.md) | Paleta, tipografia e regras do banner |
+| [Revisão de graus](REVISAO-DE-GRAUS.md) · [Identidade visual](IDENTIDADE-VISUAL.md) | Paleta, tipografia e regras do banner |
 
 Os arquivos marcados como gerados vêm de `data/` via `make build`. Os demais são texto editorial mantido à mão; um teste garante que todo link da tabela de um deles exista no acervo de dados.
