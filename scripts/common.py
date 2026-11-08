@@ -40,6 +40,7 @@ TOPICS = {
     "provenance": "Proveniência e grafos",
     "cloud": "Nuvem",
     "supply-chain": "Cadeia de suprimentos",
+    "osint": "OSINT e fontes abertas",
 }
 ACCESS = {
     "free": "gratuito",

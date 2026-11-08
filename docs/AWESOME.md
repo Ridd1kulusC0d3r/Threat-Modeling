@@ -9,15 +9,15 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 | Tipo | Recursos |
 |---|---|
 | [Manifestos e princípios](#manifestos-e-princípios) | 1 |
-| [Guias e frameworks](#guias-e-frameworks) | 28 |
-| [Métodos e modelos](#métodos-e-modelos) | 12 |
+| [Guias e frameworks](#guias-e-frameworks) | 41 |
+| [Métodos e modelos](#métodos-e-modelos) | 16 |
 | [Livros](#livros) | 10 |
 | [Papers e trabalhos técnicos](#papers-e-trabalhos-técnicos) | 17 |
-| [Artigos e posts](#artigos-e-posts) | 3 |
+| [Artigos e posts](#artigos-e-posts) | 5 |
 | [Conferências e talks](#conferências-e-talks) | 8 |
 | [Cursos e plataformas de estudo](#cursos-e-plataformas-de-estudo) | 1 |
-| [Ferramentas e repositórios](#ferramentas-e-repositórios) | 21 |
-| [Datasets e catálogos](#datasets-e-catálogos) | 5 |
+| [Ferramentas e repositórios](#ferramentas-e-repositórios) | 36 |
+| [Datasets e catálogos](#datasets-e-catálogos) | 8 |
 
 ## Manifestos e princípios
 
@@ -29,7 +29,13 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 
 | Recurso | Autoria | Acesso | Grau | Nível | Por que ler | Limite |
 |---|---|---|---|---|---|---|
+| [NIST AI 100-2 — Adversarial Machine Learning Taxonomy](https://csrc.nist.gov/pubs/ai/100/2/e2025/final) | NIST (2025) | gratuito | **A** | avançado | Taxonomia e terminologia de ataques e mitigações em aprendizado de máquina adversarial. | Taxonomia; mitigações têm limites reconhecidos pelo próprio documento. |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | NIST (2023) | gratuito | **A** | intermediário | Framework voluntário para gerenciar riscos de sistemas de IA. | Nível de governança; não detalha técnicas de ataque. |
 | [Shifting the Balance of Cybersecurity Risk](https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf) | CISA e parceiros (2023) | gratuito | **A** | introdutório | Segurança desde o projeto. | Publicação inicial; conferir atualização posterior. |
+| [Berkeley Protocol on Digital Open Source Investigations](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source) | OHCHR / UC Berkeley Human Rights Center (2022) | gratuito | **A** | intermediário | Padrões profissionais e éticos para coleta, preservação e verificação de evidência digital aberta. | Orientado a investigações de direitos humanos; adaptar ao contexto de CTI. |
+| [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) | FIRST (2022) | gratuito | **A** | introdutório | Padrão para sinalizar os limites de compartilhamento de informação sensível. | Define marcação, não garante o cumprimento. |
+| [STIX 2.1 Specification](https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html) | OASIS CTI TC (2021) | gratuito | **A** | avançado | Padrão para representar objetos e relações de inteligência de ameaças. | Especificação formal; leitura densa para iniciantes. |
+| [ICD 203 — Analytic Standards](https://www.dni.gov/files/documents/ICD/ICD-203.pdf) | ODNI (2015) | gratuito | **A** | intermediário | Padrões de análise de inteligência: incerteza, fontes, alternativas e linguagem de probabilidade. | Escrito para a comunidade de inteligência dos EUA; adaptação necessária para CTI privada. |
 | [A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis](https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf) | Governo dos EUA (CIA, Sherman Kent School) (2009) | gratuito | **A** | introdutório | Técnicas estruturadas de análise para desafiar julgamentos, expor modelos mentais e lidar com incerteza; inclui verificação de premissas e análise de hipóteses concorrentes. | Literatura de inteligência, não de threat modeling; aplicação a ciberameaças exige adaptação. |
 | [ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/) | MITRE | gratuito | **A** | intermediário | Estratégias por comportamento. | Adaptar à arquitetura local. |
 | [Developing Cyber-Resilient Systems](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final) | NIST SP 800-160 Vol. 2 Rev. 1 | gratuito | **A** | intermediário | Engenharia de resiliência. | Não é catálogo de regras. |
@@ -37,12 +43,17 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | gratuito | **A** | intermediário | Catálogo de controles de segurança e privacidade. | Catálogo de controles; selecione conforme o modelo de ameaças. |
 | [NIST SSDF — Secure Software Development Framework](https://csrc.nist.gov/projects/ssdf) | NIST | gratuito | **A** | intermediário | Práticas de desenvolvimento seguro ao longo do ciclo de vida de software. | Conjunto de práticas; não é método de modelagem. |
 | [Sensor Mappings to ATT&CK](https://center-for-threat-informed-defense.github.io/sensor-mappings-to-attack/) | MITRE CTID | gratuito | **A** | intermediário | Sensores, eventos e visibilidade. | Preservar versão; estrutura ATT&CK evolui. |
+| [SLSA — Supply-chain Levels for Software Artifacts](https://slsa.dev/) | OpenSSF | gratuito | **A** | intermediário | Framework de níveis de integridade e proveniência para artefatos de software. | Cobre integridade de build, não a qualidade do código. |
 | [Threat Modelling](https://www.ncsc.gov.uk/collection/risk-management/threat-modelling) | NCSC | gratuito | **A** | introdutório | Integração com risco. | Contexto institucional. |
 | [Threat Modeling at Scale](https://safecode.org/resource-publications/threat-modeling-at-scale/) | SAFECode (2023) | gratuito | **B** | introdutório | Institucionalização da modelagem. | Adaptar à organização. |
 | [Threat Modeling Capabilities](https://www.threatmodelingmanifesto.org/capabilities/) | Autores do Manifesto (2020) | gratuito | **B** | introdutório | Estratégia, educação, ação e medição. | Mais capacidades não implica maior maturidade. |
+| [Bellingcat's Online Investigations Toolkit](https://bellingcat.gitbook.io/toolkit) | Bellingcat | gratuito | **B** | intermediário | Catálogo curado de ferramentas e técnicas de investigação em fontes abertas. | Mantido pela comunidade; algumas ferramentas mudam ou saem do ar. |
 | [DeTT&CT — Data quality](https://github.com/rabobank-cdc/DeTTECT/wiki/data-quality-scoring) | Rabobank CDC | gratuito | **B** | intermediário | Completude, atraso, consistência e retenção. | Pontuação não substitui teste. |
 | [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) | Adam Shostack | gratuito | **B** | intermediário | Avaliar abordagem CTID. | Opinião fundamentada, não benchmark. |
+| [OSINT Framework](https://osintframework.com/) | Justin Nordine | gratuito | **B** | introdutório | Mapa navegável de ferramentas e fontes OSINT por categoria. | Diretório de links, não avalia qualidade nem legalidade de uso das fontes. |
+| [OWASP AI Exchange](https://owaspai.org/) | OWASP | gratuito | **B** | intermediário | Guia colaborativo de ameaças e controles para sistemas de IA. | Em evolução contínua; cite a versão consultada. |
 | [OWASP Developer Guide — Threat Modeling](https://devguide.owasp.org/en/04-design/01-threat-modeling/) | OWASP | gratuito | **B** | intermediário | Relacionar modelagem ao desenvolvimento; fonte localizada nesta edição | Confira versão e condições de uso na fonte. |
+| [OWASP GenAI Security Project](https://genai.owasp.org/) | OWASP | gratuito | **B** | introdutório | Hub de listas Top 10 e guias para LLMs e aplicações agênticas. | Guias comunitários; profundidade varia por documento. |
 | [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) | OWASP | gratuito | **B** | introdutório | Entender o processo e suas perguntas fundamentais; fonte consultada nesta edição | Confira versão e condições de uso na fonte. |
 | [OWASP Threat Modeling Project](https://owasp.github.io/www-project-threat-modeling/) | OWASP | gratuito | **B** | introdutório | Processo e métodos. | Escolher segundo o problema. |
 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) | OWASP GenAI Security Project | gratuito | **B** | intermediário | Catálogo de riscos para aplicações com LLM; ponto de partida para enumerar o que pode dar errado. | Lista de riscos não é modelo de ameaças do seu sistema. |
@@ -50,8 +61,10 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 | [Threat Model Library](https://devguide.owasp.org/en/04-design/01-threat-modeling/06-threat-model-library/) | OWASP | gratuito | **B** | intermediário | Comparar entregáveis. | Não comprova segurança local. |
 | [Threat Modeling in Practice](https://devguide.owasp.org/en/04-design/01-threat-modeling/07-practical-threat-modeling/) | OWASP | gratuito | **B** | intermediário | Aplicação iterativa. | Adaptar ao ciclo da equipe. |
 | [Threat Modeling: What, Why, and How?](https://shostack.org/resources/whitepapers/threat-modeling-what-why-how) | Adam Shostack | gratuito | **B** | intermediário | Introdução e propósito. | Aprofundar com casos. |
+| [Google Secure AI Framework (SAIF)](https://saif.google/) | Google (2023) | gratuito | **C** | introdutório | Framework conceitual de segurança para sistemas de IA. | Material de fornecedor; alto nível. |
 | [Detection Engineering Maturity Matrix](https://detectionengineering.io/) | detectionengineering.io | gratuito | **C** | intermediário | Capacidades da função de detecção. | Maturidade não equivale a eficácia. |
 | [SDL Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) | Microsoft | gratuito | **C** | intermediário | Refinamento no ciclo de vida. | Não se limita ao design inicial. |
+| [Social Engineering Framework](https://www.social-engineer.org/framework/general-discussion/) | Social-Engineer, LLC | gratuito | **C** | introdutório | Visão de princípios psicológicos de engenharia social e de defesa contra eles. | Material de fornecedor; sem revisão por pares. |
 | [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) | AWS | gratuito | **E** | intermediário | Aplicação em exercícios | Link herdado; conferir requisitos |
 | [GitLab AppSec Threat Modeling](https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/) | GitLab | gratuito | **E** | intermediário | Processo de uma equipe de produto | Link herdado retornou 404 em 24/10/2026 (handbook reorganizado); localizar o endereço atual antes de usar. Contexto específico de uma organização. |
 | [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) | Microsoft | gratuito | **E** | intermediário | Categorias de ameaça em desenho de sistemas | Link herdado; conferir versão atual |
@@ -64,8 +77,11 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 |---|---|---|---|---|---|---|
 | [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | MITRE CTID | gratuito | **A** | intermediário | Sequência de comportamentos. | Grafo não prova execução. |
 | [D3FEND](https://d3fend.mitre.org/) | MITRE | gratuito | **A** | intermediário | Técnicas e artefatos defensivos. | Mapeamento não comprova eficácia. |
+| [EPSS — Exploit Prediction Scoring System](https://www.first.org/epss/) | FIRST | gratuito | **A** | intermediário | Estimativa da probabilidade de exploração de uma vulnerabilidade em 30 dias. | Estima probabilidade, não impacto; combine com contexto do ativo. |
 | [MITRE ATLAS](https://atlas.mitre.org/) | MITRE | gratuito | **A** | intermediário | Base de conhecimento de táticas e técnicas adversárias contra sistemas de IA, no estilo ATT&CK. | Cobertura de técnicas não equivale a cobertura de detecção. |
 | [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | gratuito | **A** | introdutório | Vocabulário de comportamentos adversários observados; base para mapear hipóteses e cobertura. | Não substitui um método de modelagem; mapear somente o que a evidência sustenta. |
+| [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) | MITRE | gratuito | **A** | intermediário | Matriz de táticas e técnicas contra sistemas de controle industrial. | Cobertura depende dos relatos públicos incorporados; ambientes OT têm restrições próprias de telemetria. |
+| [MITRE Engage](https://engage.mitre.org/) | MITRE | gratuito | **A** | intermediário | Framework de engajamento adversário: engano e negação para observar e moldar o comportamento do atacante. | Orientação de planejamento; exige maturidade operacional para aplicar. |
 | [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/) | MITRE CTID | gratuito | **A** | intermediário | Robustez, decomposição e cobertura. | Medir implementações testadas, não etiquetas. |
 | [TARA — Threat Assessment and Remediation Analysis](https://www.mitre.org/news-insights/publication/threat-assessment-and-remediation-analysis-tara) | MITRE | gratuito | **A** | intermediário | Avaliar e selecionar contramedidas. | Distinguir de TARA automotiva. |
 | [Threat Modeling with ATT&CK](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/) | MITRE CTID | gratuito | **A** | intermediário | Comportamento adversário na modelagem. | ATT&CK não substitui arquitetura. |
@@ -73,6 +89,7 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 | [ATASM](https://brookschoenfield.com/?page_id=341) | Brook Schoenfield | gratuito | **B** | intermediário | Arquitetura, ameaças, superfícies e mitigação. | Adaptar ao ambiente. |
 | [LINDDUN](https://linddun.org/) | KU Leuven | gratuito | **B** | intermediário | Ameaças de privacidade. | Vai além de confidencialidade. |
 | [PLOT4ai](https://plot4.ai/) | PLOT4ai | gratuito | **B** | intermediário | Biblioteca de ameaças e baralho para threat modeling de sistemas de IA, com foco em privacidade e responsabilidade. | Verifique versão e licença do baralho antes de redistribuir. |
+| [VERIS — Vocabulary for Event Recording and Incident Sharing](https://verisframework.org/) | VERIS Community | gratuito | **B** | intermediário | Vocabulário para descrever incidentes de forma estruturada (ator, ação, ativo, atributo). | Depende de adoção consistente para gerar comparações. |
 | [STRIDE-LM](https://csf.tools/reference/stride-lm/) | CSF Tools | gratuito | **E** | intermediário | Extensão do STRIDE que acrescenta movimento lateral (Lateral Movement) às categorias. | Link herdado; confira a fonte original da extensão. |
 
 ## Livros
@@ -116,6 +133,8 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 
 | Recurso | Autoria | Acesso | Grau | Nível | Por que ler | Limite |
 |---|---|---|---|---|---|---|
+| [Words of Estimative Probability](https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf) | Sherman Kent (CIA) (1964) | gratuito | **A** | introdutório | Clássico sobre como termos como 'provável' são lidos de formas muito diferentes. | Texto histórico; a calibração numérica moderna foi refinada depois. |
+| [The Pyramid of Pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html) | David J. Bianco (2013) | gratuito | **B** | introdutório | Modelo que relaciona tipos de indicador ao custo imposto ao adversário. | Post de blog; modelo conceitual, sem validação empírica. |
 | [Detection Engineering: A Case Study — GitGuardian](https://blog.gitguardian.com/detection-engineering-case-study/) | GitGuardian | gratuito | **C** | intermediário | Exemplo de detecção de execução remota DCOM. | Telemetria e plataforma específicas. |
 | [Threat Modeling Intro — Guisso](https://guisso.dev/) | Guisso | gratuito | **D** | introdutório | Introdução em português a threat modeling, anotada nas notas de estudo do Notion. | O caminho original /posts/threat-modeling-intro/ retornou 404 em 24/10/2026; apontamos para a raiz do site até localizar o novo endereço. |
 | [DREAD — Threat Model Your Security Risks](https://learn.microsoft.com/en-us/archive/msdn-magazine/2003/november/resource-file-threat-model-your-security-risks) | Microsoft (MSDN Magazine) (2003) | gratuito | **E** | intermediário | Artigo histórico que descreve a pontuação DREAD. | Arquivo de 2003; pontuações subjetivas. Preservado por referência histórica, sem recomendação de adoção. |
@@ -144,18 +163,33 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 | Recurso | Autoria | Acesso | Grau | Nível | Por que ler | Limite |
 |---|---|---|---|---|---|---|
 | [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) | MITRE | gratuito | **A** | intermediário | Interface para anotar e visualizar camadas da matriz ATT&CK (cobertura, hipóteses, priorização). | Camada colorida não comprova detecção. |
+| [cti-python-stix2](https://github.com/oasis-open/cti-python-stix2) | OASIS Open | gratuito | **A** | intermediário | Biblioteca Python oficial para criar, ler e manipular objetos STIX 2. | Ferramenta listada, não avaliada por este repositório. |
 | [CTID Adversary Emulation Library](https://ctid.mitre.org/resources/adversary-emulation-library/) | MITRE CTID | gratuito | **A** | intermediário | Planos de emulação. | Adaptar pré-condições ao laboratório. |
 | [CTID Micro Emulation Plans](https://ctid.mitre.org/projects/micro-emulation-plans/) | MITRE CTID | gratuito | **A** | intermediário | Validação de recortes. | Conclusões limitadas ao exercitado. |
+| [mitreattack-python](https://github.com/mitre-attack/mitreattack-python) | MITRE ATT&CK | gratuito | **A** | intermediário | Biblioteca Python para consultar o ATT&CK e gerar camadas do Navigator. | Ferramenta listada, não avaliada por este repositório. |
+| [OpenSSF Scorecard](https://github.com/ossf/scorecard) | OpenSSF | gratuito | **A** | intermediário | Verificações automatizadas de práticas de segurança em repositórios open source. | Ferramenta listada, não avaliada; a pontuação é um indicador, não prova. |
+| [pySigma](https://github.com/SigmaHQ/pySigma) | SigmaHQ | gratuito | **A** | avançado | Biblioteca Python para parsear, validar e converter regras Sigma. | Ferramenta listada, não avaliada; backends variam em maturidade. |
 | [BZAR](https://github.com/mitre-attack/bzar) | MITRE ATT&CK | gratuito | **B** | intermediário | Análise de rede com Zeek. | Revisar compatibilidade de versões. |
 | [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw) | WithSecure | gratuito | **B** | intermediário | Análise EVTX / Sigma. | Verificar campos e compatibilidade. |
 | [Elastic Detection Rules](https://github.com/elastic/detection-rules) | Elastic | gratuito | **B** | intermediário | Desenvolvimento e validação de regras. | Lint não comprova eficácia. |
+| [Hayabusa](https://github.com/Yamato-Security/hayabusa) | Yamato Security | gratuito | **B** | intermediário | Timeline e caça a ameaças em logs EVTX do Windows com regras Sigma. | Ferramenta listada, não avaliada. |
+| [Maigret](https://github.com/soxoj/maigret) | soxoj | gratuito | **B** | introdutório | Coleta de dossiê por nome de usuário em milhares de sites (Python). | Ferramenta listada, não avaliada; resultados exigem verificação contra homônimos. |
+| [MISP](https://www.misp-project.org/) | MISP Project | gratuito | **B** | intermediário | Plataforma aberta para compartilhamento de indicadores e inteligência estruturada. | Ferramenta listada, não avaliada; qualidade depende das fontes alimentadas. |
+| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Filigran / OpenCTI Platform | gratuito | **B** | intermediário | Plataforma de conhecimento de CTI baseada em STIX 2.1, com grafo e conectores. | Ferramenta listada, não avaliada; exige infraestrutura para operar. |
 | [OTRF SimuLand](https://github.com/OTRF/SimuLand) | Open Threat Research Forge (OTRF) | gratuito | **B** | intermediário | Infraestrutura e coleta. | Configuração influencia rastros. |
 | [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) | OWASP | gratuito | **B** | introdutório | Ferramenta open source de diagramação e geração de ameaças (STRIDE e outras). | Ferramenta de apoio; a qualidade do modelo depende do desenho. |
 | [Palantir ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework) | Palantir | gratuito | **B** | intermediário | Documentar estratégia de detecção. | Registrar resposta e limitações. |
 | [pytm](https://github.com/OWASP/pytm) | OWASP | gratuito | **B** | intermediário | Framework Python para descrever o sistema em código e gerar diagramas e ameaças. | Biblioteca de ameaças generalista; adapte ao seu contexto. |
+| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Tim Tomes | gratuito | **B** | intermediário | Framework modular de reconhecimento web em Python. | Ferramenta listada, não avaliada; use apenas com autorização. |
+| [Sherlock](https://github.com/sherlock-project/sherlock) | Sherlock Project | gratuito | **B** | introdutório | Busca de contas por nome de usuário em redes sociais (Python). | Ferramenta listada, não avaliada; falsos positivos são comuns. |
 | [Sigma Rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | gratuito | **B** | intermediário | Regras compartilháveis. | Mapear campos e avaliar benignos. |
+| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Steve Micallef | gratuito | **B** | intermediário | Automação OSINT em Python para reconhecimento de domínios, IPs e identidades. | Ferramenta listada, não avaliada; use apenas com autorização sobre o alvo. |
+| [sysmon-modular](https://github.com/olafhartong/sysmon-modular) | Olaf Hartong | gratuito | **B** | intermediário | Configuração modular de Sysmon mapeada ao ATT&CK. | Ferramenta listada, não avaliada; ajuste de volume é necessário. |
+| [theHarvester](https://github.com/laramies/theHarvester) | Christian Martorella | gratuito | **B** | introdutório | Coleta de e-mails, subdomínios e nomes a partir de fontes públicas (Python). | Ferramenta listada, não avaliada; depende de chaves de API de terceiros. |
 | [Threagile](https://threagile.io/) | Christian Schneider | gratuito | **B** | intermediário | Threat modeling como código: o modelo em YAML gera riscos e relatórios. | Regras de risco embutidas exigem curadoria para o seu contexto. |
 | [Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook) | Open Threat Research Forge (OTRF) | gratuito | **B** | intermediário | Notebooks de hipótese, consultas e evidências. | Revisar dependências antes de executar. |
+| [Velociraptor](https://github.com/Velocidex/velociraptor) | Velocidex | gratuito | **B** | avançado | Plataforma de coleta forense e caça em endpoints com consultas VQL. | Ferramenta listada, não avaliada; exige cuidado com escopo e privacidade. |
+| [YARA](https://virustotal.github.io/yara/) | VirusTotal | gratuito | **B** | intermediário | Linguagem de regras para identificar e classificar malware por padrões. | Regras ruins geram falsos positivos; ferramenta listada, não avaliada. |
 | [Anvilogic](https://www.anvilogic.com/) | Anvilogic | gratuito | **C** | intermediário | Plataforma comercial de detecção e hunting listada para estudo comparativo. | Material de fornecedor; não avaliado por este repositório. |
 | [Atomic Red Team](https://www.atomicredteam.io/docs/atomic-red-team) | Atomic Red Team (Red Canary e comunidade) | gratuito | **C** | intermediário | Testes individuais. | Teste atômico não cobre campanha. |
 | [Elastic — Validate and test rules](https://www.elastic.co/docs/solutions/security/detect-and-alert/validate-and-test-rules) | Elastic | gratuito | **C** | intermediário | Categorias de testes. | Distinguir schema, lógica e ponta a ponta. |
@@ -169,6 +203,9 @@ Cada linha traz o **grau da fonte** (A–E, [o que significa](METODOLOGIA.md#gra
 
 | Recurso | Autoria | Acesso | Grau | Nível | Por que ler | Limite |
 |---|---|---|---|---|---|---|
+| [ATT&CK STIX Data](https://github.com/mitre-attack/attack-stix-data) | MITRE ATT&CK | gratuito | **A** | intermediário | Dados do ATT&CK em STIX 2.1, base para automação e mapeamentos. | Repositório de dados; requer conhecimento do modelo STIX. |
+| [CAPEC — Common Attack Pattern Enumeration and Classification](https://capec.mitre.org/) | MITRE | gratuito | **A** | intermediário | Catálogo de padrões de ataque, útil para enumerar ameaças a partir do desenho do sistema. | Foco em padrões genéricos; não mede prevalência nem cobertura de detecção. |
+| [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | CISA | gratuito | **A** | introdutório | Catálogo de vulnerabilidades com exploração ativa confirmada. | Cobertura enviesada para o escopo de interesse do governo dos EUA. |
 | [NIST 800-53 Controls to ATT&CK Mapping](https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/nist-800-53-control-mappings/) | MITRE Engenuity CTID | gratuito | **A** | intermediário | Mapeamento entre controles do NIST 800-53 e técnicas do ATT&CK. | Mapeamento não comprova eficácia do controle. |
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | Samir Bousseaden | gratuito | **B** | intermediário | Eventos Windows gravados. | Replay não valida coleta atual. |
 | [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection) | Ridd1kulusC0d3r | gratuito | **B** | intermediário | Panorama de ameaças a sistemas LLM e agênticos, com evidência, graus de fonte e níveis de confiança por afirmação. | Projeto irmão; mesma metodologia de graus A–E. |

@@ -32,6 +32,7 @@ EN_TOPICS = {
     "ics-cps": "ICS and cyber-physical systems", "privacy": "Privacy", "psychology": "Psychology, bias and analysis",
     "emulation": "Adversary emulation", "provenance": "Provenance and graphs", "cloud": "Cloud",
     "supply-chain": "Supply chain",
+    "osint": "OSINT",
 }
 EN_GRADES = {
     "A": "Primary or institutional: standard, public body, peer-reviewed or the method's maintainer.",
