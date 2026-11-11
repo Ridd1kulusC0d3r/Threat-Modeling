@@ -75,7 +75,8 @@
           "emulation",
           "provenance",
           "cloud",
-          "supply-chain"
+          "supply-chain",
+          "osint"
         ]
       }
     },

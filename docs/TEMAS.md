@@ -6,20 +6,23 @@
 
 | Tema | Recursos |
 |---|---|
-| [Modelagem de ameaças](#modelagem-de-ameaças) | 64 |
-| [Engenharia de detecção](#engenharia-de-detecção) | 31 |
-| [Inteligência de ameaças (CTI)](#inteligência-de-ameaças-cti) | 35 |
-| [APT e campanhas persistentes](#apt-e-campanhas-persistentes) | 5 |
-| [IA e sistemas agênticos](#ia-e-sistemas-agênticos) | 7 |
-| [ICS e sistemas ciberfísicos](#ics-e-sistemas-ciberfísicos) | 3 |
+| [Modelagem de ameaças](#modelagem-de-ameaças) | 71 |
+| [Engenharia de detecção](#engenharia-de-detecção) | 39 |
+| [Inteligência de ameaças (CTI)](#inteligência-de-ameaças-cti) | 50 |
+| [APT e campanhas persistentes](#apt-e-campanhas-persistentes) | 6 |
+| [IA e sistemas agênticos](#ia-e-sistemas-agênticos) | 12 |
+| [ICS e sistemas ciberfísicos](#ics-e-sistemas-ciberfísicos) | 4 |
 | [Privacidade](#privacidade) | 3 |
-| [Psicologia, vieses e análise](#psicologia-vieses-e-análise) | 2 |
-| [Emulação adversária](#emulação-adversária) | 8 |
+| [Psicologia, vieses e análise](#psicologia-vieses-e-análise) | 6 |
+| [Emulação adversária](#emulação-adversária) | 9 |
 | [Proveniência e grafos](#proveniência-e-grafos) | 4 |
 | [Nuvem](#nuvem) | 3 |
+| [Cadeia de suprimentos](#cadeia-de-suprimentos) | 2 |
+| [OSINT e fontes abertas](#osint-e-fontes-abertas) | 8 |
 
 ## Modelagem de ameaças
 
+- [NIST AI 100-2 — Adversarial Machine Learning Taxonomy](https://csrc.nist.gov/pubs/ai/100/2/e2025/final) **[A]** — Taxonomia e terminologia de ataques e mitigações em aprendizado de máquina adversarial. _(guias, gratuito)_
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) **[A]** — Estrutura de gestão de cibersegurança. _(guias, gratuito)_
 - [Shifting the Balance of Cybersecurity Risk](https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf) **[A]** — Segurança desde o projeto. _(guias, gratuito)_
 - [A review of threat modelling approaches for APT-style attacks](https://doi.org/10.1016/j.heliyon.2021.e05969) **[A]** — Revisão de abordagens de modelagem de ameaças para ataques do tipo APT (Heliyon). _(papers, acesso aberto)_
@@ -29,12 +32,15 @@
 - [NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final) **[A]** — Processo de avaliação de risco. _(guias, gratuito)_
 - [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) **[A]** — Sequência de comportamentos. _(métodos, gratuito)_
 - [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[A]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
+- [CAPEC — Common Attack Pattern Enumeration and Classification](https://capec.mitre.org/) **[A]** — Catálogo de padrões de ataque, útil para enumerar ameaças a partir do desenho do sistema. _(datasets, gratuito)_
 - [D3FEND](https://d3fend.mitre.org/) **[A]** — Técnicas e artefatos defensivos. _(métodos, gratuito)_
 - [Developing Cyber-Resilient Systems](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final) **[A]** — Engenharia de resiliência. _(guias, gratuito)_
 - [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) **[A]** — Categorias de ameaça em desenho de sistemas _(guias, gratuito)_
+- [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) **[A]** — Matriz de táticas e técnicas contra sistemas de controle industrial. _(métodos, gratuito)_
 - [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) **[A]** — Catálogo de controles de segurança e privacidade. _(guias, gratuito)_
 - [NIST SSDF — Secure Software Development Framework](https://csrc.nist.gov/projects/ssdf) **[A]** — Práticas de desenvolvimento seguro ao longo do ciclo de vida de software. _(guias, gratuito)_
 - [SDL Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) **[A]** — Refinamento no ciclo de vida. _(guias, gratuito)_
+- [SLSA — Supply-chain Levels for Software Artifacts](https://slsa.dev/) **[A]** — Framework de níveis de integridade e proveniência para artefatos de software. _(guias, gratuito)_
 - [TARA — Threat Assessment and Remediation Analysis](https://www.mitre.org/news-insights/publication/threat-assessment-and-remediation-analysis-tara) **[A]** — Avaliar e selecionar contramedidas. _(métodos, gratuito)_
 - [Threat Modeling with ATT&CK](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/) **[A]** — Comportamento adversário na modelagem. _(métodos, gratuito)_
 - [Threat Modeling with ATT&CK — BSides Connecticut](https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/presentations/tmwa-bsides-ct.pdf) **[A]** — Slides CTID. _(conferências, gratuito)_
@@ -62,6 +68,7 @@
 - [enterpriseLang (MAL)](https://github.com/mal-lang/enterpriselang) **[B]** — Linguagem para simular caminhos de ataque em arquiteturas corporativas. _(ferramentas, gratuito)_
 - [Keynote \| Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience](https://www.youtube.com/watch?v=R49Cv7pJ2KA) **[B]** — Keynote gravada sobre modelagem de ameaças para sistemas de IA agêntica. _(conferências, gratuito)_
 - [LINDDUN](https://linddun.org/) **[B]** — Ameaças de privacidade. _(métodos, gratuito)_
+- [OWASP AI Exchange](https://owaspai.org/) **[B]** — Guia colaborativo de ameaças e controles para sistemas de IA. _(guias, gratuito)_
 - [OWASP Developer Guide — Threat Modeling](https://devguide.owasp.org/en/04-design/01-threat-modeling/) **[B]** — Relacionar modelagem ao desenvolvimento; fonte localizada nesta edição _(guias, gratuito)_
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) **[B]** — Ferramenta open source de diagramação e geração de ameaças (STRIDE e outras). _(ferramentas, gratuito)_
 - [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) **[B]** — Entender o processo e suas perguntas fundamentais; fonte consultada nesta edição _(guias, gratuito)_
@@ -73,10 +80,12 @@
 - [Threat Modeling LLMs: The PHANTOM-B model](https://shostack.org/blackhat) **[B]** — Página do autor; agenda Black Hat / DEF CON AppSec Village 2026 e links de material. _(conferências, gratuito)_
 - [Threat Modeling: What, Why, and How?](https://shostack.org/resources/whitepapers/threat-modeling-what-why-how) **[B]** — Introdução e propósito. _(guias, gratuito)_
 - [ThreatModCon](https://www.threatmodcon.com/) **[B]** — Conferência dedicada exclusivamente a threat modeling; fonte de talks para extrair ideias e exercícios. _(conferências, gratuito)_
+- [VERIS — Vocabulary for Event Recording and Incident Sharing](https://verisframework.org/) **[B]** — Vocabulário para descrever incidentes de forma estruturada (ator, ação, ativo, atributo). _(métodos, gratuito)_
 - [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) **[C]** — Aplicação em exercícios _(guias, gratuito)_
 - [CTI Academy](https://ctiacademy.io/) **[C]** — Plataforma de estudo para perfilamento de ameaças (threat profiling) e inteligência; módulos com lições online. _(cursos, parcial)_
 - [GitLab AppSec Threat Modeling](https://handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/application-security/runbooks/threat-modeling/) **[C]** — Processo de uma equipe de produto _(guias, gratuito)_
 - [PASTA — VerSprite](https://versprite.com/blog/what-is-pasta-threat-modeling/) **[C]** — Abordagem orientada a risco e análise de ataques _(guias, gratuito)_
+- [Social Engineering Framework](https://www.social-engineer.org/framework/general-discussion/) **[C]** — Visão de princípios psicológicos de engenharia social e de defesa contra eles. _(guias, gratuito)_
 - [Threat Modeling Connect — On Demand](https://www.threatmodelingconnect.com/resources/on-demand) **[C]** — Acervo de experiências e apresentações. _(conferências, gratuito)_
 - [Tidal Cyber](https://www.tidalcyber.com/) **[C]** — Plataforma de threat-informed defense que operacionaliza ATT&CK; listada para estudo comparativo. _(ferramentas, gratuito)_
 - [MITRE ATT&CK: Threat Model Thursday](https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/) **[D]** — Avaliar abordagem CTID. _(guias, gratuito)_
@@ -89,24 +98,32 @@
 
 - [HOLMES: Real-Time APT Detection through Correlation of Suspicious Information Flows](https://www.seclab.cs.sunysb.edu/seclab/pubs/holmes19.pdf) **[A]** — Fluxos e correlação contextual. _(papers, gratuito)_
 - [ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/) **[A]** — Estratégias por comportamento. _(guias, gratuito)_
+- [ATT&CK STIX Data](https://github.com/mitre-attack/attack-stix-data) **[A]** — Dados do ATT&CK em STIX 2.1, base para automação e mapeamentos. _(datasets, gratuito)_
 - [BZAR](https://github.com/mitre-attack/bzar) **[A]** — Análise de rede com Zeek. _(ferramentas, gratuito)_
 - [CTID Adversary Emulation Library](https://ctid.mitre.org/resources/adversary-emulation-library/) **[A]** — Planos de emulação. _(ferramentas, gratuito)_
 - [CTID Micro Emulation Plans](https://ctid.mitre.org/projects/micro-emulation-plans/) **[A]** — Validação de recortes. _(ferramentas, gratuito)_
 - [Minimum Telemetry Requirements](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/data-readiness/min-telemetry-reqs/) **[A]** — Requisitos mínimos de dados. _(guias, gratuito)_
+- [mitreattack-python](https://github.com/mitre-attack/mitreattack-python) **[A]** — Biblioteca Python para consultar o ATT&CK e gerar camadas do Navigator. _(ferramentas, gratuito)_
+- [pySigma](https://github.com/SigmaHQ/pySigma) **[A]** — Biblioteca Python para parsear, validar e converter regras Sigma. _(ferramentas, gratuito)_
 - [Sensor Mappings to ATT&CK](https://center-for-threat-informed-defense.github.io/sensor-mappings-to-attack/) **[A]** — Sensores, eventos e visibilidade. _(guias, gratuito)_
 - [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/) **[A]** — Robustez, decomposição e cobertura. _(métodos, gratuito)_
 - [Threat Modeling: A Practical Guide for Development Teams](https://www.oreilly.com/library/view/threat-modeling/9781492056546/) **[B]** — Automação e modelagem contínua. _(livros, pago)_
+- [The Pyramid of Pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html) **[B]** — Modelo que relaciona tipos de indicador ao custo imposto ao adversário. _(artigos, gratuito)_
 - [Automating Security Detection Engineering](https://github.com/PacktPublishing/Automating-Security-Detection-Engineering) **[B]** — Detection as Code e pipelines. _(livros, pago)_
 - [DeTT&CT](https://github.com/rabobank-cdc/DeTTECT) **[B]** — Visibilidade e qualidade de fontes de dados por técnica ATT&CK. _(ferramentas, gratuito)_
 - [DeTT&CT — Data quality](https://github.com/rabobank-cdc/DeTTECT/wiki/data-quality-scoring) **[B]** — Completude, atraso, consistência e retenção. _(guias, gratuito)_
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) **[B]** — Eventos Windows gravados. _(datasets, gratuito)_
+- [Hayabusa](https://github.com/Yamato-Security/hayabusa) **[B]** — Timeline e caça a ameaças em logs EVTX do Windows com regras Sigma. _(ferramentas, gratuito)_
 - [OTRF Security Datasets](https://github.com/OTRF/Security-Datasets) **[B]** — Dados maliciosos e benignos. _(datasets, gratuito)_
 - [OTRF SimuLand](https://github.com/OTRF/SimuLand) **[B]** — Infraestrutura e coleta. _(ferramentas, gratuito)_
 - [Palantir ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework) **[B]** — Documentar estratégia de detecção. _(ferramentas, gratuito)_
 - [Practical Threat Detection Engineering](https://github.com/PacktPublishing/Practical-Threat-Detection-Engineering) **[B]** — Planejar, desenvolver e validar. _(livros, pago)_
 - [Sigma Correlation Specification](https://sigmahq.io/sigma-specification/specification/sigma-correlation-rules-specification.html) **[B]** — Agrupamento, contagem e ordem temporal. _(guias, gratuito)_
 - [Sigma Rules](https://github.com/SigmaHQ/sigma) **[B]** — Regras compartilháveis. _(ferramentas, gratuito)_
+- [sysmon-modular](https://github.com/olafhartong/sysmon-modular) **[B]** — Configuração modular de Sysmon mapeada ao ATT&CK. _(ferramentas, gratuito)_
 - [Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook) **[B]** — Notebooks de hipótese, consultas e evidências. _(ferramentas, gratuito)_
+- [Velociraptor](https://github.com/Velocidex/velociraptor) **[B]** — Plataforma de coleta forense e caça em endpoints com consultas VQL. _(ferramentas, gratuito)_
+- [YARA](https://virustotal.github.io/yara/) **[B]** — Linguagem de regras para identificar e classificar malware por padrões. _(ferramentas, gratuito)_
 - [Anvilogic](https://www.anvilogic.com/) **[C]** — Plataforma comercial de detecção e hunting listada para estudo comparativo. _(ferramentas, gratuito)_
 - [Atomic Red Team](https://www.atomicredteam.io/docs/atomic-red-team) **[C]** — Testes individuais. _(ferramentas, gratuito)_
 - [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw) **[C]** — Análise EVTX / Sigma. _(ferramentas, gratuito)_
@@ -123,21 +140,29 @@
 
 - [ATT&CK-based Advanced Persistent Threat attacks risk propagation assessment model for zero trust networks](https://doi.org/10.1016/j.comnet.2024.110376) **[A]** — Modelo de avaliação de propagação de risco de APTs baseado em ATT&CK para redes zero trust (Computer Networks). _(papers, gratuito)_
 - [FIRST CVSS v4.0 — Specification](https://www.first.org/cvss/v4.0/specification-document) **[A]** — Severidade técnica de vulnerabilidades. _(guias, gratuito)_
+- [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) **[A]** — Padrão para sinalizar os limites de compartilhamento de informação sensível. _(guias, gratuito)_
 - [Cyber security threat modeling based on the MITRE Enterprise ATT&CK Matrix](https://doi.org/10.1007/s10270-021-00898-7) **[A]** — enterpriseLang/MAL, ativos e caminhos. _(papers, acesso aberto)_
+- [STIX 2.1 Specification](https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html) **[A]** — Padrão para representar objetos e relações de inteligência de ameaças. _(guias, gratuito)_
+- [ICD 203 — Analytic Standards](https://www.dni.gov/files/documents/ICD/ICD-203.pdf) **[A]** — Padrões de análise de inteligência: incerteza, fontes, alternativas e linguagem de probabilidade. _(guias, gratuito)_
 - [A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis](https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf) **[A]** — Técnicas estruturadas de análise para desafiar julgamentos, expor modelos mentais e lidar com incerteza; inclui verificação de premissas e análise de hipóteses concorrentes. _(guias, gratuito)_
 - [Psychology of Intelligence Analysis](https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/) **[A]** — Vieses, hipóteses e incerteza. _(livros, gratuito)_
+- [Words of Estimative Probability](https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf) **[A]** — Clássico sobre como termos como 'provável' são lidos de formas muito diferentes. _(artigos, gratuito)_
 - [ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/) **[A]** — Estratégias por comportamento. _(guias, gratuito)_
 - [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) **[A]** — Interface para anotar e visualizar camadas da matriz ATT&CK (cobertura, hipóteses, priorização). _(ferramentas, gratuito)_
+- [ATT&CK STIX Data](https://github.com/mitre-attack/attack-stix-data) **[A]** — Dados do ATT&CK em STIX 2.1, base para automação e mapeamentos. _(datasets, gratuito)_
 - [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) **[A]** — Sequência de comportamentos. _(métodos, gratuito)_
 - [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[A]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
 - [CERT/CC SSVC](https://certcc.github.io/SSVC/) **[A]** — Priorização de vulnerabilidades por árvore de decisão. _(métodos, gratuito)_
-- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) **[A]** — Vulnerabilidades com exploração confirmada. _(guias, gratuito)_
+- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) **[A]** — Catálogo de vulnerabilidades com exploração ativa confirmada. _(datasets, gratuito)_
+- [cti-python-stix2](https://github.com/oasis-open/cti-python-stix2) **[A]** — Biblioteca Python oficial para criar, ler e manipular objetos STIX 2. _(ferramentas, gratuito)_
 - [CTID Adversary Emulation Library](https://ctid.mitre.org/resources/adversary-emulation-library/) **[A]** — Planos de emulação. _(ferramentas, gratuito)_
 - [CTID Micro Emulation Plans](https://ctid.mitre.org/projects/micro-emulation-plans/) **[A]** — Validação de recortes. _(ferramentas, gratuito)_
 - [D3FEND](https://d3fend.mitre.org/) **[A]** — Técnicas e artefatos defensivos. _(métodos, gratuito)_
-- [FIRST EPSS](https://www.first.org/epss/) **[A]** — Probabilidade de exploração de vulnerabilidades. _(guias, gratuito)_
+- [FIRST EPSS](https://www.first.org/epss/) **[A]** — Estimativa da probabilidade de exploração de uma vulnerabilidade em 30 dias. _(métodos, gratuito)_
 - [MITRE ATLAS](https://atlas.mitre.org/) **[A]** — Base de conhecimento de táticas e técnicas adversárias contra sistemas de IA, no estilo ATT&CK. _(métodos, gratuito)_
 - [MITRE ATT&CK](https://attack.mitre.org/) **[A]** — Vocabulário de comportamentos adversários observados; base para mapear hipóteses e cobertura. _(métodos, gratuito)_
+- [MITRE Engage](https://engage.mitre.org/) **[A]** — Framework de engajamento adversário: engano e negação para observar e moldar o comportamento do atacante. _(métodos, gratuito)_
+- [mitreattack-python](https://github.com/mitre-attack/mitreattack-python) **[A]** — Biblioteca Python para consultar o ATT&CK e gerar camadas do Navigator. _(ferramentas, gratuito)_
 - [NIST 800-53 Controls to ATT&CK Mapping](https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/nist-800-53-control-mappings/) **[A]** — Mapeamento entre controles do NIST 800-53 e técnicas do ATT&CK. _(datasets, gratuito)_
 - [Sensor Mappings to ATT&CK](https://center-for-threat-informed-defense.github.io/sensor-mappings-to-attack/) **[A]** — Sensores, eventos e visibilidade. _(guias, gratuito)_
 - [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/) **[A]** — Robustez, decomposição e cobertura. _(métodos, gratuito)_
@@ -150,8 +175,15 @@
 - [Intelligence-Driven Incident Response](https://www.oreilly.com/library/view/intelligence-driven-incident-response/9781098120672/) **[B]** — Inteligência e operação. _(livros, pago)_
 - [POIROT: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting](https://arxiv.org/abs/1910.00056) **[B]** — Grafo de CTI e proveniência. _(papers, preprint)_
 - [The Diamond Model of Intrusion Analysis](https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf) **[B]** — Adversário, capacidade, infraestrutura e vítima. _(papers, gratuito)_
+- [The Pyramid of Pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html) **[B]** — Modelo que relaciona tipos de indicador ao custo imposto ao adversário. _(artigos, gratuito)_
 - [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf) **[B]** — Campanhas e interrupção de ataques. _(papers, gratuito)_
 - [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection) **[B]** — Panorama de ameaças a sistemas LLM e agênticos, com evidência, graus de fonte e níveis de confiança por afirmação. _(datasets, gratuito)_
+- [MISP](https://www.misp-project.org/) **[B]** — Plataforma aberta para compartilhamento de indicadores e inteligência estruturada. _(ferramentas, gratuito)_
+- [OpenCTI](https://github.com/OpenCTI-Platform/opencti) **[B]** — Plataforma de conhecimento de CTI baseada em STIX 2.1, com grafo e conectores. _(ferramentas, gratuito)_
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) **[B]** — Automação OSINT em Python para reconhecimento de domínios, IPs e identidades. _(ferramentas, gratuito)_
+- [Velociraptor](https://github.com/Velocidex/velociraptor) **[B]** — Plataforma de coleta forense e caça em endpoints com consultas VQL. _(ferramentas, gratuito)_
+- [VERIS — Vocabulary for Event Recording and Incident Sharing](https://verisframework.org/) **[B]** — Vocabulário para descrever incidentes de forma estruturada (ator, ação, ativo, atributo). _(métodos, gratuito)_
+- [YARA](https://virustotal.github.io/yara/) **[B]** — Linguagem de regras para identificar e classificar malware por padrões. _(ferramentas, gratuito)_
 - [Anvilogic](https://www.anvilogic.com/) **[C]** — Plataforma comercial de detecção e hunting listada para estudo comparativo. _(ferramentas, gratuito)_
 - [CTI Academy](https://ctiacademy.io/) **[C]** — Plataforma de estudo para perfilamento de ameaças (threat profiling) e inteligência; módulos com lições online. _(cursos, parcial)_
 - [Tidal Cyber](https://www.tidalcyber.com/) **[C]** — Plataforma de threat-informed defense que operacionaliza ATT&CK; listada para estudo comparativo. _(ferramentas, gratuito)_
@@ -162,22 +194,29 @@
 - [ATT&CK-based Advanced Persistent Threat attacks risk propagation assessment model for zero trust networks](https://doi.org/10.1016/j.comnet.2024.110376) **[A]** — Modelo de avaliação de propagação de risco de APTs baseado em ATT&CK para redes zero trust (Computer Networks). _(papers, gratuito)_
 - [A review of threat modelling approaches for APT-style attacks](https://doi.org/10.1016/j.heliyon.2021.e05969) **[A]** — Revisão de abordagens de modelagem de ameaças para ataques do tipo APT (Heliyon). _(papers, acesso aberto)_
 - [HOLMES: Real-Time APT Detection through Correlation of Suspicious Information Flows](https://www.seclab.cs.sunysb.edu/seclab/pubs/holmes19.pdf) **[A]** — Fluxos e correlação contextual. _(papers, gratuito)_
+- [CAPEC — Common Attack Pattern Enumeration and Classification](https://capec.mitre.org/) **[A]** — Catálogo de padrões de ataque, útil para enumerar ameaças a partir do desenho do sistema. _(datasets, gratuito)_
 - [HOLMES — IEEE S&P 2019](https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Sadegh_Momeni_-_13-Sadegh-Momeni-Real_time_APT_Detection_through_Correlation_of_Suspicious_Information_Flows.pdf) **[A]** — Slides de pesquisa. _(conferências, gratuito)_
 - [UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats](https://arxiv.org/abs/2001.01525) **[B]** — Anomalias e proveniência. _(papers, preprint)_
 
 ## IA e sistemas agênticos
 
+- [NIST AI 100-2 — Adversarial Machine Learning Taxonomy](https://csrc.nist.gov/pubs/ai/100/2/e2025/final) **[A]** — Taxonomia e terminologia de ataques e mitigações em aprendizado de máquina adversarial. _(guias, gratuito)_
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) **[A]** — Framework voluntário para gerenciar riscos de sistemas de IA. _(guias, gratuito)_
 - [MITRE ATLAS](https://atlas.mitre.org/) **[A]** — Base de conhecimento de táticas e técnicas adversárias contra sistemas de IA, no estilo ATT&CK. _(métodos, gratuito)_
 - [MAESTRO — Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) **[B]** — Framework em camadas para modelar ameaças a sistemas de IA agêntica. _(métodos, gratuito)_
 - [Keynote \| Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience](https://www.youtube.com/watch?v=R49Cv7pJ2KA) **[B]** — Keynote gravada sobre modelagem de ameaças para sistemas de IA agêntica. _(conferências, gratuito)_
 - [LLMInjection](https://github.com/Ridd1kulusC0d3r/LLmInjection) **[B]** — Panorama de ameaças a sistemas LLM e agênticos, com evidência, graus de fonte e níveis de confiança por afirmação. _(datasets, gratuito)_
+- [OWASP AI Exchange](https://owaspai.org/) **[B]** — Guia colaborativo de ameaças e controles para sistemas de IA. _(guias, gratuito)_
+- [OWASP GenAI Security Project](https://genai.owasp.org/) **[B]** — Hub de listas Top 10 e guias para LLMs e aplicações agênticas. _(guias, gratuito)_
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) **[B]** — Catálogo de riscos para aplicações com LLM; ponto de partida para enumerar o que pode dar errado. _(guias, gratuito)_
 - [PLOT4ai](https://plot4.ai/) **[B]** — Biblioteca de ameaças e baralho para threat modeling de sistemas de IA, com foco em privacidade e responsabilidade. _(métodos, gratuito)_
 - [Threat Modeling LLMs: The PHANTOM-B model](https://shostack.org/blackhat) **[B]** — Página do autor; agenda Black Hat / DEF CON AppSec Village 2026 e links de material. _(conferências, gratuito)_
+- [Google Secure AI Framework (SAIF)](https://saif.google/) **[C]** — Framework conceitual de segurança para sistemas de IA. _(guias, gratuito)_
 
 ## ICS e sistemas ciberfísicos
 
 - [Building Space Attack Chains using SPARTA](https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf) **[A]** — Aerospace Village, DEF CON 2023; slides. _(conferências, gratuito)_
+- [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) **[A]** — Matriz de táticas e técnicas contra sistemas de controle industrial. _(métodos, gratuito)_
 - [Security Modelling for Cyber-Physical Systems: A Systematic Literature Review](https://arxiv.org/abs/2404.07527) **[B]** — Ameaças versus ataques em CPS. _(papers, preprint)_
 - [Threat Modeling of Cyber-Physical Systems in Practice](https://arxiv.org/abs/2103.04226) **[B]** — Prática e atualização de modelos CPS. _(papers, preprint)_
 
@@ -189,13 +228,18 @@
 
 ## Psicologia, vieses e análise
 
+- [Berkeley Protocol on Digital Open Source Investigations](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source) **[A]** — Padrões profissionais e éticos para coleta, preservação e verificação de evidência digital aberta. _(guias, gratuito)_
+- [ICD 203 — Analytic Standards](https://www.dni.gov/files/documents/ICD/ICD-203.pdf) **[A]** — Padrões de análise de inteligência: incerteza, fontes, alternativas e linguagem de probabilidade. _(guias, gratuito)_
 - [A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis](https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf) **[A]** — Técnicas estruturadas de análise para desafiar julgamentos, expor modelos mentais e lidar com incerteza; inclui verificação de premissas e análise de hipóteses concorrentes. _(guias, gratuito)_
 - [Psychology of Intelligence Analysis](https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/) **[A]** — Vieses, hipóteses e incerteza. _(livros, gratuito)_
+- [Words of Estimative Probability](https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf) **[A]** — Clássico sobre como termos como 'provável' são lidos de formas muito diferentes. _(artigos, gratuito)_
+- [Social Engineering Framework](https://www.social-engineer.org/framework/general-discussion/) **[C]** — Visão de princípios psicológicos de engenharia social e de defesa contra eles. _(guias, gratuito)_
 
 ## Emulação adversária
 
 - [CTID Adversary Emulation Library](https://ctid.mitre.org/resources/adversary-emulation-library/) **[A]** — Planos de emulação. _(ferramentas, gratuito)_
 - [CTID Micro Emulation Plans](https://ctid.mitre.org/projects/micro-emulation-plans/) **[A]** — Validação de recortes. _(ferramentas, gratuito)_
+- [MITRE Engage](https://engage.mitre.org/) **[A]** — Framework de engajamento adversário: engano e negação para observar e moldar o comportamento do atacante. _(métodos, gratuito)_
 - [The Procedural Semantics Gap in Structured CTI: A Measurement-Driven STIX Analysis for APT Emulation](https://arxiv.org/abs/2512.12078) **[B]** — Ordem, pré-condições e suposições. _(papers, preprint)_
 - [Red Team Redemption: A Structured Comparison of Open-Source Tools for Adversary Emulation](https://arxiv.org/abs/2408.15645) **[B]** — Critérios de seleção de emulação. _(papers, preprint)_
 - [OTRF SimuLand](https://github.com/OTRF/SimuLand) **[B]** — Infraestrutura e coleta. _(ferramentas, gratuito)_
@@ -215,3 +259,19 @@
 - [AWS Threat Composer](https://github.com/awslabs/threat-composer) **[B]** — Declarações de ameaça estruturadas e mitigação, em ferramenta de código aberto. _(ferramentas, gratuito)_
 - [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) **[C]** — Aplicação em exercícios _(guias, gratuito)_
 - [Stratus Red Team](https://stratus-red-team.cloud/) **[C]** — Emulação em nuvem. _(ferramentas, gratuito)_
+
+## Cadeia de suprimentos
+
+- [OpenSSF Scorecard](https://github.com/ossf/scorecard) **[A]** — Verificações automatizadas de práticas de segurança em repositórios open source. _(ferramentas, gratuito)_
+- [SLSA — Supply-chain Levels for Software Artifacts](https://slsa.dev/) **[A]** — Framework de níveis de integridade e proveniência para artefatos de software. _(guias, gratuito)_
+
+## OSINT e fontes abertas
+
+- [Berkeley Protocol on Digital Open Source Investigations](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source) **[A]** — Padrões profissionais e éticos para coleta, preservação e verificação de evidência digital aberta. _(guias, gratuito)_
+- [Bellingcat's Online Investigations Toolkit](https://bellingcat.gitbook.io/toolkit) **[B]** — Catálogo curado de ferramentas e técnicas de investigação em fontes abertas. _(guias, gratuito)_
+- [Maigret](https://github.com/soxoj/maigret) **[B]** — Coleta de dossiê por nome de usuário em milhares de sites (Python). _(ferramentas, gratuito)_
+- [OSINT Framework](https://osintframework.com/) **[B]** — Mapa navegável de ferramentas e fontes OSINT por categoria. _(guias, gratuito)_
+- [Recon-ng](https://github.com/lanmaster53/recon-ng) **[B]** — Framework modular de reconhecimento web em Python. _(ferramentas, gratuito)_
+- [Sherlock](https://github.com/sherlock-project/sherlock) **[B]** — Busca de contas por nome de usuário em redes sociais (Python). _(ferramentas, gratuito)_
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) **[B]** — Automação OSINT em Python para reconhecimento de domínios, IPs e identidades. _(ferramentas, gratuito)_
+- [theHarvester](https://github.com/laramies/theHarvester) **[B]** — Coleta de e-mails, subdomínios e nomes a partir de fontes públicas (Python). _(ferramentas, gratuito)_

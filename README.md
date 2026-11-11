@@ -24,13 +24,13 @@
 
 | Recursos | Métodos | Tipos | Temas | Links verificados |
 |:---:|:---:|:---:|:---:|:---:|
-| **117** | **19** | **10** | **11** | **80** |
+| **152** | **19** | **10** | **13** | **100** |
 
 | Grau | Recursos | Significado |
 |:---:|:---:|---|
-| **A** | 40 | Fonte primária ou institucional: padrão, órgão público, publicação com revisão por pares ou mantenedor do método. |
-| **B** | 55 | Fonte primária sem revisão formal: livro, preprint, guia de comunidade, página do autor ou repositório do mantenedor. |
-| **C** | 17 | Material de fornecedor, proponente comercial ou ferramenta de terceiros. |
+| **A** | 56 | Fonte primária ou institucional: padrão, órgão público, publicação com revisão por pares ou mantenedor do método. |
+| **B** | 72 | Fonte primária sem revisão formal: livro, preprint, guia de comunidade, página do autor ou repositório do mantenedor. |
+| **C** | 19 | Material de fornecedor, proponente comercial ou ferramenta de terceiros. |
 | **D** | 1 | Comentário ou fonte secundária. |
 | **E** | 4 | Legado: herdado do acervo anterior e ainda não revalidado. |
 
@@ -92,17 +92,19 @@ Grau mede o **tipo de fonte**, não a qualidade das ideias: um guia de comunidad
 
 | Tema | Recursos |
 |---|:---:|
-| [Modelagem de ameaças](docs/TEMAS.md#modelagem-de-ameaças) | 64 |
-| [Engenharia de detecção](docs/TEMAS.md#engenharia-de-detecção) | 31 |
-| [Inteligência de ameaças (CTI)](docs/TEMAS.md#inteligência-de-ameaças-cti) | 35 |
-| [APT e campanhas persistentes](docs/TEMAS.md#apt-e-campanhas-persistentes) | 5 |
-| [IA e sistemas agênticos](docs/TEMAS.md#ia-e-sistemas-agênticos) | 7 |
-| [ICS e sistemas ciberfísicos](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 3 |
+| [Modelagem de ameaças](docs/TEMAS.md#modelagem-de-ameaças) | 71 |
+| [Engenharia de detecção](docs/TEMAS.md#engenharia-de-detecção) | 39 |
+| [Inteligência de ameaças (CTI)](docs/TEMAS.md#inteligência-de-ameaças-cti) | 50 |
+| [APT e campanhas persistentes](docs/TEMAS.md#apt-e-campanhas-persistentes) | 6 |
+| [IA e sistemas agênticos](docs/TEMAS.md#ia-e-sistemas-agênticos) | 12 |
+| [ICS e sistemas ciberfísicos](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 4 |
 | [Privacidade](docs/TEMAS.md#privacidade) | 3 |
-| [Psicologia, vieses e análise](docs/TEMAS.md#psicologia-vieses-e-análise) | 2 |
-| [Emulação adversária](docs/TEMAS.md#emulação-adversária) | 8 |
+| [Psicologia, vieses e análise](docs/TEMAS.md#psicologia-vieses-e-análise) | 6 |
+| [Emulação adversária](docs/TEMAS.md#emulação-adversária) | 9 |
 | [Proveniência e grafos](docs/TEMAS.md#proveniência-e-grafos) | 4 |
 | [Nuvem](docs/TEMAS.md#nuvem) | 3 |
+| [Cadeia de suprimentos](docs/TEMAS.md#cadeia-de-suprimentos) | 2 |
+| [OSINT e fontes abertas](docs/TEMAS.md#osint-e-fontes-abertas) | 8 |
 
 <!-- gen:topics:end -->
 

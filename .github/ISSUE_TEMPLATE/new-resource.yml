@@ -55,4 +55,4 @@ body:
     id: topics
     attributes:
       label: Temas
-      description: threat-modeling, detection-engineering, cti, apt, ai, ics-cps, privacy, psychology, emulation, provenance, cloud, supply-chain
+      description: threat-modeling, detection-engineering, cti, apt, ai, ics-cps, privacy, psychology, emulation, provenance, cloud, supply-chain, osint

@@ -20,13 +20,13 @@
 
 | Resources | Methods | Types | Topics | Links checked |
 |:---:|:---:|:---:|:---:|:---:|
-| **117** | **19** | **10** | **11** | **80** |
+| **152** | **19** | **10** | **13** | **100** |
 
 | Grade | Resources | Meaning |
 |:---:|:---:|---|
-| **A** | 40 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
-| **B** | 55 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
-| **C** | 17 | Vendor or commercial proponent material, or a third-party tool. |
+| **A** | 56 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
+| **B** | 72 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
+| **C** | 19 | Vendor or commercial proponent material, or a third-party tool. |
 | **D** | 1 | Commentary or secondary source. |
 | **E** | 4 | Legacy: inherited from the earlier collection and not yet revalidated. |
 
@@ -69,17 +69,19 @@ A grade measures the **kind of source**, not the quality of its ideas: a communi
 
 | Topic | Resources |
 |---|:---:|
-| [Threat modeling](docs/TEMAS.md#modelagem-de-ameaças) | 64 |
-| [Detection engineering](docs/TEMAS.md#engenharia-de-detecção) | 31 |
-| [Cyber threat intelligence](docs/TEMAS.md#inteligência-de-ameaças-cti) | 35 |
-| [APT and persistent campaigns](docs/TEMAS.md#apt-e-campanhas-persistentes) | 5 |
-| [AI and agentic systems](docs/TEMAS.md#ia-e-sistemas-agênticos) | 7 |
-| [ICS and cyber-physical systems](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 3 |
+| [Threat modeling](docs/TEMAS.md#modelagem-de-ameaças) | 71 |
+| [Detection engineering](docs/TEMAS.md#engenharia-de-detecção) | 39 |
+| [Cyber threat intelligence](docs/TEMAS.md#inteligência-de-ameaças-cti) | 50 |
+| [APT and persistent campaigns](docs/TEMAS.md#apt-e-campanhas-persistentes) | 6 |
+| [AI and agentic systems](docs/TEMAS.md#ia-e-sistemas-agênticos) | 12 |
+| [ICS and cyber-physical systems](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 4 |
 | [Privacy](docs/TEMAS.md#privacidade) | 3 |
-| [Psychology, bias and analysis](docs/TEMAS.md#psicologia-vieses-e-análise) | 2 |
-| [Adversary emulation](docs/TEMAS.md#emulação-adversária) | 8 |
+| [Psychology, bias and analysis](docs/TEMAS.md#psicologia-vieses-e-análise) | 6 |
+| [Adversary emulation](docs/TEMAS.md#emulação-adversária) | 9 |
 | [Provenance and graphs](docs/TEMAS.md#proveniência-e-grafos) | 4 |
 | [Cloud](docs/TEMAS.md#nuvem) | 3 |
+| [Supply chain](docs/TEMAS.md#cadeia-de-suprimentos) | 2 |
+| [OSINT](docs/TEMAS.md#osint-e-fontes-abertas) | 8 |
 
 <!-- gen:topics:end -->
 

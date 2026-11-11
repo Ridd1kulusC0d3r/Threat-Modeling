@@ -17,7 +17,7 @@ Esta biblioteca aceita recursos e métodos que ajudam a produzir um modelo de am
 | `id` | Minúsculas, números e hífen; único |
 | `title`, `authors`, `url` | Fonte original; `https` obrigatório; sem URL repetida |
 | `type` | `manifesto`, `guide`, `method`, `book`, `paper`, `article`, `conference`, `course`, `tool` ou `dataset` |
-| `topics` | Um ou mais de `threat-modeling`, `detection-engineering`, `cti`, `apt`, `ai`, `ics-cps`, `privacy`, `psychology`, `emulation`, `provenance`, `cloud`, `supply-chain` |
+| `topics` | Um ou mais de `threat-modeling`, `detection-engineering`, `cti`, `apt`, `ai`, `ics-cps`, `privacy`, `psychology`, `emulation`, `provenance`, `cloud`, `supply-chain`, `osint` |
 | `access` | `free`, `open-access`, `preprint`, `mixed` ou `paid` |
 | `grade` | A–E, conforme a [metodologia](docs/METODOLOGIA.md#graus-de-fonte) |
 | `level`, `lang` | `intro`, `intermediate` ou `advanced`; `en` ou `pt` |
