@@ -1,1224 +1,3041 @@
-% Bibliografia — Ridd1kulusC0d3r/Threat-Modeling
-% Gerado em 22/10/2026. Campo 'keywords' indica eixo e status de verificação:
-%   V = verificada; C = canônica, metadados a conferir; NV = não verificada.
+% Gerado por scripts/build_readme.py a partir de data/resources.json. Não edite à mão.
+% keywords = temas, grau da fonte (grade-A..E) e 'essential' quando a obra está no núcleo essencial.
 
-@book{shostack2014threat,
-  author       = {Shostack, Adam},
-  title        = {{Threat Modeling: Designing for Security}},
-  publisher    = {Wiley},
-  address      = {Indianapolis},
-  year         = {2014},
-  isbn         = {978-1-118-80999-0},
-  keywords     = {eixo-1, status-C, essencial}
-}
-
-@book{shostack2023threats,
-  author       = {Shostack, Adam},
-  title        = {{Threats: What Every Engineer Should Learn from Star Wars}},
-  publisher    = {Wiley},
-  address      = {Hoboken},
+@misc{abin-doutrina,
+  author       = {{Agência Brasileira de Inteligência}},
+  title        = {{Doutrina da Atividade de Inteligência}},
+  howpublished = {Brasília: ABIN},
   year         = {2023},
-  keywords     = {eixo-1, status-C}
+  url          = {https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/doutrina},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {cti, grade-A}
 }
 
-@book{tarandach2020threat,
-  author       = {Tarandach, Izar and Coles, Matthew J.},
-  title        = {{Threat Modeling: A Practical Guide for Development Teams}},
-  publisher    = {O'Reilly Media},
-  address      = {Sebastopol},
-  year         = {2020},
-  keywords     = {eixo-1, status-C}
+@misc{abnt27005-2023,
+  author       = {{Associação Brasileira de Normas Técnicas}},
+  title        = {{ABNT NBR ISO/IEC 27005:2023 — Segurança da informação, segurança cibernética e proteção à privacidade — Orientações para gestão de riscos de segurança da informação}},
+  howpublished = {Rio de Janeiro: ABNT, maio 2023, 75 p. (CB-021); equivalent to ISO/IEC 27005:2022},
+  year         = {2023},
+  url          = {https://normas.com.br/visualizar/abnt-nbr-nm/27395/abnt-nbriso-iec27005-seguranca-da-informacao-seguranca-cibernetica-e-protecao-a-privacidade-orientacoes-para-gestao-de-riscos-de-seguranca-da-informacao},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {risk, grade-A}
 }
 
-@book{ucedavelez2015pasta,
-  author       = {UcedaVélez, Tony and Morana, Marco M.},
-  title        = {{Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis}},
-  publisher    = {Wiley},
-  address      = {Hoboken},
-  year         = {2015},
-  keywords     = {eixo-1, status-C}
-}
-
-@misc{tmmanifesto2020,
-  author       = {{Threat Modeling Manifesto Working Group}},
-  title        = {{Threat Modeling Manifesto}},
-  year         = {2020},
-  url          = {https://www.threatmodelingmanifesto.org},
-  note         = {Acesso em 22 out. 2026},
-  keywords     = {eixo-1, status-V, essencial}
-}
-
-@article{xiong2019threat,
-  author       = {Xiong, Wenjun and Lagerstr{\"o}m, Robert},
-  title        = {{Threat modeling -- A systematic literature review}},
-  journal      = {Computers \& Security},
-  volume       = {84},
-  pages        = {53--69},
-  year         = {2019},
-  doi          = {10.1016/j.cose.2019.03.010},
-  keywords     = {eixo-1, status-V, essencial}
-}
-
-@inproceedings{johnson2018mal,
-  author       = {Johnson, Pontus and Lagerstr{\"o}m, Robert and Ekstedt, Mathias},
-  title        = {{A Meta Language for Threat Modeling and Attack Simulations}},
-  booktitle    = {Proceedings of the 13th International Conference on Availability, Reliability and Security (ARES)},
-  pages        = {38:1--38:8},
-  publisher    = {ACM},
+@misc{abnt31000-2018,
+  author       = {{Associação Brasileira de Normas Técnicas}},
+  title        = {{ABNT NBR ISO 31000:2018 — Gestão de riscos — Diretrizes}},
+  howpublished = {ABNT, Rio de Janeiro (Comissão de Estudo Especial CEE-063 Gestão de Riscos); adoção idêntica da ISO 31000:},
   year         = {2018},
-  doi          = {10.1145/3230833.3232799},
-  keywords     = {eixo-2, status-V, essencial}
+  url          = {https://www.abntcatalogo.com.br/},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {risk, grade-A}
 }
 
-@article{xiong2022enterpriselang,
-  author       = {Xiong, Wenjun and Legrand, Emeline and {\AA}berg, Oscar and Lagerstr{\"o}m, Robert},
-  title        = {{Cyber security threat modeling based on the {MITRE} Enterprise {ATT\&CK} Matrix}},
-  journal      = {Software and Systems Modeling},
-  volume       = {21},
-  number       = {1},
-  pages        = {157--177},
+@inproceedings{alahmadi2022falsepositives,
+  author       = {Bushra A. Alahmadi and Louise Axon and Ivan Martinovic},
+  title        = {{99\% False Positives: A Qualitative Study of SOC Analysts' Perspectives on Security Alarms}},
+  booktitle    = {31st USENIX Security Symposium (USENIX Security 22), Boston, MA. USENIX Association, p. 2783-2800},
   year         = {2022},
-  keywords     = {eixo-2, status-V, essencial}
+  isbn         = {978-1-939133-31-1},
+  url          = {https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, psychology, grade-A, essential}
 }
 
-@article{widel2023mal,
-  author       = {Wide{\l}, Wojciech and Hacks, Simon and Ekstedt, Mathias and Johnson, Pontus and Lagerstr{\"o}m, Robert},
-  title        = {{The meta attack language -- a formal description}},
-  journal      = {Computers \& Security},
-  year         = {2023},
-  doi          = {10.1016/j.cose.2023.103284},
-  keywords     = {eixo-2, status-V}
+@misc{alexander2020icsattack,
+  author       = {Otis Alexander and Misha Belisle and Jacob Steele},
+  title        = {{MITRE ATT\&CK for Industrial Control Systems: Design and Philosophy}},
+  howpublished = {The MITRE Corporation, McLean, VA, Mar. 2020 (MITRE Product MP 010558 63; Public Release Case 19-03307-03)},
+  year         = {2020},
+  url          = {https://attack.mitre.org/docs/ATTACK_for_ICS_Philosophy_March_2020.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ics-cps, cti, threat-modeling, grade-A}
 }
 
-@inproceedings{johnson2016pwnpr3d,
-  author       = {Johnson, Pontus and Vernotte, Alexandre and Ekstedt, Mathias and Lagerstr{\"o}m, Robert},
-  title        = {{pwnPr3d: An Attack-Graph-Driven Probabilistic Threat-Modeling Approach}},
-  booktitle    = {11th International Conference on Availability, Reliability and Security (ARES)},
-  pages        = {278--283},
-  publisher    = {IEEE},
-  year         = {2016},
-  keywords     = {eixo-2, status-V}
-}
-
-@article{sommestad2013cysemol,
-  author       = {Sommestad, Teodor and Ekstedt, Mathias and Holm, Hannes},
-  title        = {{The Cyber Security Modeling Language: A Tool for Assessing the Vulnerability of Enterprise System Architectures}},
-  journal      = {IEEE Systems Journal},
-  volume       = {7},
-  number       = {3},
-  year         = {2013},
-  keywords     = {eixo-2, status-C}
-}
-
-@article{schneier1999attack,
-  author       = {Schneier, Bruce},
-  title        = {{Attack Trees}},
-  journal      = {Dr. Dobb's Journal},
-  volume       = {24},
-  number       = {12},
-  year         = {1999},
-  keywords     = {eixo-3, status-C}
-}
-
-@inproceedings{mauw2005foundations,
-  author       = {Mauw, Sjouke and Oostdijk, Martijn},
-  title        = {{Foundations of Attack Trees}},
-  booktitle    = {Information Security and Cryptology -- ICISC 2005},
-  series       = {LNCS},
-  volume       = {3935},
-  publisher    = {Springer},
-  year         = {2006},
-  keywords     = {eixo-3, status-C}
-}
-
-@inproceedings{kordy2011adtrees,
-  author       = {Kordy, Barbara and Mauw, Sjouke and Radomirovi{\'c}, Sa{\v{s}}a and Schweitzer, Patrick},
-  title        = {{Foundations of Attack--Defense Trees}},
-  booktitle    = {Formal Aspects of Security and Trust (FAST 2010)},
-  series       = {LNCS},
-  volume       = {6561},
-  pages        = {80--95},
-  publisher    = {Springer},
-  year         = {2011},
-  doi          = {10.1007/978-3-642-19751-2_6},
-  keywords     = {eixo-3, status-V}
-}
-
-@article{kordy2014dag,
-  author       = {Kordy, Barbara and Pi{\`e}tre-Cambac{\'e}d{\`e}s, Ludovic and Schweitzer, Patrick},
-  title        = {{DAG}-based attack and defense modeling: Don't miss the forest for the attack trees},
-  journal      = {Computer Science Review},
-  volume       = {13--14},
-  pages        = {1--38},
+@article{allodi2014cvss,
+  author       = {Luca Allodi and Fabio Massacci},
+  title        = {{Comparing Vulnerability Severity and Exploits Using Case-Control Studies}},
+  journal      = {ACM Transactions on Information and System Security (TISSEC), v. 17, n. 1, article 1, Aug.},
   year         = {2014},
-  doi          = {10.1016/j.cosrev.2014.07.001},
-  keywords     = {eixo-3, status-V, essencial}
+  doi          = {10.1145/2630069},
+  url          = {https://doi.org/10.1145/2630069},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, research-methods, grade-A}
 }
 
-@inproceedings{sheyner2002automated,
-  author       = {Sheyner, Oleg and Haines, Joshua and Jha, Somesh and Lippmann, Richard and Wing, Jeannette M.},
-  title        = {{Automated Generation and Analysis of Attack Graphs}},
-  booktitle    = {IEEE Symposium on Security and Privacy},
-  pages        = {273--284},
-  year         = {2002},
-  keywords     = {eixo-3, status-C, essencial}
+@inproceedings{almeshekah2014deception,
+  author       = {Mohammed H. Almeshekah and Eugene H. Spafford},
+  title        = {{Planning and Integrating Deception into Computer Security Defenses}},
+  booktitle    = {New Security Paradigms Workshop (NSPW '14), Victoria, BC; also CERIAS TR 2014-7},
+  year         = {2014},
+  url          = {https://www.cerias.purdue.edu/apps/reports_and_papers/view/4777},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-A}
 }
 
-@inproceedings{jha2002two,
-  author       = {Jha, Somesh and Sheyner, Oleg and Wing, Jeannette},
-  title        = {{Two Formal Analyses of Attack Graphs}},
-  booktitle    = {15th IEEE Computer Security Foundations Workshop (CSFW)},
-  year         = {2002},
-  keywords     = {eixo-3, status-C}
+@article{ambros2024guerra,
+  author       = {Christiano Cruz Ambros},
+  title        = {{Guerra cognitiva e operaç~oes cibernéticas de influência: vieses cognitivos como tática de combate}},
+  journal      = {Revista Brasileira de Inteligência, n. 19},
+  year         = {2024},
+  doi          = {10.58960/rbi.2024.19.252},
+  url          = {https://doi.org/10.58960/rbi.2024.19.252},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, psychology, grade-A}
 }
 
 @inproceedings{ammann2002scalable,
-  author       = {Ammann, Paul and Wijesekera, Duminda and Kaushik, Saket},
+  author       = {Paul Ammann and Duminda Wijesekera and Saket Kaushik},
   title        = {{Scalable, Graph-Based Network Vulnerability Analysis}},
-  booktitle    = {ACM Conference on Computer and Communications Security (CCS)},
+  booktitle    = {Proceedings of the 9th ACM Conference on Computer and Communications Security (CCS '02), Washington, DC. ACM, 2002. p. 217-224},
   year         = {2002},
-  keywords     = {eixo-3, status-C}
+  doi          = {10.1145/586110.586140},
+  url          = {https://doi.org/10.1145/586110.586140},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
 }
 
-@inproceedings{ou2005mulval,
-  author       = {Ou, Xinming and Govindavajhala, Sudhakar and Appel, Andrew W.},
-  title        = {{MulVAL}: A Logic-based Network Security Analyzer},
-  booktitle    = {14th USENIX Security Symposium},
-  year         = {2005},
-  keywords     = {eixo-3, status-C, essencial}
+@book{anderson-security-engineering,
+  author       = {Ross Anderson},
+  title        = {{Security Engineering: A Guide to Building Dependable Distributed Systems}},
+  publisher    = {3. ed. Indianapolis: Wiley},
+  year         = {2020},
+  url          = {https://www.cl.cam.ac.uk/archive/rja14/book.html},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
 }
 
-@inproceedings{ingols2006netspa,
-  author       = {Ingols, Kyle and Lippmann, Richard and Piwowarski, Keith},
-  title        = {{Practical Attack Graph Generation for Network Defense}},
-  booktitle    = {22nd Annual Computer Security Applications Conference (ACSAC)},
-  pages        = {121--130},
-  publisher    = {IEEE},
-  year         = {2006},
-  keywords     = {eixo-3, status-V}
+@misc{anvilogic,
+  author       = {{Anvilogic}},
+  title        = {{Anvilogic}},
+  url          = {https://www.anvilogic.com/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, grade-C}
 }
 
-@inproceedings{noel2004managing,
-  author       = {Noel, Steven and Jajodia, Sushil},
-  title        = {{Managing Attack Graph Complexity through Visual Hierarchical Aggregation}},
-  booktitle    = {ACM Workshop on Visualization and Data Mining for Computer Security (VizSEC/DMSEC)},
-  year         = {2004},
-  keywords     = {eixo-3, status-C}
+@article{assante2015icskillchain,
+  author       = {Michael J. Assante and Robert M. Lee},
+  title        = {{The Industrial Control System Cyber Kill Chain}},
+  journal      = {SANS Institute InfoSec Reading Room (white paper), 5 Oct.},
+  year         = {2015},
+  url          = {https://www.giac.org/research-papers/36297},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ics-cps, cti, grade-B}
 }
 
-@article{wang2006minimum,
-  author       = {Wang, Lingyu and Noel, Steven and Jajodia, Sushil},
-  title        = {{Minimum-cost network hardening using attack graphs}},
-  journal      = {Computer Communications},
-  volume       = {29},
-  number       = {18},
-  year         = {2006},
-  keywords     = {eixo-3, status-C}
+@misc{atasm,
+  author       = {Brook Schoenfield},
+  title        = {{ATASM}},
+  url          = {https://brookschoenfield.com/?page_id=341},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{atomic-red-team,
+  author       = {{Atomic Red Team}},
+  title        = {{Atomic Red Team}},
+  url          = {https://www.atomicredteam.io/docs/atomic-red-team},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, emulation, grade-C}
+}
+
+@misc{attack-detection-strategies,
+  author       = {{MITRE}},
+  title        = {{ATT\&CK Detection Strategies}},
+  url          = {https://attack.mitre.org/detectionstrategies/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, grade-A}
+}
+
+@misc{attack-flow,
+  author       = {{MITRE CTID}},
+  title        = {{Attack Flow}},
+  url          = {https://center-for-threat-informed-defense.github.io/attack-flow/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-A}
+}
+
+@misc{attack-navigator,
+  author       = {{MITRE}},
+  title        = {{ATT\&CK Navigator}},
+  url          = {https://mitre-attack.github.io/attack-navigator/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{attack-stix-data,
+  author       = {{MITRE ATT\&CK}},
+  title        = {{ATT\&CK STIX Data}},
+  url          = {https://github.com/mitre-attack/attack-stix-data},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, detection-engineering, grade-A}
+}
+
+@article{attack-trees,
+  author       = {Bruce Schneier},
+  title        = {{Attack Trees}},
+  journal      = {Dr. Dobb's Journal, v. 24, n. 12},
+  year         = {1999},
+  url          = {https://www.schneier.com/academic/archives/1999/12/attack_trees.html},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, attack-graphs, grade-B}
+}
+
+@book{automating-detection-engineering,
+  author       = {Dennis Chow},
+  title        = {{Automating Security Detection Engineering}},
+  publisher    = {Birmingham: Packt},
+  url          = {https://github.com/PacktPublishing/Automating-Security-Detection-Engineering},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{aws-tm-workshop,
+  author       = {{AWS}},
+  title        = {{AWS Threat Modeling Workshop}},
+  url          = {https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cloud, grade-C}
+}
+
+@misc{awsthreatcomposer,
+  author       = {{Amazon Web Services}},
+  title        = {{Threat Composer}},
+  howpublished = {GitHub repository awslabs/threat-composer, Apache-2.0; live app at awslabs.github.io/threat-composer},
+  year         = {2023},
+  url          = {https://github.com/awslabs/threat-composer},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@article{barik2016attack,
+  author       = {Mridul Sankar Barik and Anirban Sengupta and Chandan Mazumdar},
+  title        = {{Attack Graph Generation and Analysis Techniques}},
+  journal      = {Defence Science Journal, v. 66, n. 6, p. 559-567},
+  year         = {2016},
+  doi          = {10.14429/dsj.66.10795},
+  url          = {https://doi.org/10.14429/dsj.66.10795},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@book{bejtlich2013nsm,
+  author       = {Richard Bejtlich},
+  title        = {{The Practice of Network Security Monitoring: Understanding Incident Detection and Response}},
+  publisher    = {San Francisco: No Starch Press},
+  year         = {2013},
+  isbn         = {978-1-59327-509-9},
+  url          = {https://nostarch.com/nsm},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@book{bell2017agile,
+  author       = {Laura Bell and Michael Brunton-Spall and Rich Smith and Jim Bird},
+  title        = {{Agile Application Security: Enabling Security in a Continuous Delivery Pipeline}},
+  publisher    = {O'Reilly Media, Sebastopol, CA},
+  year         = {2017},
+  isbn         = {9781491938843},
+  url          = {https://www.oreilly.com/library/view/agile-application-security/9781491938836/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{bellingcat-toolkit,
+  author       = {{Bellingcat}},
+  title        = {{Bellingcat's Online Investigations Toolkit}},
+  url          = {https://bellingcat.gitbook.io/toolkit},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, grade-B}
+}
+
+@misc{berkeley-protocol,
+  author       = {{OHCHR / UC Berkeley Human Rights Center}},
+  title        = {{Berkeley Protocol on Digital Open Source Investigations}},
+  year         = {2022},
+  url          = {https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, psychology, grade-A}
+}
+
+@article{bernsmed2022agile,
+  author       = {Karin Bernsmed and Daniela Soares Cruzes and Martin Gilje Jaatun and Monica Iovan},
+  title        = {{Adopting threat modelling in agile software development projects}},
+  journal      = {Journal of Systems and Software, v. 183, art. 111090},
+  year         = {2022},
+  doi          = {10.1016/j.jss.2021.111090},
+  url          = {https://doi.org/10.1016/j.jss.2021.111090},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{bianco2013pyramid,
+  author       = {David J. Bianco},
+  title        = {{The Pyramid of Pain}},
+  howpublished = {Enterprise Detection \& Response (blog), March},
+  year         = {2013},
+  url          = {https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, detection-engineering, grade-B}
+}
+
+@inproceedings{bilge2017riskteller,
+  author       = {Leyla Bilge and Yufei Han and Matteo Dell'Amico},
+  title        = {{RiskTeller: Predicting the Risk of Cyber Incidents}},
+  booktitle    = {Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS '17), p. 1299-1311},
+  year         = {2017},
+  doi          = {10.1145/3133956.3134022},
+  url          = {https://doi.org/10.1145/3133956.3134022},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@book{bollinger2015playbook,
+  author       = {Jeff Bollinger and Brandon Enright and Matthew Valites},
+  title        = {{Crafting the InfoSec Playbook: Security Monitoring and Incident Response Master Plan}},
+  publisher    = {Sebastopol, CA: O'Reilly Media},
+  year         = {2015},
+  isbn         = {978-1-4919-4940-5},
+  url          = {https://www.oreilly.com/library/view/crafting-the-infosec/9781491913598/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{brasil-ecibr,
+  author       = {{Brasil}},
+  title        = {{Decreto nº 10.222, de 5 de fevereiro de 2020. Aprova a Estratégia Nacional de Segurança Cibernética}},
+  howpublished = {Diário Oficial da União, Brasília, DF, 6 fev.},
+  year         = {2020},
+  url          = {https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10222impressao.htm},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {risk, grade-A}
+}
+
+@misc{brasil-lgpd,
+  author       = {{Brasil}},
+  title        = {{Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD)}},
+  howpublished = {Diário Oficial da União, Brasília, DF, 15 ago.},
+  year         = {2018},
+  url          = {https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {privacy, grade-A}
+}
+
+@misc{brasil-pnciber,
+  author       = {{Brasil}},
+  title        = {{Decreto nº 11.856, de 26 de dezembro de 2023. Institui a Política Nacional de Cibersegurança e o Comitê Nacional de Cibersegurança}},
+  howpublished = {Diário Oficial da União, Brasília, DF, 27 dez.},
+  year         = {2023},
+  url          = {https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11856.htm},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {risk, grade-A}
+}
+
+@misc{brasil2016pni,
+  author       = {{Brasil. Presidência da República}},
+  title        = {{Decreto nº 8.793, de 29 de junho de 2016. Fixa a Política Nacional de Inteligência}},
+  howpublished = {Diário Oficial da União, Seção 1, Brasília, 30 jun. 2016, p. 5},
+  year         = {2016},
+  url          = {https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8793.htm},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {cti, grade-A}
+}
+
+@article{brier1950verification,
+  author       = {Glenn W. Brier},
+  title        = {{Verification of Forecasts Expressed in Terms of Probability}},
+  journal      = {Monthly Weather Review, v. 78, n. 1, p. 1-3},
+  year         = {1950},
+  doi          = {10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2},
+  url          = {https://doi.org/10.1175/1520-0493%281950%29078%3C0001%3AVOFEIT%3E2.0.CO%3B2},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, research-methods, grade-A}
+}
+
+@book{brown-roberts-idir,
+  author       = {Rebekah Brown and Scott J. Roberts},
+  title        = {{Intelligence-Driven Incident Response}},
+  publisher    = {2. ed. Sebastopol: O'Reilly Media},
+  year         = {2023},
+  url          = {https://www.oreilly.com/library/view/intelligence-driven-incident-response/9781098120672/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-B}
+}
+
+@misc{bzar,
+  author       = {{MITRE ATT\&CK}},
+  title        = {{BZAR}},
+  url          = {https://github.com/mitre-attack/bzar},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-A}
+}
+
+@misc{caralli2007octave,
+  author       = {Richard A. Caralli and James F. Stevens and Lisa R. Young and William R. Wilson},
+  title        = {{Introducing OCTAVE Allegro: Improving the Information Security Risk Assessment Process}},
+  howpublished = {Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-2007-TR-012},
+  year         = {2007},
+  doi          = {10.1184/R1/6574790.v1},
+  url          = {https://doi.org/10.1184/R1/6574790.v1},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, risk, grade-A}
+}
+
+@misc{chainsaw,
+  author       = {{WithSecure}},
+  title        = {{Chainsaw}},
+  url          = {https://github.com/WithSecureOpenSource/chainsaw},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
+}
+
+@misc{cia-tradecraft-primer,
+  author       = {{Governo dos EUA}},
+  title        = {{A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis}},
+  year         = {2009},
+  url          = {https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {psychology, cti, grade-A}
+}
+
+@misc{cisa-bod-22-01,
+  author       = {{Cybersecurity and Infrastructure Security Agency}},
+  title        = {{Binding Operational Directive 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities}},
+  howpublished = {CISA, U.S. Department of Homeland Security, Washington, DC; issued 3 Nov},
+  year         = {2021},
+  url          = {https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, cti, grade-A}
+}
+
+@misc{cisa-cpg,
+  author       = {{Cybersecurity and Infrastructure Security Agency}},
+  title        = {{Cross-Sector Cybersecurity Performance Goals (CPG 2.0)}},
+  howpublished = {CISA, U.S. Department of Homeland Security, Washington, D.C., 10 Dec.},
+  year         = {2025},
+  url          = {https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@misc{cisa-kev,
+  author       = {{CISA}},
+  title        = {{CISA Known Exploited Vulnerabilities Catalog}},
+  url          = {https://www.cisa.gov/known-exploited-vulnerabilities-catalog},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{cisa-secure-by-design,
+  author       = {{CISA} and {parceiros}},
+  title        = {{Shifting the Balance of Cybersecurity Risk}},
+  year         = {2023},
+  url          = {https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{cisa2023ztmm,
+  author       = {{Cybersecurity and Infrastructure Security Agency}},
+  title        = {{Zero Trust Maturity Model, Version 2.0}},
+  howpublished = {CISA, Washington, DC; released 11 Apr},
+  year         = {2023},
+  url          = {https://www.cisa.gov/zero-trust-maturity-model},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {architecture, grade-A}
+}
+
+@book{costagazcon2021practical,
+  author       = {Valentina Costa-Gazcón},
+  title        = {{Practical Threat Intelligence and Data-Driven Threat Hunting: A hands-on guide to threat hunting with the ATT\&CK Framework and open source tools}},
+  publisher    = {Birmingham: Packt Publishing},
+  year         = {2021},
+  isbn         = {978-1-83855-637-2},
+  url          = {https://packtpub.com/product/practical-threat-intelligence-and-data-driven-threat-hunting/9781838556372},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, detection-engineering, grade-B}
+}
+
+@book{crawley2024eop,
+  author       = {Brett Crawley},
+  title        = {{Threat Modeling Gameplay with EoP: A reference manual for spotting threats in software architecture}},
+  publisher    = {Packt Publishing, Birmingham},
+  year         = {2024},
+  isbn         = {9781804618974},
+  url          = {https://www.packtpub.com/en-us/product/threat-modeling-gameplay-with-eop-9781804618974},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@inproceedings{crosby2009tamper,
+  author       = {Scott A. Crosby and Dan S. Wallach},
+  title        = {{Efficient Data Structures for Tamper-Evident Logging}},
+  booktitle    = {18th USENIX Security Symposium (USENIX Security 09), Montreal, Quebec. USENIX Association},
+  year         = {2009},
+  url          = {https://www.usenix.org/conference/usenixsecurity09/technical-sessions/presentation/efficient-data-structures-tamper-evident},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, provenance, grade-A}
+}
+
+@misc{csa-maestro,
+  author       = {{Cloud Security Alliance}},
+  title        = {{MAESTRO — Agentic AI Threat Modeling Framework}},
+  year         = {2025},
+  url          = {https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-B}
+}
+
+@misc{cti-academy,
+  author       = {{CTI Academy}},
+  title        = {{CTI Academy}},
+  url          = {https://ctiacademy.io/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, threat-modeling, grade-C}
+}
+
+@misc{cti-python-stix2,
+  author       = {{OASIS Open}},
+  title        = {{cti-python-stix2}},
+  url          = {https://github.com/oasis-open/cti-python-stix2},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{ctid-emulation-library,
+  author       = {{MITRE CTID}},
+  title        = {{CTID Adversary Emulation Library}},
+  url          = {https://ctid.mitre.org/resources/adversary-emulation-library/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, emulation, grade-A}
+}
+
+@misc{ctid-mappings-explorer,
+  author       = {{MITRE Center for Threat-Informed Defense}},
+  title        = {{Mappings Explorer}},
+  howpublished = {MITRE Center for Threat-Informed Defense (project page dated 27 Mar. 2024); explorer at ctid.mitre.org/mappings/},
+  year         = {2024},
+  url          = {https://ctid.mitre.org/projects/mappings-explorer/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, threat-modeling, grade-A}
+}
+
+@misc{ctid-micro-emulation,
+  author       = {{MITRE CTID}},
+  title        = {{CTID Micro Emulation Plans}},
+  url          = {https://ctid.mitre.org/projects/micro-emulation-plans/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, emulation, grade-A}
+}
+
+@misc{ctid-topattack,
+  author       = {{MITRE Center for Threat-Informed Defense}},
+  title        = {{Top ATT\&CK Techniques}},
+  howpublished = {MITRE Center for Threat-Informed Defense (project page dated 14 Aug. 2024); calculator at center-for-threat-informed-defense.github.io/top-attack-techniques},
+  year         = {2024},
+  url          = {https://ctid.mitre.org/projects/top-attack-techniques},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, threat-modeling, detection-engineering, grade-A}
+}
+
+@misc{ctid-tram,
+  author       = {{MITRE Center for Threat-Informed Defense}},
+  title        = {{TRAM: Threat Report ATT\&CK Mapper}},
+  url          = {https://github.com/center-for-threat-informed-defense/tram},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, cti, grade-A}
+}
+
+@misc{d3fend,
+  author       = {{MITRE}},
+  title        = {{D3FEND}},
+  url          = {https://d3fend.mitre.org/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-A}
+}
+
+@book{dahj2022mastering,
+  author       = {Jean Nestor M. Dahj},
+  title        = {{Mastering Cyber Intelligence}},
+  publisher    = {Birmingham: Packt Publishing},
+  year         = {2022},
+  isbn         = {978-1-80020-940-4},
+  url          = {https://packtpub.com/en-si/product/mastering-cyber-intelligence-9781800209404},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-B}
+}
+
+@misc{dc-next-top-threat-model,
+  author       = {{DEF CON}},
+  title        = {{DC’s Next Top Threat Model}},
+  url          = {https://threatmodel.us/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{de-maturity-matrix,
+  author       = {{detectionengineering.io}},
+  title        = {{Detection Engineering Maturity Matrix}},
+  url          = {https://detectionengineering.io/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
+}
+
+@article{deng2011linddun,
+  author       = {Mina Deng and Kim Wuyts and Riccardo Scandariato and Bart Preneel and Wouter Joosen},
+  title        = {{A privacy threat analysis framework: supporting the elicitation and fulfillment of privacy requirements}},
+  journal      = {Requirements Engineering, v. 16, n. 1, p. 3-32},
+  year         = {2011},
+  doi          = {10.1007/s00766-010-0115-7},
+  url          = {https://doi.org/10.1007/s00766-010-0115-7},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, privacy, grade-A}
+}
+
+@misc{dettect-data-quality,
+  author       = {{Rabobank CDC}},
+  title        = {{DeTT\&CT — Data quality}},
+  url          = {https://github.com/rabobank-cdc/DeTTECT/wiki/data-quality-scoring},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{dettect-repo,
+  author       = {{Rabobank CDC}},
+  title        = {{DeTT\&CT}},
+  url          = {https://github.com/rabobank-cdc/DeTTECT},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
 }
 
 @inproceedings{dewri2007optimal,
-  author       = {Dewri, Rinku and Poolsappasit, Nayot and Ray, Indrajit and Whitley, Darrell},
-  title        = {{Optimal Security Hardening Using Multi-objective Optimization on Attack Tree Models of Networks}},
-  booktitle    = {ACM Conference on Computer and Communications Security (CCS)},
+  author       = {Rinku Dewri and Nayot Poolsappasit and Indrajit Ray and Darrell Whitley},
+  title        = {{Optimal security hardening using multi-objective optimization on attack tree models of networks}},
+  booktitle    = {Proceedings of the 14th ACM Conference on Computer and Communications Security (CCS '07), Alexandria, VA. ACM, 2007. p. 204-213},
   year         = {2007},
-  keywords     = {eixo-3, status-V}
+  doi          = {10.1145/1315245.1315272},
+  url          = {https://doi.org/10.1145/1315245.1315272},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, risk, grade-A}
 }
 
-@article{poolsappasit2012dynamic,
-  author       = {Poolsappasit, Nayot and Dewri, Rinku and Ray, Indrajit},
-  title        = {{Dynamic Security Risk Management Using Bayesian Attack Graphs}},
-  journal      = {IEEE Transactions on Dependable and Secure Computing},
-  volume       = {9},
-  number       = {1},
-  pages        = {61--74},
-  year         = {2012},
-  doi          = {10.1109/TDSC.2011.34},
-  keywords     = {eixo-3, status-V, essencial}
+@article{diamond-model,
+  author       = {Sergio Caltagirone and Andrew Pendergast and Christopher Betz},
+  title        = {{The Diamond Model of Intrusion Analysis}},
+  journal      = {Center for Cyber Intelligence Analysis and Threat Research},
+  year         = {2013},
+  url          = {https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-B, essential}
+}
+
+@misc{dread-msdn,
+  author       = {{Microsoft}},
+  title        = {{DREAD — Threat Model Your Security Risks}},
+  year         = {2003},
+  url          = {https://learn.microsoft.com/en-us/archive/msdn-magazine/2003/november/resource-file-threat-model-your-security-risks},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-E}
+}
+
+@misc{elastic-detection-rules,
+  author       = {{Elastic}},
+  title        = {{Elastic Detection Rules}},
+  url          = {https://github.com/elastic/detection-rules},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
+}
+
+@misc{elastic-validate-rules,
+  author       = {{Elastic}},
+  title        = {{Elastic — Validate and test rules}},
+  url          = {https://www.elastic.co/docs/solutions/security/detect-and-alert/validate-and-test-rules},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
+}
+
+@misc{enisa-etl,
+  author       = {{European Union Agency for Cybersecurity}},
+  title        = {{ENISA Threat Landscape 2025}},
+  howpublished = {ENISA, Athens, 1 Oct.},
+  year         = {2025},
+  url          = {https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{enterpriselang,
+  author       = {{Mal-lang}},
+  title        = {{enterpriseLang (MAL)}},
+  url          = {https://github.com/mal-lang/enterpriselang},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@article{enterpriselang-attack-matrix,
+  author       = {Wenjun Xiong and Emeline Legrand and Oscar Åberg and Robert Lagerström},
+  title        = {{Cyber security threat modeling based on the MITRE Enterprise ATT\&CK Matrix}},
+  journal      = {Software and Systems Modeling, v. 21, n. 1, p. 157-177},
+  year         = {2021},
+  doi          = {10.1007/s10270-021-00898-7},
+  url          = {https://doi.org/10.1007/s10270-021-00898-7},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-A, essential}
+}
+
+@misc{eop-cards,
+  author       = {Adam Shostack},
+  title        = {{Elevation of Privilege}},
+  url          = {https://github.com/adamshostack/eop},
+  urldate      = {2026-10-19},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-E}
+}
+
+@misc{epss,
+  author       = {{FIRST}},
+  title        = {{FIRST EPSS}},
+  url          = {https://www.first.org/epss/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{evtx-attack-samples,
+  author       = {Samir Bousseaden},
+  title        = {{EVTX-ATTACK-SAMPLES}},
+  url          = {https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{first-tlp,
+  author       = {{FIRST}},
+  title        = {{Traffic Light Protocol (TLP)}},
+  year         = {2022},
+  url          = {https://www.first.org/tlp/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{first2023cvss4,
+  author       = {{FIRST CVSS Special Interest Group}},
+  title        = {{Common Vulnerability Scoring System Version 4.0: Specification Document}},
+  howpublished = {Forum of Incident Response and Security Teams (FIRST); released 1 Nov},
+  year         = {2023},
+  url          = {https://www.first.org/cvss/v4.0/specification-document},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@book{freund2014fair,
+  author       = {Jack Freund and Jack Jones},
+  title        = {{Measuring and Managing Information Risk: A FAIR Approach}},
+  publisher    = {Oxford/Waltham: Butterworth-Heinemann (Elsevier)},
+  year         = {2014},
+  isbn         = {978-0-12-420231-3},
+  url          = {https://www.oreilly.com/library/view/measuring-and-managing/9780124202313/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-B}
 }
 
 @inproceedings{frigault2008measuring,
-  author       = {Frigault, Marcel and Wang, Lingyu},
+  author       = {Marcel Frigault and Lingyu Wang},
   title        = {{Measuring Network Security Using Bayesian Network-Based Attack Graphs}},
   booktitle    = {ACM Workshop on Quality of Protection (QoP)},
   year         = {2008},
   doi          = {10.1145/1456362.1456368},
-  keywords     = {eixo-3, status-V}
+  url          = {https://doi.org/10.1145/1456362.1456368},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, risk, grade-A}
 }
 
-@article{munozgonzalez2019exact,
-  author       = {Mu{\~n}oz-Gonz{\'a}lez, Luis and Sgandurra, Daniele and Barr{\`e}re, Mart{\'i}n and Lupu, Emil C.},
-  title        = {{Exact Inference Techniques for the Analysis of Bayesian Attack Graphs}},
-  journal      = {IEEE Transactions on Dependable and Secure Computing},
-  volume       = {16},
-  number       = {2},
-  pages        = {231--244},
-  year         = {2019},
-  keywords     = {eixo-3, status-V}
+@misc{gitguardian-de-case-study,
+  author       = {{GitGuardian}},
+  title        = {{Detection Engineering: A Case Study — GitGuardian}},
+  url          = {https://blog.gitguardian.com/detection-engineering-case-study/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
 }
 
-@article{lallie2020review,
-  author       = {Lallie, Harjinder Singh and Debattista, Kurt and Bal, Jay},
-  title        = {{A review of attack graph and attack tree visual syntax in cyber security}},
-  journal      = {Computer Science Review},
-  volume       = {35},
-  pages        = {100219},
+@misc{gitlab-appsec-tm,
+  author       = {{GitLab}},
+  title        = {{GitLab AppSec Threat Modeling}},
+  url          = {https://handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/application-security/runbooks/threat-modeling/},
+  urldate      = {2026-10-31},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-C}
+}
+
+@misc{google-saif,
+  author       = {{Google}},
+  title        = {{Google Secure AI Framework (SAIF)}},
+  year         = {2023},
+  url          = {https://saif.google/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {ai, grade-C}
+}
+
+@article{gordon2002economics,
+  author       = {Lawrence A. Gordon and Martin P. Loeb},
+  title        = {{The Economics of Information Security Investment}},
+  journal      = {ACM Transactions on Information and System Security (TISSEC), v. 5, n. 4, p. 438-457},
+  year         = {2002},
+  doi          = {10.1145/581271.581274},
+  url          = {https://doi.org/10.1145/581271.581274},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@article{griffioen2020quality,
+  author       = {Harm Griffioen and Tim Booij and Christian Doerr},
+  title        = {{Quality Evaluation of Cyber Threat Intelligence Feeds}},
+  journal      = {Applied Cryptography and Network Security (ACNS 2020), Lecture Notes in Computer Science, v. 12147. Cham: Springer, p. 277-296},
   year         = {2020},
-  doi          = {10.1016/j.cosrev.2019.100219},
-  keywords     = {eixo-3, status-V, essencial}
+  doi          = {10.1007/978-3-030-57878-7_14},
+  url          = {https://doi.org/10.1007/978-3-030-57878-7_14},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
 }
 
-@article{kaynar2016taxonomy,
-  author       = {Kaynar, Kerem},
-  title        = {{A taxonomy for attack graph generation and usage in network security}},
-  journal      = {Journal of Information Security and Applications},
-  volume       = {29},
-  pages        = {27--56},
-  year         = {2016},
-  keywords     = {eixo-3, status-C}
+@misc{guisso-threat-modeling-intro,
+  author       = {{Guisso}},
+  title        = {{Threat Modeling Express: guia prático}},
+  year         = {2024},
+  url          = {https://guisso.dev/blog/threat-modeling-intro/},
+  urldate      = {2026-10-24},
+  langid       = {portuguese},
+  keywords     = {threat-modeling, grade-B}
 }
 
-@article{barik2016attack,
-  author       = {Barik, Mridul Sankar and Sengupta, Anirban and Mazumdar, Chandan},
-  title        = {{Attack Graph Generation and Analysis Techniques}},
-  journal      = {Defence Science Journal},
-  volume       = {66},
-  number       = {6},
-  year         = {2016},
-  keywords     = {eixo-3, status-V}
+@article{haley2008security,
+  author       = {Charles B. Haley and Robin Laney and Jonathan D. Moffett and Bashar Nuseibeh},
+  title        = {{Security Requirements Engineering: A Framework for Representation and Analysis}},
+  journal      = {IEEE Transactions on Software Engineering, v. 34, n. 1, p. 133-153},
+  year         = {2008},
+  doi          = {10.1109/TSE.2007.70754},
+  url          = {https://doi.org/10.1109/TSE.2007.70754},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, threat-modeling, grade-A}
 }
 
-@misc{mitreatlas,
-  author       = {{MITRE}},
-  title        = {{ATLAS}: Adversarial Threat Landscape for Artificial-Intelligence Systems},
-  year         = {2026},
-  url          = {https://atlas.mitre.org},
-  note         = {Acesso em 22 out. 2026},
-  keywords     = {eixo-4, status-V}
+@misc{hayabusa,
+  author       = {Yamato Security},
+  title        = {{Hayabusa}},
+  url          = {https://github.com/Yamato-Security/hayabusa},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
 }
 
-@misc{owasp2025llm,
-  author       = {{OWASP Foundation}},
-  title        = {{OWASP} Top 10 for {LLM} Applications 2025},
-  year         = {2025},
-  url          = {https://genai.owasp.org/llm-top-10/},
-  note         = {Acesso em 22 out. 2026},
-  keywords     = {eixo-4, status-V}
+@misc{hernan2006stride,
+  author       = {Shawn Hernan and Scott Lambert and Tomasz Ostwald and Adam Shostack},
+  title        = {{Uncover Security Design Flaws Using The STRIDE Approach}},
+  howpublished = {MSDN Magazine, Nov.},
+  year         = {2006},
+  url          = {https://learn.microsoft.com/en-us/archive/msdn-magazine/2006/november/uncover-security-design-flaws-using-the-stride-approach},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-C}
 }
 
-@misc{huang2025maestro,
-  author       = {Huang, Ken},
-  title        = {{Agentic {AI} Threat Modeling Framework: {MAESTRO}}},
-  howpublished = {Cloud Security Alliance Blog},
-  year         = {2025},
-  url          = {https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro},
-  note         = {Acesso em 22 out. 2026},
-  keywords     = {eixo-4, status-V}
-}
-
-@book{heuer1999psychology,
-  author       = {Heuer, Jr., Richards J.},
+@book{heuer-psychology-of-intel,
+  author       = {Richards J. Heuer Jr},
   title        = {{Psychology of Intelligence Analysis}},
-  publisher    = {Center for the Study of Intelligence, Central Intelligence Agency},
-  address      = {Washington, DC},
+  publisher    = {Washington, DC: Center for the Study of Intelligence, CIA},
   year         = {1999},
-  keywords     = {eixo-5, status-C, essencial}
+  url          = {https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {psychology, cti, grade-A, essential}
 }
 
 @book{heuer2020sat,
-  author       = {Heuer, Jr., Richards J. and Pherson, Randolph H.},
+  author       = {Randolph H. Pherson and Richards J. Heuer Jr},
   title        = {{Structured Analytic Techniques for Intelligence Analysis}},
-  edition      = {3},
-  publisher    = {CQ Press},
-  address      = {Thousand Oaks},
+  publisher    = {3. ed. Thousand Oaks: CQ Press (SAGE)},
   year         = {2020},
-  keywords     = {eixo-5, status-C, essencial}
+  isbn         = {978-1-5063-6893-1},
+  url          = {https://in.sagepub.com/en-in/sas/structured-analytic-techniques-for-intelligence-analysis/book255432},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, psychology, grade-B, essential}
 }
 
-@article{kent1964words,
-  author       = {Kent, Sherman},
-  title        = {{Words of Estimative Probability}},
-  journal      = {Studies in Intelligence},
-  volume       = {8},
-  number       = {4},
-  year         = {1964},
-  keywords     = {eixo-5, status-C, essencial}
+@article{hevner2004design,
+  author       = {Alan R. Hevner and Salvatore T. March and Jinsoo Park and Sudha Ram},
+  title        = {{Design science in information systems research}},
+  journal      = {MIS Quarterly, v. 28, n. 1, p. 75-105},
+  year         = {2004},
+  doi          = {10.2307/25148625},
+  url          = {https://doi.org/10.2307/25148625},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-A, essential}
 }
 
-@techreport{odni2015icd203,
-  author       = {{Office of the Director of National Intelligence}},
-  title        = {{Intelligence Community Directive 203: Analytic Standards}},
-  institution  = {ODNI},
-  address      = {Washington, DC},
-  year         = {2015},
-  keywords     = {eixo-5, status-C, essencial}
-}
-
-@manual{nato_ajp21,
-  title        = {{AJP-2.1}: Allied Joint Doctrine for Intelligence Procedures},
-  organization = {NATO Standardization Office},
-  note         = {Edição a confirmar; citar a consultada},
-  keywords     = {eixo-5, status-NV}
-}
-
-@techreport{caltagirone2013diamond,
-  author       = {Caltagirone, Sergio and Pendergast, Andrew and Betz, Christopher},
-  title        = {{The Diamond Model of Intrusion Analysis}},
-  institution  = {Center for Cyber Intelligence Analysis and Threat Research},
-  year         = {2013},
-  note         = {DTIC ADA586960},
-  keywords     = {eixo-5, status-C, essencial}
-}
-
-@inproceedings{hutchins2011killchain,
-  author       = {Hutchins, Eric M. and Cloppert, Michael J. and Amin, Rohan M.},
-  title        = {{Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains}},
-  booktitle    = {6th International Conference on Information Warfare and Security (ICIW)},
-  year         = {2011},
-  keywords     = {eixo-5, status-C, essencial}
-}
-
-@misc{bianco2013pyramid,
-  author       = {Bianco, David J.},
-  title        = {{The Pyramid of Pain}},
-  howpublished = {Enterprise Detection \& Response (blog)},
-  year         = {2013},
-  keywords     = {eixo-5, status-C}
-}
-
-@techreport{strom2018attack,
-  author       = {Strom, Blake E. and others},
-  title        = {{MITRE ATT\&CK}: Design and Philosophy},
-  institution  = {The MITRE Corporation},
-  address      = {McLean},
-  year         = {2018},
-  note         = {Revisado em mar. 2020},
-  keywords     = {eixo-5, status-V, essencial}
-}
-
-@techreport{strom2017finding,
-  author       = {Strom, Blake E. and others},
-  title        = {{Finding Cyber Threats with {ATT\&CK}-Based Analytics}},
-  number       = {MTR170202},
-  institution  = {The MITRE Corporation},
-  year         = {2017},
-  keywords     = {eixo-5, status-V}
-}
-
-@manual{oasis2021stix,
-  title        = {{STIX} Version 2.1 and {TAXII} Version 2.1},
-  organization = {OASIS Open},
-  year         = {2021},
-  note         = {OASIS Standards},
-  keywords     = {eixo-5, status-C}
-}
-
-@book{roberts2023idir,
-  author       = {Roberts, Scott J. and Brown, Rebekah},
-  title        = {{Intelligence-Driven Incident Response}},
-  edition      = {2},
-  publisher    = {O'Reilly Media},
-  address      = {Sebastopol},
-  year         = {2023},
-  keywords     = {eixo-5, status-C}
-}
-
-@book{costagazcon2021practical,
-  author       = {Costa-Gazc{\'o}n, Valentina},
-  title        = {{Practical Threat Intelligence and Data-Driven Threat Hunting}},
-  publisher    = {Packt},
-  address      = {Birmingham},
-  year         = {2021},
-  keywords     = {eixo-5, status-C}
-}
-
-@book{roberts2021cti,
-  author       = {Roberts, Aaron},
-  title        = {{Cyber Threat Intelligence: The No-Nonsense Guide for CISOs and Security Managers}},
-  publisher    = {Apress},
-  address      = {Berkeley},
-  year         = {2021},
-  keywords     = {eixo-5, status-C}
-}
-
-@book{bautista2018practical,
-  author       = {Bautista, Jr., Wilson},
-  title        = {{Practical Cyber Intelligence}},
-  publisher    = {Packt},
-  address      = {Birmingham},
-  year         = {2018},
-  keywords     = {eixo-5, status-C}
-}
-
-@book{dahj2022mastering,
-  author       = {Dahj, Jean Nestor M.},
-  title        = {{Mastering Cyber Intelligence}},
-  publisher    = {Packt},
-  address      = {Birmingham},
-  year         = {2022},
-  keywords     = {eixo-5, status-C}
-}
-
-@article{tounsi2018survey,
-  author       = {Tounsi, Wiem and Rais, Helmi},
-  title        = {{A survey on technical threat intelligence in the age of sophisticated cyber attacks}},
-  journal      = {Computers \& Security},
-  volume       = {72},
-  pages        = {212--233},
-  year         = {2018},
-  keywords     = {eixo-5, status-C}
-}
-
-@article{wagner2019cti,
-  author       = {Wagner, Thomas D. and Mahbub, Khaled and Palomar, Esther and Abdallah, Ali E.},
-  title        = {{Cyber threat intelligence sharing: Survey and research directions}},
-  journal      = {Computers \& Security},
-  volume       = {87},
-  pages        = {101589},
-  year         = {2019},
-  doi          = {10.1016/j.cose.2019.101589},
-  keywords     = {eixo-5, status-V, essencial}
-}
-
-@article{schlette2021comparative,
-  author       = {Schlette, Daniel and Caselli, Marco and Pernul, G{\"u}nther},
-  title        = {{A Comparative Study on Cyber Threat Intelligence: The Security Incident Response Perspective}},
-  journal      = {IEEE Communications Surveys \& Tutorials},
-  volume       = {23},
-  number       = {4},
-  pages        = {2525--2556},
-  year         = {2021},
-  doi          = {10.1109/COMST.2021.3117338},
-  keywords     = {eixo-5, status-V, essencial}
-}
-
-@article{schlette2021quality,
-  author       = {Schlette, Daniel and B{\"o}hm, Fabian and Caselli, Marco and Pernul, G{\"u}nther},
-  title        = {{Measuring and visualizing cyber threat intelligence quality}},
-  journal      = {International Journal of Information Security},
-  volume       = {20},
-  pages        = {21--38},
-  year         = {2021},
-  keywords     = {eixo-5, status-V}
-}
-
-@inproceedings{li2019tealeaves,
-  author       = {Li, Vector Guo and Dunn, Matthew and Pearce, Paul and McCoy, Damon and Voelker, Geoffrey M. and Savage, Stefan and Levchenko, Kirill},
-  title        = {{Reading the Tea Leaves: A Comparative Analysis of Threat Intelligence}},
-  booktitle    = {28th USENIX Security Symposium},
-  pages        = {851--867},
-  publisher    = {USENIX Association},
-  year         = {2019},
-  isbn         = {978-1-939133-06-9},
-  keywords     = {eixo-5, status-V, essencial}
-}
-
-@inproceedings{griffioen2020quality,
-  author       = {Griffioen, Harm and Booij, Tim and Doerr, Christian},
-  title        = {{Quality Evaluation of Cyber Threat Intelligence Feeds}},
-  booktitle    = {Applied Cryptography and Network Security (ACNS 2020)},
-  series       = {LNCS},
-  pages        = {277--296},
-  publisher    = {Springer},
-  year         = {2020},
-  keywords     = {eixo-5, status-V}
-}
-
-@misc{rfc9424,
-  author       = {Paine, K. and Whitehouse, O. and Sellwood, J. and Shaw, A.},
-  title        = {{Indicators of Compromise ({IoCs}) and Their Role in Attack Defence}},
-  howpublished = {RFC 9424, IETF},
-  year         = {2023},
-  keywords     = {eixo-5, status-V}
-}
-
-@article{sun2023cti,
-  author       = {Sun, Nan and others},
-  title        = {{Cyber Threat Intelligence Mining for Proactive Cybersecurity Defense: A Survey and New Perspectives}},
-  journal      = {IEEE Communications Surveys \& Tutorials},
-  volume       = {25},
-  number       = {3},
-  year         = {2023},
-  keywords     = {eixo-5, status-C}
-}
-
-@book{abin_doutrina,
-  author       = {{Ag{\^e}ncia Brasileira de Intelig{\^e}ncia}},
-  title        = {{Doutrina da Atividade de Intelig{\^e}ncia}},
-  publisher    = {ABIN},
-  address      = {Bras{\'i}lia},
-  year         = {2016},
-  note         = {Confirmar edi{\c{c}}{\~a}o vigente},
-  keywords     = {eixo-5, status-NV}
-}
-
-@misc{brasil2016pni,
-  author       = {{Brasil}},
-  title        = {{Decreto n{\textordmasculine} 8.793, de 29 de junho de 2016: fixa a Pol{\'i}tica Nacional de Intelig{\^e}ncia}},
-  year         = {2016},
-  keywords     = {eixo-5, status-C}
-}
-
-@article{wendt2011ciberguerra,
-  author       = {Wendt, Emerson},
-  title        = {{Ciberguerra, intelig{\^e}ncia cibern{\'e}tica e seguran{\c{c}}a virtual: alguns aspectos}},
-  journal      = {Revista Brasileira de Intelig{\^e}ncia},
-  number       = {6},
-  pages        = {15--26},
-  year         = {2011},
-  keywords     = {eixo-5, status-V}
-}
-
-@article{ambros2024guerra,
-  author       = {Ambros, Christiano Cruz},
-  title        = {{Guerra cognitiva e opera{\c{c}}{\~o}es cibern{\'e}ticas de influ{\^e}ncia: vieses cognitivos como t{\'a}tica de combate}},
-  journal      = {Revista Brasileira de Intelig{\^e}ncia},
-  number       = {19},
-  year         = {2024},
-  doi          = {10.58960/rbi.2024.19.252},
-  keywords     = {eixo-5, status-V}
-}
-
-@article{serpa2024transformacao,
-  author       = {Serpa, Diego},
-  title        = {{Transforma{\c{c}}{\~a}o digital da intelig{\^e}ncia nacional brasileira}},
-  journal      = {Revista Brasileira de Intelig{\^e}ncia},
-  number       = {19},
-  year         = {2024},
-  doi          = {10.58960/rbi.2024.19.258},
-  keywords     = {eixo-5, status-V}
-}
-
-@book{roddie2023practical,
-  author       = {Roddie, Megan and Deyalsingh, Jason and Katz, Gary J.},
-  title        = {{Practical Threat Detection Engineering: A hands-on guide to planning, developing, and validating detection capabilities}},
-  publisher    = {Packt},
-  address      = {Birmingham},
-  year         = {2023},
-  isbn         = {978-1-80107-671-5},
-  keywords     = {eixo-6, status-V, essencial}
-}
-
-@book{bejtlich2013nsm,
-  author       = {Bejtlich, Richard},
-  title        = {{The Practice of Network Security Monitoring}},
-  publisher    = {No Starch Press},
-  address      = {San Francisco},
-  year         = {2013},
-  keywords     = {eixo-6, status-C}
-}
-
-@book{sanders2013ansm,
-  author       = {Sanders, Chris and Smith, Jason},
-  title        = {{Applied Network Security Monitoring}},
-  publisher    = {Syngress},
-  address      = {Waltham},
-  year         = {2013},
-  keywords     = {eixo-6, status-C}
-}
-
-@book{bollinger2015playbook,
-  author       = {Bollinger, Jeff and Enright, Brandon and Valites, Matthew},
-  title        = {{Crafting the InfoSec Playbook}},
-  publisher    = {O'Reilly Media},
-  address      = {Sebastopol},
-  year         = {2015},
-  keywords     = {eixo-6, status-C}
-}
-
-@misc{palantir2017ads,
-  author       = {{Palantir}},
-  title        = {{Alerting and Detection Strategy Framework}},
-  year         = {2017},
-  url          = {https://github.com/palantir/alerting-detection-strategy-framework},
-  note         = {Acesso em 22 out. 2026},
-  keywords     = {eixo-6, status-V}
-}
-
-@techreport{kaloroumakis2021d3fend,
-  author       = {Kaloroumakis, Peter E. and Smith, Michael J.},
-  title        = {{Toward a Knowledge Graph of Cybersecurity Countermeasures}},
-  institution  = {The MITRE Corporation},
-  address      = {Annapolis Junction},
-  year         = {2021},
-  url          = {https://d3fend.mitre.org/resources/D3FEND.pdf},
-  keywords     = {eixo-6, status-V, essencial}
-}
-
-@misc{ctid_attackflow,
-  author       = {{MITRE Center for Threat-Informed Defense}},
-  title        = {{Attack Flow}},
-  url          = {https://center-for-threat-informed-defense.github.io/attack-flow/},
-  keywords     = {eixo-6, status-C}
-}
-
-@misc{ctid_summiting,
-  author       = {{MITRE Center for Threat-Informed Defense}},
-  title        = {{Summiting the Pyramid, version 2}},
-  year         = {2024},
-  url          = {https://ctid.mitre.org/projects/summiting-the-pyramid-v2},
-  keywords     = {eixo-6, status-V}
-}
-
-@misc{dettect,
-  author       = {{Rabobank CDC}},
-  title        = {{DeTT\&CT}: Detect Tactics, Techniques \& Combat Threats},
-  url          = {https://github.com/rabobank-cdc/DeTTECT},
-  note         = {Acesso em 22 out. 2026},
-  keywords     = {eixo-6, status-V}
-}
-
-@inproceedings{virkud2024edr,
-  author       = {Virkud, Apurva and Inam, Muhammad Adil and Riddle, Andy and Liu, Jason and Wang, Gang and Bates, Adam},
-  title        = {{How does Endpoint Detection use the {MITRE ATT\&CK} Framework?}},
-  booktitle    = {33rd USENIX Security Symposium},
-  pages        = {3891--3908},
-  year         = {2024},
-  keywords     = {eixo-6, status-V, essencial}
-}
-
-@inproceedings{alahmadi2022falsepositives,
-  author       = {Alahmadi, Bushra A. and Axon, Louise and Martinovic, Ivan},
-  title        = {{99\% False Positives: A Qualitative Study of {SOC} Analysts' Perspectives on Security Alarms}},
-  booktitle    = {31st USENIX Security Symposium},
-  pages        = {2783--2800},
-  year         = {2022},
-  keywords     = {eixo-6, status-V, essencial}
-}
-
-@inproceedings{sundaramurthy2015burnout,
-  author       = {Sundaramurthy, Sathya Chandran and others},
-  title        = {{A Human Capital Model for Mitigating Security Analyst Burnout}},
-  booktitle    = {Symposium on Usable Privacy and Security (SOUPS)},
-  pages        = {347--359},
-  year         = {2015},
-  keywords     = {eixo-6, status-V}
-}
-
-@misc{holeman2026beyond,
-  author       = {Holeman, R. and Hastings, J. and Vaidyan, V. M.},
+@article{holeman2026beyond,
+  author       = {Ryan Holeman and John Hastings and Varghese Mathew Vaidyan},
   title        = {{Beyond Collection: Measuring the Detection Efficacy of Modern Security Logging Standards}},
-  howpublished = {arXiv:2605.05531},
+  journal      = {arXiv preprint arXiv:2605.05531},
   year         = {2026},
-  note         = {Preprint},
-  keywords     = {eixo-6, status-V}
+  url          = {https://arxiv.org/abs/2605.05531},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
 }
 
-@misc{tan2026observability,
-  author       = {Tan, Z. and Guo, W. and Luo, J. and Brierley, T. and Singer, J. and Anagnostopoulos, C.},
-  title        = {{An Empirical Study of Observability Limits in Advanced Software Supply Chain Attacks}},
-  howpublished = {arXiv:2603.16694v2},
-  year         = {2026},
-  note         = {Preprint; aceite em confer{\^e}ncia n{\~a}o confirmado},
-  keywords     = {eixo-6, status-V}
-}
-
-@inproceedings{crosby2009tamper,
-  author       = {Crosby, Scott A. and Wallach, Dan S.},
-  title        = {{Efficient Data Structures for Tamper-Evident Logging}},
-  booktitle    = {18th USENIX Security Symposium},
-  year         = {2009},
-  keywords     = {eixo-6, status-V}
-}
-
-@inproceedings{paccagnella2020custos,
-  author       = {Paccagnella, Riccardo and others},
-  title        = {{Custos: Practical Tamper-Evident Auditing of Operating Systems Using Trusted Execution}},
-  booktitle    = {Network and Distributed System Security Symposium (NDSS)},
-  year         = {2020},
-  keywords     = {eixo-6, status-V}
-}
-
-@techreport{nist80030,
-  author       = {{Joint Task Force Transformation Initiative}},
-  title        = {{Guide for Conducting Risk Assessments}},
-  number       = {SP 800-30 Rev. 1},
-  institution  = {NIST},
+@article{holm2012empirical,
+  author       = {Hannes Holm and Mathias Ekstedt and Dennis Andersson},
+  title        = {{Empirical Analysis of System-Level Vulnerability Metrics through Actual Attacks}},
+  journal      = {IEEE Transactions on Dependable and Secure Computing, v. 9, n. 6, p. 825-837},
   year         = {2012},
-  doi          = {10.6028/NIST.SP.800-30r1},
-  keywords     = {eixo-7, status-C}
+  doi          = {10.1109/TDSC.2012.66},
+  url          = {https://doi.org/10.1109/TDSC.2012.66},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, research-methods, grade-A}
 }
 
-@techreport{nist80053,
-  author       = {{Joint Task Force}},
-  title        = {{Security and Privacy Controls for Information Systems and Organizations}},
-  number       = {SP 800-53 Rev. 5},
-  institution  = {NIST},
-  year         = {2020},
-  keywords     = {eixo-7, status-C}
+@inproceedings{holmes,
+  author       = {Sadegh M. Milajerdi and others},
+  title        = {{HOLMES: Real-Time APT Detection through Correlation of Suspicious Information Flows}},
+  booktitle    = {IEEE Symposium on Security and Privacy (S\&P)},
+  year         = {2019},
+  url          = {https://www.seclab.cs.sunysb.edu/seclab/pubs/holmes19.pdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {apt, provenance, detection-engineering, grade-A}
 }
 
-@techreport{nistir8286,
-  title        = {{Integrating Cybersecurity and Enterprise Risk Management ({ERM})}},
-  number       = {NISTIR 8286},
-  institution  = {NIST},
-  year         = {2020},
-  keywords     = {eixo-7, status-C}
+@misc{holmes-slides,
+  author       = {Sadegh M. Milajerdi and others},
+  title        = {{HOLMES — IEEE S\&P 2019}},
+  url          = {https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Sadegh_Momeni_-_13-Sadegh-Momeni-Real_time_APT_Detection_through_Correlation_of_Suspicious_Information_Flows.pdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {apt, provenance, grade-A}
 }
 
-@techreport{nist2024csf,
-  title        = {{The {NIST} Cybersecurity Framework ({CSF}) 2.0}},
-  number       = {CSWP 29},
-  institution  = {NIST},
-  year         = {2024},
-  keywords     = {eixo-7, status-C}
-}
-
-@manual{iso27005_2022,
-  title        = {{ISO/IEC} 27005:2022 -- Guidance on managing information security risks},
-  organization = {ISO/IEC},
-  address      = {Genebra},
-  year         = {2022},
-  keywords     = {eixo-7, status-C}
-}
-
-@manual{abnt27005_2023,
-  title        = {{ABNT NBR ISO/IEC} 27005:2023 -- Seguran{\c{c}}a da informa{\c{c}}{\~a}o, seguran{\c{c}}a cibern{\'e}tica e prote{\c{c}}{\~a}o {\`a} privacidade},
-  organization = {ABNT},
-  address      = {Rio de Janeiro},
+@book{hubbard2023measure,
+  author       = {Douglas W. Hubbard and Richard Seiersen},
+  title        = {{How to Measure Anything in Cybersecurity Risk}},
+  publisher    = {2. ed. Hoboken, NJ: Wiley},
   year         = {2023},
-  note         = {Confirmar status vigente},
-  keywords     = {eixo-7, status-V}
+  isbn         = {978-1-119-89230-4},
+  url          = {https://www.oreilly.com/library/view/how-to-measure/9781119892304/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, psychology, grade-B, essential}
 }
 
-@manual{abnt31000_2018,
-  title        = {{ABNT NBR ISO} 31000:2018 -- Gest{\~a}o de riscos: diretrizes},
-  organization = {ABNT},
-  address      = {Rio de Janeiro},
-  year         = {2018},
-  keywords     = {eixo-7, status-C}
+@article{husak2019survey,
+  author       = {Martin Husák and Jana Komárková and Elias Bou-Harb and Pavel vCeleda},
+  title        = {{Survey of Attack Projection, Prediction, and Forecasting in Cyber Security}},
+  journal      = {IEEE Communications Surveys \& Tutorials, v. 21, n. 1, p. 640-660},
+  year         = {2019},
+  doi          = {10.1109/COMST.2018.2871866},
+  url          = {https://doi.org/10.1109/COMST.2018.2871866},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, detection-engineering, grade-A, essential}
 }
 
-@manual{first2023cvss4,
-  title        = {{Common Vulnerability Scoring System v4.0: Specification Document}},
-  organization = {FIRST},
-  year         = {2023},
-  keywords     = {eixo-7, status-C}
-}
-
-@misc{cisa_kev,
-  author       = {{CISA}},
-  title        = {{Binding Operational Directive 22-01 and Known Exploited Vulnerabilities Catalog}},
+@article{husak2021predictive,
+  author       = {Martin Husák and others},
+  title        = {{Predictive methods in cyber defense: Current experience and research challenges}},
+  journal      = {Future Generation Computer Systems, v. 115},
   year         = {2021},
-  keywords     = {eixo-7, status-C}
+  doi          = {10.1016/j.future.2020.10.006},
+  url          = {https://doi.org/10.1016/j.future.2020.10.006},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, detection-engineering, grade-A}
+}
+
+@inproceedings{ingols2006netspa,
+  author       = {Kyle Ingols and Richard Lippmann and Keith Piwowarski},
+  title        = {{Practical Attack Graph Generation for Network Defense}},
+  booktitle    = {22nd Annual Computer Security Applications Conference (ACSAC 2006), Miami Beach, FL. IEEE, 2006. p. 121-130},
+  year         = {2006},
+  doi          = {10.1109/ACSAC.2006.39},
+  url          = {https://doi.org/10.1109/ACSAC.2006.39},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@inproceedings{intrusion-kill-chain,
+  author       = {Eric M. Hutchins and Michael J. Cloppert and Rohan M. Amin},
+  title        = {{Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains}},
+  booktitle    = {International Conference on Information Warfare and Security (ICIW)},
+  year         = {2011},
+  url          = {https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-B, essential}
+}
+
+@misc{iso27005-2022,
+  author       = {{International Organization for Standardization} and {International Electrotechnical Commission}},
+  title        = {{ISO/IEC 27005:2022 — Information security, cybersecurity and privacy protection — Guidance on managing information security risks}},
+  howpublished = {Geneva: ISO, 4. ed., Oct. 2022, 62 p. (ISO/IEC JTC 1/SC 27)},
+  year         = {2022},
+  url          = {https://www.iso.org/standard/80585.html},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
 }
 
 @article{jacobs2021epss,
-  author       = {Jacobs, Jay and Romanosky, Sasha and Edwards, Benjamin and Adjerid, Idris and Roytman, Michael},
-  title        = {{Exploit Prediction Scoring System ({EPSS})}},
-  journal      = {Digital Threats: Research and Practice},
-  volume       = {2},
-  number       = {3},
-  pages        = {20:1--20:17},
+  author       = {Jay Jacobs and Sasha Romanosky and Benjamin Edwards and Idris Adjerid and Michael Roytman},
+  title        = {{Exploit Prediction Scoring System (EPSS)}},
+  journal      = {Digital Threats: Research and Practice, v. 2, n. 3, art. 20, p. 1-17},
   year         = {2021},
   doi          = {10.1145/3436242},
-  keywords     = {eixo-7, status-V, essencial}
+  url          = {https://doi.org/10.1145/3436242},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A, essential}
 }
 
 @inproceedings{jacobs2023epss,
-  author       = {Jacobs, Jay and Romanosky, Sasha and Suciu, Octavian and Edwards, Benjamin and Sarabi, Armin},
+  author       = {Jay Jacobs and Sasha Romanosky and Octavian Suciu and Benjamin Edwards and Armin Sarabi},
   title        = {{Enhancing Vulnerability Prioritization: Data-Driven Exploit Predictions with Community-Driven Insights}},
-  booktitle    = {Workshop on the Economics of Information Security (WEIS)},
+  booktitle    = {Workshop on the Economics of Information Security (WEIS 2023); arXiv:2302.14172 (v2, Jun},
   year         = {2023},
-  note         = {arXiv:2302.14172},
-  keywords     = {eixo-7, status-V, essencial}
+  doi          = {10.48550/arXiv.2302.14172},
+  url          = {https://arxiv.org/abs/2302.14172},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-B, essential}
 }
 
-@techreport{spring2019ssvc,
-  author       = {Spring, Jonathan M. and Hatleback, Eric and Householder, Allen and Manion, Art and Shick, Deana},
-  title        = {{Prioritizing Vulnerability Response: A Stakeholder-Specific Vulnerability Categorization}},
-  institution  = {Carnegie Mellon University, Software Engineering Institute},
-  address      = {Pittsburgh},
-  year         = {2019},
-  note         = {Vers{\~a}o 2.0 em 2021},
-  keywords     = {eixo-7, status-V, essencial}
+@book{janca2020alicebob,
+  author       = {Tanya Janca},
+  title        = {{Alice and Bob Learn Application Security}},
+  publisher    = {John Wiley \& Sons, Indianapolis},
+  year         = {2020},
+  isbn         = {9781119687351},
+  url          = {https://www.oreilly.com/library/view/alice-and-bob/9781119687351/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@book{jaquith2007metrics,
+  author       = {Andrew Jaquith},
+  title        = {{Security Metrics: Replacing Fear, Uncertainty, and Doubt}},
+  publisher    = {Upper Saddle River, NJ: Addison-Wesley},
+  year         = {2007},
+  isbn         = {978-0-321-34998-9},
+  url          = {https://www.informit.com/store/security-metrics-replacing-fear-uncertainty-and-doubt-9780321349989},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-B}
+}
+
+@inproceedings{jha2002two,
+  author       = {Somesh Jha and Oleg Sheyner and Jeannette Wing},
+  title        = {{Two Formal Analyses of Attack Graphs}},
+  booktitle    = {Proceedings 15th IEEE Computer Security Foundations Workshop (CSFW-15), Cape Breton, Canada, June 2002. IEEE},
+  year         = {2002},
+  url          = {https://pages.cs.wisc.edu/~jha/jha-papers/security/CSFW_2002_1.html},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@inproceedings{johnson2016pwnpr3d,
+  author       = {Pontus Johnson and Alexandre Vernotte and Mathias Ekstedt and Robert Lagerström},
+  title        = {{pwnPr3d: An Attack-Graph-Driven Probabilistic Threat-Modeling Approach}},
+  booktitle    = {11th International Conference on Availability, Reliability and Security (ARES 2016), Salzburg, Austria. IEEE, 2016. p. 278-283},
+  year         = {2016},
+  doi          = {10.1109/ARES.2016.77},
+  url          = {https://doi.org/10.1109/ARES.2016.77},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, attack-graphs, risk, grade-A}
+}
+
+@inproceedings{johnson2018mal,
+  author       = {Pontus Johnson and Robert Lagerström and Mathias Ekstedt},
+  title        = {{A Meta Language for Threat Modeling and Attack Simulations}},
+  booktitle    = {Proceedings of the 13th International Conference on Availability, Reliability and Security (ARES), ACM, art. 38, p. 1-8},
+  year         = {2018},
+  doi          = {10.1145/3230833.3232799},
+  url          = {https://doi.org/10.1145/3230833.3232799},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, attack-graphs, grade-A, essential}
+}
+
+@book{kahneman2011thinking,
+  author       = {Daniel Kahneman},
+  title        = {{Rápido e devagar: duas formas de pensar}},
+  publisher    = {Rio de Janeiro: Objetiva. Tradução de Cássio de Arantes Leite. Título original: Thinking, Fast and Slow (New York: Farrar, Straus and Giroux, 2011)},
+  year         = {2012},
+  isbn         = {978-85-390-0383-9},
+  url          = {https://www.companhiadasletras.com.br/livro/9788539003839/rapido-e-devagar},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {psychology, grade-B}
+}
+
+@article{kaloroumakis2021d3fend,
+  author       = {Peter E. Kaloroumakis and Michael J. Smith},
+  title        = {{Toward a Knowledge Graph of Cybersecurity Countermeasures}},
+  journal      = {The MITRE Corporation},
+  year         = {2021},
+  url          = {https://d3fend.mitre.org/resources/D3FEND.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, threat-modeling, grade-A, essential}
+}
+
+@article{kaynar2016taxonomy,
+  author       = {Kerem Kaynar},
+  title        = {{A taxonomy for attack graph generation and usage in network security}},
+  journal      = {Journal of Information Security and Applications, v. 29, p. 27-56},
+  year         = {2016},
+  doi          = {10.1016/j.jisa.2016.02.001},
+  url          = {https://doi.org/10.1016/j.jisa.2016.02.001},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@article{kent1964words,
+  author       = {Sherman Kent},
+  title        = {{Words of Estimative Probability}},
+  journal      = {Studies in Intelligence, v. 8, n. 4, Fall 1964. CIA Center for the Study of Intelligence},
+  year         = {1964},
+  url          = {https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-8-no-4/words-of-estimative-probability},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, psychology, grade-A, essential}
+}
+
+@article{kitchenham2007guidelines,
+  author       = {Barbara Kitchenham and Stuart Charters},
+  title        = {{Guidelines for performing Systematic Literature Reviews in Software Engineering}},
+  journal      = {Keele University and Durham University Joint Report, EBSE Technical Report EBSE-2007-01 (Version 2.3)},
+  year         = {2007},
+  url          = {https://keele-repository.worktribe.com/OutputFile/460665},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-B}
+}
+
+@book{klein1998sources,
+  author       = {Gary Klein},
+  title        = {{Sources of Power: How People Make Decisions}},
+  publisher    = {Cambridge, MA: MIT Press},
+  year         = {1998},
+  url          = {https://mitpress.mit.edu/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {psychology, grade-B}
+}
+
+@book{kohnfelder-designing-secure-software,
+  author       = {Loren Kohnfelder},
+  title        = {{Designing Secure Software: A Guide for Developers}},
+  publisher    = {San Francisco: No Starch Press},
+  year         = {2022},
+  url          = {https://designingsecuresoftware.com/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{kohnfelder1999threats,
+  author       = {Loren Kohnfelder and Praerit Garg},
+  title        = {{The Threats to Our Products}},
+  howpublished = {Microsoft Interface (internal Microsoft journal), 1 Apr.},
+  year         = {1999},
+  url          = {https://shostack.org/files/microsoft/The-Threats-To-Our-Products.docx},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@article{kordy2011adtrees,
+  author       = {Barbara Kordy and Sjouke Mauw and Savsa Radomirović and Patrick Schweitzer},
+  title        = {{Foundations of Attack–Defense Trees}},
+  journal      = {Formal Aspects of Security and Trust (FAST 2010), Springer, v. 6561, p. 80-95},
+  year         = {2011},
+  doi          = {10.1007/978-3-642-19751-2_6},
+  url          = {https://doi.org/10.1007/978-3-642-19751-2_6},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@article{kordy2014dag,
+  author       = {Barbara Kordy and Ludovic Piètre-Cambacédès and Patrick Schweitzer},
+  title        = {{DAG-based attack and defense modeling: Don't miss the forest for the attack trees}},
+  journal      = {Computer Science Review, v. 13-14, p. 1-38},
+  year         = {2014},
+  doi          = {10.1016/j.cosrev.2014.07.001},
+  url          = {https://doi.org/10.1016/j.cosrev.2014.07.001},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, threat-modeling, grade-A, essential}
+}
+
+@article{lallie2020review,
+  author       = {Harjinder Singh Lallie and Kurt Debattista and Jay Bal},
+  title        = {{A review of attack graph and attack tree visual syntax in cyber security}},
+  journal      = {Computer Science Review, v. 35, art. 100219},
+  year         = {2020},
+  doi          = {10.1016/j.cosrev.2019.100219},
+  url          = {https://doi.org/10.1016/j.cosrev.2019.100219},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, threat-modeling, grade-A, essential}
 }
 
 @article{le2022survey,
-  author       = {Le, Triet H. M. and Chen, Huaming and Babar, M. Ali},
+  author       = {Triet H. M. Le and Huaming Chen and M. Ali Babar},
   title        = {{A Survey on Data-driven Software Vulnerability Assessment and Prioritization}},
   journal      = {ACM Computing Surveys},
   year         = {2022},
   doi          = {10.1145/3529757},
-  keywords     = {eixo-7, status-V}
+  url          = {https://doi.org/10.1145/3529757},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
 }
 
-@book{hubbard2023measure,
-  author       = {Hubbard, Douglas W. and Seiersen, Richard},
-  title        = {{How to Measure Anything in Cybersecurity Risk}},
-  edition      = {2},
-  publisher    = {Wiley},
-  address      = {Hoboken},
-  year         = {2023},
-  isbn         = {978-1-119-89230-4},
-  keywords     = {eixo-7, status-V, essencial}
-}
-
-@book{freund2014fair,
-  author       = {Freund, Jack and Jones, Jack},
-  title        = {{Measuring and Managing Information Risk: A {FAIR} Approach}},
-  publisher    = {Butterworth-Heinemann},
-  address      = {Oxford},
-  year         = {2014},
-  keywords     = {eixo-7, status-C}
-}
-
-@book{jaquith2007metrics,
-  author       = {Jaquith, Andrew},
-  title        = {{Security Metrics: Replacing Fear, Uncertainty, and Doubt}},
-  publisher    = {Addison-Wesley},
-  address      = {Upper Saddle River},
-  year         = {2007},
-  keywords     = {eixo-7, status-C}
-}
-
-@inproceedings{verendel2009quantified,
-  author       = {Verendel, Vilhelm},
-  title        = {{Quantified Security is a Weak Hypothesis: A Critical Survey of Results and Assumptions}},
-  booktitle    = {New Security Paradigms Workshop (NSPW)},
-  pages        = {37--50},
-  year         = {2009},
-  keywords     = {eixo-7, status-C, essencial}
-}
-
-@book{tetlock2015superforecasting,
-  author       = {Tetlock, Philip E. and Gardner, Dan},
-  title        = {{Superforecasting: The Art and Science of Prediction}},
-  publisher    = {Crown},
-  address      = {New York},
-  year         = {2015},
-  keywords     = {eixo-7, status-C}
-}
-
-@article{brier1950verification,
-  author       = {Brier, Glenn W.},
-  title        = {{Verification of Forecasts Expressed in Terms of Probability}},
-  journal      = {Monthly Weather Review},
-  volume       = {78},
-  number       = {1},
-  pages        = {1--3},
-  year         = {1950},
-  keywords     = {eixo-7, status-C}
-}
-
-@article{husak2019survey,
-  author       = {Hus{\'a}k, Martin and Kom{\'a}rkov{\'a}, Jana and Bou-Harb, Elias and {\v{C}}eleda, Pavel},
-  title        = {{Survey of Attack Projection, Prediction, and Forecasting in Cyber Security}},
-  journal      = {IEEE Communications Surveys \& Tutorials},
-  volume       = {21},
-  number       = {1},
-  pages        = {640--660},
+@inproceedings{li2019tealeaves,
+  author       = {Vector Guo Li and Matthew Dunn and Paul Pearce and Damon McCoy and Geoffrey M. Voelker and Stefan Savage and Kirill Levchenko},
+  title        = {{Reading the Tea leaves: A Comparative Analysis of Threat Intelligence}},
+  booktitle    = {28th USENIX Security Symposium (USENIX Security 19), Santa Clara, CA. USENIX Association, p. 851-867},
   year         = {2019},
-  doi          = {10.1109/COMST.2018.2871866},
-  keywords     = {eixo-8, status-V, essencial}
+  isbn         = {978-1-939133-06-9},
+  url          = {https://www.usenix.org/conference/usenixsecurity19/presentation/li},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A, essential}
 }
 
-@article{husak2021predictive,
-  author       = {Hus{\'a}k, Martin and others},
-  title        = {{Predictive methods in cyber defense: Current experience and research challenges}},
-  journal      = {Future Generation Computer Systems},
-  volume       = {115},
-  year         = {2021},
-  doi          = {10.1016/j.future.2020.10.006},
-  keywords     = {eixo-8, status-V}
+@misc{linddun,
+  author       = {{KU Leuven}},
+  title        = {{LINDDUN}},
+  url          = {https://linddun.org/},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {threat-modeling, privacy, grade-B}
 }
 
 @inproceedings{liu2015cloudy,
-  author       = {Liu, Yang and Sarabi, Armin and Zhang, Jing and Naghizadeh, Parinaz and Karir, Manish and Bailey, Michael and Liu, Mingyan},
+  author       = {Yang Liu and Armin Sarabi and Jing Zhang and Parinaz Naghizadeh and Manish Karir and Michael Bailey and Mingyan Liu},
   title        = {{Cloudy with a Chance of Breach: Forecasting Cyber Security Incidents}},
-  booktitle    = {24th USENIX Security Symposium},
-  pages        = {1009--1024},
+  booktitle    = {24th USENIX Security Symposium (USENIX Security 15), Washington, DC, p. 1009-1024},
   year         = {2015},
-  keywords     = {eixo-8, status-V}
+  url          = {https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/liu},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
 }
 
-@inproceedings{bilge2017riskteller,
-  author       = {Bilge, Leyla and Han, Yufei and Dell'Amico, Matteo},
-  title        = {{RiskTeller}: Predicting the Risk of Cyber Incidents},
-  booktitle    = {ACM Conference on Computer and Communications Security (CCS)},
-  year         = {2017},
-  keywords     = {eixo-8, status-C}
+@misc{llminjection,
+  author       = {{Ridd1kulusC0d3r}},
+  title        = {{LLMInjection}},
+  url          = {https://github.com/Ridd1kulusC0d3r/LLmInjection},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, cti, grade-B}
 }
 
-@inproceedings{suciu2022expected,
-  author       = {Suciu, Octavian and others},
-  title        = {{Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits}},
-  booktitle    = {31st USENIX Security Symposium},
-  year         = {2022},
-  note         = {arXiv:2102.07869},
-  keywords     = {eixo-8, status-V}
+@misc{maigret,
+  author       = {{soxoj}},
+  title        = {{Maigret}},
+  url          = {https://github.com/soxoj/maigret},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, grade-B}
 }
 
-@article{gordon2002economics,
-  author       = {Gordon, Lawrence A. and Loeb, Martin P.},
-  title        = {{The Economics of Information Security Investment}},
-  journal      = {ACM Transactions on Information and System Security},
-  volume       = {5},
-  number       = {4},
-  pages        = {438--457},
-  year         = {2002},
-  keywords     = {eixo-8, status-C}
+@inproceedings{mauw2005foundations,
+  author       = {Sjouke Mauw and Martijn Oostdijk},
+  title        = {{Foundations of Attack Trees}},
+  booktitle    = {Information Security and Cryptology – ICISC 2005, 8th International Conference, Seoul, Korea, December 1-2, 2005, Revised Selected Papers. Lecture Notes in Computer Science, v. 3935. Berlin: Springer, 2006. p. 186-198},
+  year         = {2006},
+  doi          = {10.1007/11734727_17},
+  url          = {https://doi.org/10.1007/11734727_17},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
 }
 
-@book{tambe2011security,
-  author       = {Tambe, Milind},
-  title        = {{Security and Game Theory: Algorithms, Deployed Systems, Lessons Learned}},
-  publisher    = {Cambridge University Press},
-  address      = {Cambridge},
-  year         = {2011},
-  keywords     = {eixo-8, status-C}
+@misc{mead2005square,
+  author       = {Nancy R. Mead and Eric D. Hough and {Theodore R. Stehney II}},
+  title        = {{Security Quality Requirements Engineering (SQUARE) Methodology}},
+  howpublished = {Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-2005-TR-009},
+  year         = {2005},
+  url          = {https://kilthub.cmu.edu/articles/report/Security_Quality_Requirements_Engineering_SQUARE_Methodology/6583673},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, threat-modeling, grade-A}
 }
 
-@inproceedings{almeshekah2014deception,
-  author       = {Almeshekah, Mohammed H. and Spafford, Eugene H.},
-  title        = {{Planning and Integrating Deception into Computer Security Defenses}},
-  booktitle    = {New Security Paradigms Workshop (NSPW)},
+@misc{min-telemetry-requirements,
+  author       = {{MITRE CTID}},
+  title        = {{Minimum Telemetry Requirements}},
+  url          = {https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/data-readiness/min-telemetry-reqs/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-A}
+}
+
+@misc{misp-project,
+  author       = {{MISP Project}},
+  title        = {{MISP}},
+  url          = {https://www.misp-project.org/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, grade-B}
+}
+
+@misc{mitre-atlas,
+  author       = {{MITRE}},
+  title        = {{MITRE ATLAS}},
+  url          = {https://atlas.mitre.org/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, cti, grade-A}
+}
+
+@misc{mitre-attack,
+  author       = {{MITRE}},
+  title        = {{MITRE ATT\&CK}},
+  url          = {https://attack.mitre.org/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{mitre-attack-ics,
+  author       = {{MITRE}},
+  title        = {{MITRE ATT\&CK for ICS}},
+  url          = {https://attack.mitre.org/matrices/ics/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {ics-cps, threat-modeling, grade-A}
+}
+
+@misc{mitre-capec,
+  author       = {{MITRE}},
+  title        = {{CAPEC — Common Attack Pattern Enumeration and Classification}},
+  url          = {https://capec.mitre.org/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {threat-modeling, apt, grade-A}
+}
+
+@misc{mitre-cja,
+  author       = {{The MITRE Corporation}},
+  title        = {{Crown Jewels Analysis}},
+  howpublished = {In: The MITRE Systems Engineering Guide, Systems Engineering for Mission Assurance section. Bedford, MA: The MITRE Corporation, 2014 (online since 2011). ISBN 978-0-615-97442-2},
   year         = {2014},
-  keywords     = {eixo-8, status-C}
+  isbn         = {978-0-615-97442-2},
+  url          = {https://www.mitre.org/our-impact/intellectual-property/crown-jewels-analysis},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {architecture, threat-modeling, grade-A}
 }
 
-@misc{mitre_engage,
+@misc{mitre-engage,
   author       = {{MITRE}},
   title        = {{MITRE Engage}},
-  url          = {https://engage.mitre.org},
-  keywords     = {eixo-8, status-C}
+  url          = {https://engage.mitre.org/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, emulation, grade-A}
 }
 
-@techreport{nist800160v2,
-  title        = {{Developing Cyber-Resilient Systems: A Systems Security Engineering Approach}},
-  number       = {SP 800-160 Vol. 2 Rev. 1},
-  institution  = {NIST},
-  year         = {2021},
-  keywords     = {eixo-8, status-C}
+@misc{mitre-tara,
+  author       = {{MITRE}},
+  title        = {{TARA — Threat Assessment and Remediation Analysis}},
+  url          = {https://www.mitre.org/news-insights/publication/threat-assessment-and-remediation-analysis-tara},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-A}
 }
 
-@techreport{nist800207,
-  author       = {Rose, Scott and Borchert, Oliver and Mitchell, Stu and Connelly, Sean},
-  title        = {{Zero Trust Architecture}},
-  number       = {SP 800-207},
-  institution  = {NIST},
-  year         = {2020},
-  doi          = {10.6028/NIST.SP.800-207},
-  keywords     = {eixo-9, status-C}
+@misc{mitreattack-python,
+  author       = {{MITRE ATT\&CK}},
+  title        = {{mitreattack-python}},
+  url          = {https://github.com/mitre-attack/mitreattack-python},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, detection-engineering, grade-A}
 }
 
-@techreport{cisa2023ztmm,
-  title        = {{Zero Trust Maturity Model, Version 2.0}},
-  institution  = {CISA},
-  year         = {2023},
-  keywords     = {eixo-9, status-C}
+@misc{ms-aiml-tm,
+  author       = {Andrew Marshall and Jugal Parikh and Emre Kiciman and Ram Shankar Siva Kumar},
+  title        = {{Threat Modeling AI/ML Systems and Dependencies}},
+  howpublished = {Microsoft Learn — Security Engineering documentation, Microsoft},
+  year         = {2019},
+  url          = {https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-C}
 }
 
-@book{sherwood2005sabsa,
-  author       = {Sherwood, John and Clark, Andrew and Lynas, David},
-  title        = {{Enterprise Security Architecture: A Business-Driven Approach}},
-  publisher    = {CMP Books},
-  address      = {San Francisco},
-  year         = {2005},
-  keywords     = {eixo-9, status-C}
-}
-
-@misc{ms_eam,
+@misc{ms-eam,
   author       = {{Microsoft}},
   title        = {{Enterprise access model}},
-  howpublished = {Microsoft Learn},
   url          = {https://learn.microsoft.com/security/privileged-access-workstations/privileged-access-access-model},
-  keywords     = {eixo-9, status-C}
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {architecture, grade-C}
 }
 
-@misc{mitre_cja,
-  author       = {{MITRE}},
-  title        = {{Crown Jewels Analysis}},
-  howpublished = {MITRE Systems Engineering Guide},
-  keywords     = {eixo-9, status-C}
-}
-
-@misc{specterops_apm,
-  author       = {{SpecterOps}},
-  title        = {{BloodHound} and Attack Path Management},
-  url          = {https://github.com/SpecterOps/BloodHound},
-  keywords     = {eixo-9, status-C}
-}
-
-@inproceedings{syed2016uco,
-  author       = {Syed, Zareen and Padia, Ankur and Finin, Tim and Mathews, Lisa and Joshi, Anupam},
-  title        = {{UCO}: A Unified Cybersecurity Ontology},
-  booktitle    = {AAAI Workshop on Artificial Intelligence for Cyber Security},
+@misc{ms-tmt,
+  author       = {{Microsoft}},
+  title        = {{Microsoft Threat Modeling Tool}},
+  howpublished = {Microsoft Learn — Azure security documentation},
   year         = {2016},
-  keywords     = {eixo-10, status-C}
+  url          = {https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-C}
+}
+
+@article{munozgonzalez2019exact,
+  author       = {Luis Muñoz-González and Daniele Sgandurra and Martín Barrère and Emil C. Lupu},
+  title        = {{Exact Inference Techniques for the Analysis of Bayesian Attack Graphs}},
+  journal      = {IEEE Transactions on Dependable and Secure Computing, v. 16, n. 2, p. 231-244},
+  year         = {2019},
+  doi          = {10.1109/TDSC.2016.2627033},
+  url          = {https://doi.org/10.1109/TDSC.2016.2627033},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@misc{ncsc-caf,
+  author       = {{UK) National Cyber Security Centre (NCSC}},
+  title        = {{Cyber Assessment Framework (CAF) v4.0}},
+  howpublished = {NCSC, London, 4 Aug.},
+  year         = {2025},
+  url          = {https://www.ncsc.gov.uk/collection/cyber-assessment-framework},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, architecture, grade-A}
+}
+
+@misc{ncsc-threat-modelling,
+  author       = {{NCSC}},
+  title        = {{Threat Modelling}},
+  url          = {https://www.ncsc.gov.uk/collection/risk-management/threat-modelling},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist-800-53-attack-mappings,
+  author       = {{MITRE Engenuity CTID}},
+  title        = {{NIST 800-53 Controls to ATT\&CK Mapping}},
+  url          = {https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/nist-800-53-control-mappings/},
+  urldate      = {2026-10-19},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{nist-ai-100-2,
+  author       = {{NIST}},
+  title        = {{NIST AI 100-2 — Adversarial Machine Learning Taxonomy}},
+  year         = {2025},
+  url          = {https://csrc.nist.gov/pubs/ai/100/2/e2025/final},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-A}
+}
+
+@misc{nist-ai-rmf,
+  author       = {{NIST}},
+  title        = {{NIST AI Risk Management Framework}},
+  year         = {2023},
+  url          = {https://www.nist.gov/itl/ai-risk-management-framework},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {ai, grade-A}
+}
+
+@misc{nist-csf-2,
+  author       = {{NIST}},
+  title        = {{NIST Cybersecurity Framework 2.0}},
+  year         = {2024},
+  url          = {https://www.nist.gov/cyberframework},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist-sp-800-160v2,
+  author       = {{NIST SP 800-160 Vol. 2 Rev. 1}},
+  title        = {{Developing Cyber-Resilient Systems}},
+  url          = {https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist-sp-800-207,
+  author       = {{NIST}},
+  title        = {{NIST SP 800-207 — Zero Trust Architecture}},
+  year         = {2020},
+  url          = {https://csrc.nist.gov/pubs/sp/800/207/final},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist-sp-800-30,
+  author       = {{NIST}},
+  title        = {{NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments}},
+  year         = {2012},
+  url          = {https://csrc.nist.gov/pubs/sp/800/30/r1/final},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist-sp-800-53r5,
+  author       = {{NIST}},
+  title        = {{NIST SP 800-53 Rev. 5}},
+  url          = {https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist-ssdf,
+  author       = {{NIST}},
+  title        = {{NIST SSDF — Secure Software Development Framework}},
+  url          = {https://csrc.nist.gov/projects/ssdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{nist2024csf,
+  author       = {{National Institute of Standards and Technology}},
+  title        = {{The NIST Cybersecurity Framework (CSF) 2.0}},
+  howpublished = {Gaithersburg, MD: NIST, NIST Cybersecurity White Paper (CSWP) 29, Feb.},
+  year         = {2024},
+  doi          = {10.6028/NIST.CSWP.29},
+  url          = {https://doi.org/10.6028/NIST.CSWP.29},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, architecture, grade-A}
+}
+
+@misc{nist800154,
+  author       = {Murugiah Souppaya and Karen Scarfone},
+  title        = {{Guide to Data-Centric System Threat Modeling}},
+  howpublished = {National Institute of Standards and Technology, NIST Special Publication 800-154 (Initial Public Draft)},
+  year         = {2016},
+  url          = {https://csrc.nist.gov/pubs/sp/800/154/ipd},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, risk, grade-A}
+}
+
+@misc{nist800207,
+  author       = {Scott Rose and Oliver Borchert and Stu Mitchell and Sean Connelly},
+  title        = {{Zero Trust Architecture}},
+  howpublished = {NIST},
+  year         = {2020},
+  doi          = {10.6028/NIST.SP.800-207},
+  url          = {https://doi.org/10.6028/NIST.SP.800-207},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {architecture, grade-A}
+}
+
+@misc{nist80030,
+  author       = {{Joint Task Force Transformation Initiative}},
+  title        = {{Guide for Conducting Risk Assessments}},
+  howpublished = {NIST},
+  year         = {2012},
+  doi          = {10.6028/NIST.SP.800-30r1},
+  url          = {https://doi.org/10.6028/NIST.SP.800-30r1},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@misc{nistai1002,
+  author       = {Apostol Vassilev and Alina Oprea and Alie Fordyce and Hyrum Anderson and Xander Davies and Maia Hamin},
+  title        = {{Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations}},
+  howpublished = {National Institute of Standards and Technology, NIST AI 100-2 E2025, Gaithersburg, MD, March},
+  year         = {2025},
+  doi          = {10.6028/NIST.AI.100-2e2025},
+  url          = {https://doi.org/10.6028/NIST.AI.100-2e2025},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-A}
+}
+
+@misc{nistir8286,
+  author       = {Kevin Stine and Stephen Quinn and Greg Witte and R. K. Gardner},
+  title        = {{Integrating Cybersecurity and Enterprise Risk Management (ERM)}},
+  howpublished = {Gaithersburg, MD: National Institute of Standards and Technology, NISTIR 8286, Oct.},
+  year         = {2020},
+  doi          = {10.6028/NIST.IR.8286},
+  url          = {https://doi.org/10.6028/NIST.IR.8286},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@inproceedings{noel2004managing,
+  author       = {Steven Noel and Sushil Jajodia},
+  title        = {{Managing Attack Graph Complexity Through Visual Hierarchical Aggregation}},
+  booktitle    = {VizSEC/DMSEC '04: Proceedings of the 2004 ACM Workshop on Visualization and Data Mining for Computer Security, Washington, DC (with CCS 2004). ACM},
+  year         = {2004},
+  url          = {https://doi.org/10.1145/1029208},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A}
+}
+
+@misc{oasis2021stix,
+  author       = {Bret Jordan and Rich Piazza and Trey Darley and Drew Varner},
+  title        = {{STIX Version 2.1; TAXII Version 2.1}},
+  howpublished = {OASIS Open. STIX Version 2.1, OASIS Standard, 10 June 2021 (eds. Bret Jordan, Rich Piazza, Trey Darley); TAXII Version 2.1, OASIS Standard, 10 June 2021 (eds. Bret Jordan, Drew Varner)},
+  year         = {2021},
+  url          = {https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
 }
 
 @inproceedings{obrst2012ontology,
-  author       = {Obrst, Leo and Chase, Penny and Markeloff, Richard},
+  author       = {Leo Obrst and Penny Chase and Richard Markeloff},
   title        = {{Developing an Ontology of the Cyber Security Domain}},
-  booktitle    = {Semantic Technologies for Intelligence, Defense, and Security (STIDS)},
+  booktitle    = {Semantic Technologies for Intelligence, Defense, and Security (STIDS 2012), CEUR Workshop Proceedings, v. 966, p. 49-56},
   year         = {2012},
-  keywords     = {eixo-10, status-C}
+  url          = {https://ceur-ws.org/Vol-966/STIDS2012_T06_ObrstEtAl_CyberOntology.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{odni2015icd203,
+  author       = {{Office of the Director of National Intelligence}},
+  title        = {{Intelligence Community Directive 203: Analytic Standards}},
+  howpublished = {Washington, DC: ODNI. ICD 203, effective 2 January},
+  year         = {2015},
+  url          = {https://www.dni.gov/files/documents/ICD/ICD-203.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, psychology, grade-A, essential}
+}
+
+@misc{opencti,
+  author       = {Filigran / OpenCTI Platform},
+  title        = {{OpenCTI}},
+  url          = {https://github.com/OpenCTI-Platform/opencti},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, grade-B}
+}
+
+@misc{openstack-threat-analysis,
+  author       = {{OpenStack}},
+  title        = {{OpenStack Threat Analysis}},
+  url          = {https://wiki.openstack.org/wiki/Security/Threat_Analysis},
+  urldate      = {2026-10-19},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-E}
+}
+
+@misc{osint-framework,
+  author       = {Justin Nordine},
+  title        = {{OSINT Framework}},
+  url          = {https://osintframework.com/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, grade-B}
+}
+
+@misc{ossf-scorecard,
+  author       = {{OpenSSF}},
+  title        = {{OpenSSF Scorecard}},
+  url          = {https://github.com/ossf/scorecard},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {supply-chain, grade-A}
+}
+
+@misc{otrf-security-datasets,
+  author       = {Open Threat Research Forge},
+  title        = {{OTRF Security Datasets}},
+  url          = {https://github.com/OTRF/Security-Datasets},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{otrf-simuland,
+  author       = {Open Threat Research Forge},
+  title        = {{OTRF SimuLand}},
+  url          = {https://github.com/OTRF/SimuLand},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, emulation, grade-B}
+}
+
+@inproceedings{ou2005mulval,
+  author       = {Xinming Ou and Sudhakar Govindavajhala and Andrew W. Appel},
+  title        = {{MulVAL: A Logic-based Network Security Analyzer}},
+  booktitle    = {14th USENIX Security Symposium (USENIX Security '05), Baltimore, MD. USENIX Association},
+  year         = {2005},
+  url          = {https://www.usenix.org/conference/14th-usenix-security-symposium/mulval-logic-based-network-security-analyzer},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A, essential}
+}
+
+@misc{owasp-ai-exchange,
+  author       = {{OWASP}},
+  title        = {{OWASP AI Exchange}},
+  url          = {https://owaspai.org/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-B}
+}
+
+@misc{owasp-devguide-tm,
+  author       = {{OWASP}},
+  title        = {{OWASP Developer Guide — Threat Modeling}},
+  url          = {https://devguide.owasp.org/en/04-design/01-threat-modeling/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{owasp-genai-security,
+  author       = {{OWASP}},
+  title        = {{OWASP GenAI Security Project}},
+  url          = {https://genai.owasp.org/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {ai, grade-B}
+}
+
+@misc{owasp-llm-top-10,
+  author       = {{OWASP GenAI Security Project}},
+  title        = {{OWASP Top 10 for LLM Applications}},
+  url          = {https://genai.owasp.org/llm-top-10/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, grade-B}
+}
+
+@misc{owasp-threat-dragon,
+  author       = {{OWASP}},
+  title        = {{OWASP Threat Dragon}},
+  url          = {https://owasp.org/www-project-threat-dragon/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{owasp-threat-modeling-cheat-sheet,
+  author       = {{OWASP}},
+  title        = {{OWASP Threat Modeling Cheat Sheet}},
+  url          = {https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{owasp-tm-in-practice,
+  author       = {{OWASP}},
+  title        = {{Threat Modeling in Practice}},
+  url          = {https://devguide.owasp.org/en/04-design/01-threat-modeling/07-practical-threat-modeling/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{owasp-tm-library,
+  author       = {{OWASP}},
+  title        = {{Threat Model Library}},
+  url          = {https://devguide.owasp.org/en/04-design/01-threat-modeling/06-threat-model-library/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{owasp-tm-project,
+  author       = {{OWASP}},
+  title        = {{OWASP Threat Modeling Project}},
+  url          = {https://owasp.github.io/www-project-threat-modeling/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@inproceedings{paccagnella2020custos,
+  author       = {Riccardo Paccagnella and others},
+  title        = {{Custos: Practical Tamper-Evident Auditing of Operating Systems Using Trusted Execution}},
+  booktitle    = {Network and Distributed System Security Symposium (NDSS 2020), San Diego, CA. Internet Society},
+  year         = {2020},
+  isbn         = {1-891562-61-4},
+  doi          = {10.14722/ndss.2020.24065},
+  url          = {https://doi.org/10.14722/ndss.2020.24065},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, provenance, grade-A}
+}
+
+@misc{palantir-ads-framework,
+  author       = {{Palantir}},
+  title        = {{Palantir ADS Framework}},
+  url          = {https://github.com/palantir/alerting-detection-strategy-framework},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@article{parasuraman2010complacency,
+  author       = {Raja Parasuraman and Dietrich H. Manzey},
+  title        = {{Complacency and Bias in Human Use of Automation: An Attentional Integration}},
+  journal      = {Human Factors, v. 52, n. 3, p. 381-410},
+  year         = {2010},
+  doi          = {10.1177/0018720810376055},
+  url          = {https://doi.org/10.1177/0018720810376055},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, psychology, grade-A}
+}
+
+@book{pasta-risk-centric-tm,
+  author       = {Tony UcedaVélez and Marco M. Morana},
+  title        = {{Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis}},
+  publisher    = {Hoboken: Wiley},
+  year         = {2015},
+  doi          = {10.1002/9781118988374},
+  url          = {https://onlinelibrary.wiley.com/doi/book/10.1002/9781118988374},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{pasta-versprite,
+  author       = {{VerSprite}},
+  title        = {{PASTA — VerSprite}},
+  url          = {https://versprite.com/blog/what-is-pasta-threat-modeling/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-C}
+}
+
+@article{peffers2007dsrm,
+  author       = {Ken Peffers and Tuure Tuunanen and Marcus A. Rothenberger and Samir Chatterjee},
+  title        = {{A Design Science Research Methodology for Information Systems Research}},
+  journal      = {Journal of Management Information Systems, v. 24, n. 3, p. 45-77},
+  year         = {2007},
+  doi          = {10.2753/MIS0742-1222240302},
+  url          = {https://doi.org/10.2753/MIS0742-1222240302},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-A, essential}
+}
+
+@article{petersen2015mapping,
+  author       = {Kai Petersen and Sairam Vakkalanka and Ludwik Kuzniarz},
+  title        = {{Guidelines for conducting systematic mapping studies in software engineering: An update}},
+  journal      = {Information and Software Technology, v. 64, p. 1-18},
+  year         = {2015},
+  doi          = {10.1016/j.infsof.2015.03.007},
+  url          = {https://doi.org/10.1016/j.infsof.2015.03.007},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-A}
+}
+
+@misc{phantom-b-llm-threat-modeling,
+  author       = {Adam Shostack},
+  title        = {{Threat Modeling LLMs: The PHANTOM-B model}},
+  url          = {https://shostack.org/blackhat},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-B}
+}
+
+@misc{plot4ai,
+  author       = {{PLOT4ai}},
+  title        = {{PLOT4ai}},
+  url          = {https://plot4.ai/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, privacy, grade-B}
+}
+
+@misc{poirot,
+  author       = {Sadegh M. Milajerdi and others},
+  title        = {{POIROT: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting}},
+  year         = {2019},
+  url          = {https://arxiv.org/abs/1910.00056},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {provenance, cti, grade-B}
+}
+
+@misc{pols2017ukc,
+  author       = {Paul Pols},
+  title        = {{The Unified Kill Chain: Designing a Unified Kill Chain for analyzing, comparing and defending against cyber attacks}},
+  howpublished = {Executive master thesis, Cyber Security Academy (Leiden University / TU Delft / The Hague Univ.), supervisor Jan van den Berg; whitepaper maintained at unifiedkillchain.com},
+  year         = {2017},
+  url          = {https://www.unifiedkillchain.com/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, threat-modeling, grade-B}
+}
+
+@article{poolsappasit2012dynamic,
+  author       = {Nayot Poolsappasit and Rinku Dewri and Indrajit Ray},
+  title        = {{Dynamic Security Risk Management Using Bayesian Attack Graphs}},
+  journal      = {IEEE Transactions on Dependable and Secure Computing, v. 9, n. 1, p. 61-74},
+  year         = {2012},
+  doi          = {10.1109/TDSC.2011.34},
+  url          = {https://doi.org/10.1109/TDSC.2011.34},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, risk, grade-A, essential}
+}
+
+@book{practical-threat-detection-eng,
+  author       = {Megan Roddie and Jason Deyalsingh and Gary J. Katz},
+  title        = {{Practical Threat Detection Engineering}},
+  publisher    = {Birmingham: Packt},
+  isbn         = {978-1-80107-671-5},
+  url          = {https://github.com/PacktPublishing/Practical-Threat-Detection-Engineering},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B, essential}
+}
+
+@misc{procedural-semantics-gap,
+  author       = {Ágney Lopes Roth Ferraz and others},
+  title        = {{The Procedural Semantics Gap in Structured CTI: A Measurement-Driven STIX Analysis for APT Emulation}},
+  year         = {2025},
+  url          = {https://arxiv.org/abs/2512.12078},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, emulation, grade-B}
+}
+
+@misc{publish-your-threat-models,
+  author       = {Loren Kohnfelder and Adam Shostack},
+  title        = {{Publish Your Threat Models! The benefits far outweigh the dangers}},
+  year         = {2025},
+  url          = {https://arxiv.org/abs/2511.08295},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{pysigma,
+  author       = {{SigmaHQ}},
+  title        = {{pySigma}},
+  url          = {https://github.com/SigmaHQ/pySigma},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-A}
+}
+
+@misc{pytm,
+  author       = {{OWASP}},
+  title        = {{pytm}},
+  url          = {https://github.com/OWASP/pytm},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{recon-ng,
+  author       = {Tim Tomes},
+  title        = {{Recon-ng}},
+  url          = {https://github.com/lanmaster53/recon-ng},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, grade-B}
+}
+
+@misc{red-team-redemption,
+  author       = {Max Landauer and others},
+  title        = {{Red Team Redemption: A Structured Comparison of Open-Source Tools for Adversary Emulation}},
+  year         = {2024},
+  url          = {https://arxiv.org/abs/2408.15645},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {emulation, cti, grade-B}
+}
+
+@misc{rfc9424,
+  author       = {Kirsty Paine and Ollie Whitehouse and James Sellwood and Andrew Shaw},
+  title        = {{Indicators of Compromise (IoCs) and Their Role in Attack Defence}},
+  howpublished = {IETF, RFC 9424 (Informational), August},
+  year         = {2023},
+  doi          = {10.17487/RFC9424},
+  url          = {https://doi.org/10.17487/RFC9424},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, detection-engineering, grade-A}
+}
+
+@book{roberts2021cti,
+  author       = {Aaron Roberts},
+  title        = {{Cyber Threat Intelligence: The No-Nonsense Guide for CISOs and Security Managers}},
+  publisher    = {Berkeley, CA: Apress},
+  year         = {2021},
+  isbn         = {978-1-4842-7219-0},
+  doi          = {10.1007/978-1-4842-7220-6},
+  url          = {https://doi.org/10.1007/978-1-4842-7220-6},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-B}
+}
+
+@article{runeson2009case,
+  author       = {Per Runeson and Martin Höst},
+  title        = {{Guidelines for conducting and reporting case study research in software engineering}},
+  journal      = {Empirical Software Engineering, v. 14, n. 2, p. 131-164},
+  year         = {2009},
+  doi          = {10.1007/s10664-008-9102-8},
+  url          = {https://doi.org/10.1007/s10664-008-9102-8},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-A}
+}
+
+@inproceedings{sabottke2015twitter,
+  author       = {Carl Sabottke and Octavian Suciu and Tudor Dumitraș},
+  title        = {{Vulnerability Disclosure in the Age of Social Media: Exploiting Twitter for Predicting Real-World Exploits}},
+  booktitle    = {24th USENIX Security Symposium (USENIX Security 15), Washington, D.C., Aug. 2015, USENIX Association},
+  year         = {2015},
+  isbn         = {978-1-939133-11-3},
+  url          = {https://www.usenix.org/biblio/vulnerability-disclosure-age-social-media-exploiting-twitter-predicting-real-world-exploits},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, cti, grade-A}
+}
+
+@misc{saitta2005trike,
+  author       = {Paul Saitta and Brenda Larcom and Michael Eddington},
+  title        = {{Trike v.1 Methodology Document [Draft]}},
+  howpublished = {Trike project (self-published draft), 13 Jul.},
+  year         = {2005},
+  url          = {https://trike.sourceforge.net/papers/Trike_v1_Methodology_Document-draft.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, risk, grade-B}
+}
+
+@book{sanders2013ansm,
+  author       = {Chris Sanders and Jason Smith},
+  title        = {{Applied Network Security Monitoring: Collection, Detection, and Analysis}},
+  publisher    = {Waltham, MA: Syngress (Elsevier)},
+  year         = {2013},
+  isbn         = {978-0-12-417208-1},
+  url          = {https://shop.elsevier.com/books/applied-network-security-monitoring/sanders/978-0-12-417208-1},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{sans-keynote-agentic-ai-tm,
+  author       = {{SANS Institute}},
+  title        = {{Keynote | Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience}},
+  url          = {https://www.youtube.com/watch?v=R49Cv7pJ2KA},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-B}
+}
+
+@article{scandariato2015descriptive,
+  author       = {Riccardo Scandariato and Kim Wuyts and Wouter Joosen},
+  title        = {{A descriptive study of Microsoft's threat modeling technique}},
+  journal      = {Requirements Engineering, v. 20, n. 2, p. 163-180},
+  year         = {2015},
+  doi          = {10.1007/s00766-013-0195-2},
+  url          = {https://doi.org/10.1007/s00766-013-0195-2},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, research-methods, grade-A}
+}
+
+@article{schlette2021comparative,
+  author       = {Daniel Schlette and Marco Caselli and Günther Pernul},
+  title        = {{A Comparative Study on Cyber Threat Intelligence: The Security Incident Response Perspective}},
+  journal      = {IEEE Communications Surveys \& Tutorials, v. 23, n. 4, p. 2525-2556},
+  year         = {2021},
+  doi          = {10.1109/COMST.2021.3117338},
+  url          = {https://doi.org/10.1109/COMST.2021.3117338},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A, essential}
+}
+
+@article{schlette2021quality,
+  author       = {Daniel Schlette and Fabian Böhm and Marco Caselli and Günther Pernul},
+  title        = {{Measuring and visualizing cyber threat intelligence quality}},
+  journal      = {International Journal of Information Security, v. 20, n. 1, p. 21-38},
+  year         = {2021},
+  doi          = {10.1007/s10207-020-00490-y},
+  url          = {https://doi.org/10.1007/s10207-020-00490-y},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@book{schneier2000secrets,
+  author       = {Bruce Schneier},
+  title        = {{Secrets and Lies: Digital Security in a Networked World}},
+  publisher    = {John Wiley \& Sons, New York},
+  year         = {2000},
+  isbn         = {0471253111},
+  url          = {https://www.schneier.com/books/secrets-and-lies/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, attack-graphs, grade-B}
+}
+
+@book{schoenfield-securing-systems,
+  author       = {Brook S. E. Schoenfield},
+  title        = {{Securing Systems: Applied Security Architecture and Threat Models}},
+  publisher    = {Boca Raton: CRC Press},
+  year         = {2015},
+  url          = {https://brookschoenfield.com/?page_id=245},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@book{schoenfield2019secrets,
+  author       = {Brook S. E. Schoenfield},
+  title        = {{Secrets of a Cyber Security Architect}},
+  publisher    = {Auerbach Publications (CRC Press / Taylor \& Francis), Boca Raton, FL},
+  year         = {2019},
+  isbn         = {9781498741996},
+  url          = {https://www.routledge.com/Secrets-of-a-Cyber-Security-Architect/Schoenfield/p/book/9781032475028},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, architecture, grade-B}
+}
+
+@misc{sdl-threat-modeling,
+  author       = {{Microsoft}},
+  title        = {{SDL Threat Modeling}},
+  url          = {https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{security-modelling-cps-slr,
+  author       = {Shaofei Huang and Christopher M. Poskitt and Lwin Khin Shar},
+  title        = {{Security Modelling for Cyber-Physical Systems: A Systematic Literature Review}},
+  year         = {2024},
+  url          = {https://arxiv.org/abs/2404.07527},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, ics-cps, grade-B}
+}
+
+@misc{sensor-mappings,
+  author       = {{MITRE CTID}},
+  title        = {{Sensor Mappings to ATT\&CK}},
+  url          = {https://center-for-threat-informed-defense.github.io/sensor-mappings-to-attack/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, grade-A}
+}
+
+@article{serpa2024transformacao,
+  author       = {Diego Serpa},
+  title        = {{Transformação digital da inteligência nacional brasileira}},
+  journal      = {Revista Brasileira de Inteligência, n. 19},
+  year         = {2024},
+  doi          = {10.58960/rbi.2024.19.258},
+  url          = {https://doi.org/10.58960/rbi.2024.19.258},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{sherlock,
+  author       = {{Sherlock Project}},
+  title        = {{Sherlock}},
+  url          = {https://github.com/sherlock-project/sherlock},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, grade-B}
+}
+
+@book{sherwood2005sabsa,
+  author       = {John Sherwood and Andrew Clark and David Lynas},
+  title        = {{Enterprise Security Architecture: A Business-Driven Approach}},
+  publisher    = {San Francisco: CMP Books (later reissued by CRC Press/Taylor \& Francis)},
+  year         = {2005},
+  isbn         = {978-1-57820-318-5},
+  url          = {https://www.routledge.com/products/9781578203185},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {architecture, threat-modeling, grade-B}
+}
+
+@inproceedings{sheyner2002automated,
+  author       = {Oleg Sheyner and Joshua Haines and Somesh Jha and Richard Lippmann and Jeannette M. Wing},
+  title        = {{Automated Generation and Analysis of Attack Graphs}},
+  booktitle    = {Proceedings 2002 IEEE Symposium on Security and Privacy, Berkeley/Oakland, CA. IEEE, 2002. p. 273-284},
+  year         = {2002},
+  doi          = {10.1109/SECPRI.2002.1004377},
+  url          = {https://doi.org/10.1109/SECPRI.2002.1004377},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, grade-A, essential}
+}
+
+@misc{shostack-attack-tmt,
+  author       = {Adam Shostack},
+  title        = {{MITRE ATT\&CK: Threat Model Thursday}},
+  url          = {https://shostack.org/blog/mitre-attack-threat-modeling-threat-model-thursday/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-D}
+}
+
+@book{shostack-designing-for-security,
+  author       = {Adam Shostack},
+  title        = {{Threat Modeling: Designing for Security}},
+  publisher    = {Indianapolis: Wiley},
+  year         = {2014},
+  isbn         = {978-1-118-80999-0},
+  url          = {https://threatmodelingbook.com/books},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B, essential}
+}
+
+@misc{shostack-what-why-how,
+  author       = {Adam Shostack},
+  title        = {{Threat Modeling: What, Why, and How?}},
+  url          = {https://shostack.org/resources/whitepapers/threat-modeling-what-why-how},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@inproceedings{shostack2014eop,
+  author       = {Adam Shostack},
+  title        = {{Elevation of Privilege: Drawing Developers into Threat Modeling}},
+  booktitle    = {2014 USENIX Summit on Gaming, Games, and Gamification in Security Education (3GSE 14), San Diego, CA},
+  year         = {2014},
+  url          = {https://www.usenix.org/conference/3gse14/summit-program/presentation/shostack},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{sigma-correlation-spec,
+  author       = {{SigmaHQ}},
+  title        = {{Sigma Correlation Specification}},
+  url          = {https://sigmahq.io/sigma-specification/specification/sigma-correlation-rules-specification.html},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{sigma-rules,
+  author       = {{SigmaHQ}},
+  title        = {{Sigma Rules}},
+  url          = {https://github.com/SigmaHQ/sigma},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
 }
 
 @article{sikos2023ckg,
-  author       = {Sikos, Leslie F.},
+  author       = {Leslie F. Sikos},
   title        = {{Cybersecurity knowledge graphs}},
-  journal      = {Knowledge and Information Systems},
-  volume       = {65},
-  pages        = {3511--3531},
+  journal      = {Knowledge and Information Systems, v. 65, p. 3511-3531},
   year         = {2023},
   doi          = {10.1007/s10115-023-01860-3},
-  keywords     = {eixo-10, status-V}
+  url          = {https://doi.org/10.1007/s10115-023-01860-3},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, provenance, grade-A}
+}
+
+@inproceedings{sion2018solutionaware,
+  author       = {Laurens Sion and Koen Yskout and Dimitri Van Landuyt and Wouter Joosen},
+  title        = {{Solution-aware data flow diagrams for security threat modeling}},
+  booktitle    = {Proceedings of the 33rd Annual ACM Symposium on Applied Computing (SAC '18), Pau, France, p. 1425-1432},
+  year         = {2018},
+  doi          = {10.1145/3167132.3167285},
+  url          = {https://doi.org/10.1145/3167132.3167285},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{slsa,
+  author       = {{OpenSSF}},
+  title        = {{SLSA — Supply-chain Levels for Software Artifacts}},
+  url          = {https://slsa.dev/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {supply-chain, threat-modeling, grade-A}
+}
+
+@misc{social-engineer-framework,
+  author       = {{Social-Engineer} and {LLC}},
+  title        = {{Social Engineering Framework}},
+  url          = {https://www.social-engineer.org/framework/general-discussion/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {psychology, threat-modeling, grade-C}
+}
+
+@article{sommestad2013cysemol,
+  author       = {Teodor Sommestad and Mathias Ekstedt and Hannes Holm},
+  title        = {{The Cyber Security Modeling Language: A Tool for Assessing the Vulnerability of Enterprise System Architectures}},
+  journal      = {IEEE Systems Journal, v. 7, n. 3, p. 363-373},
+  year         = {2013},
+  doi          = {10.1109/JSYST.2012.2221853},
+  url          = {https://doi.org/10.1109/JSYST.2012.2221853},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, attack-graphs, risk, grade-A}
+}
+
+@misc{sparta-space-attack-chains,
+  author       = {{The Aerospace Corporation}},
+  title        = {{Building Space Attack Chains using SPARTA}},
+  url          = {https://sparta.aerospace.org/resources/OTR-2023-00989_SPARTA_DefCon2023.pdf},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, ics-cps, grade-A}
+}
+
+@misc{specterops-apm,
+  author       = {{SpecterOps}},
+  title        = {{BloodHound and Attack Path Management}},
+  url          = {https://github.com/SpecterOps/BloodHound},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {architecture, attack-graphs, grade-C}
+}
+
+@misc{spiderfoot,
+  author       = {Steve Micallef},
+  title        = {{SpiderFoot}},
+  url          = {https://github.com/smicallef/spiderfoot},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, cti, grade-B}
+}
+
+@misc{splunk-attack-data,
+  author       = {{Splunk}},
+  title        = {{Splunk Attack Data}},
+  url          = {https://github.com/splunk/attack_data},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
+}
+
+@misc{splunk-attack-range,
+  author       = {{Splunk}},
+  title        = {{Splunk Attack Range}},
+  url          = {https://github.com/splunk/attack_range},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, emulation, grade-C}
+}
+
+@misc{splunk-security-content,
+  author       = {{Splunk}},
+  title        = {{Splunk Security Content}},
+  url          = {https://github.com/splunk/security_content},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-C}
+}
+
+@article{spring2019ssvc,
+  author       = {Jonathan M. Spring and Eric Hatleback and Allen D. Householder and Art Manion and Deana Shick},
+  title        = {{Prioritizing Vulnerability Response: A Stakeholder-Specific Vulnerability Categorization}},
+  journal      = {Carnegie Mellon University, Software Engineering Institute, Pittsburgh (white paper; DTIC AD1088910)},
+  year         = {2019},
+  url          = {https://www.sei.cmu.edu/library/prioritizing-vulnerability-response-a-stakeholder-specific-vulnerability-categorization-version-20/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A, essential}
+}
+
+@misc{ssvc,
+  author       = {{CERT/CC}},
+  title        = {{CERT/CC SSVC}},
+  url          = {https://certcc.github.io/SSVC/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@inproceedings{stevens2018battle,
+  author       = {Rock Stevens and Daniel Votipka and Elissa M. Redmiles and Colin Ahern and Patrick Sweeney and Michelle L. Mazurek},
+  title        = {{The Battle for New York: A Case Study of Applied Digital Threat Modeling at the Enterprise Level}},
+  booktitle    = {27th USENIX Security Symposium (USENIX Security 18), Baltimore, MD, p. 621-637},
+  year         = {2018},
+  isbn         = {978-1-939133-04-5},
+  url          = {https://www.usenix.org/conference/usenixsecurity18/presentation/stevens},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, architecture, grade-A, essential}
+}
+
+@misc{stratus-red-team,
+  author       = {{Datadog}},
+  title        = {{Stratus Red Team}},
+  url          = {https://stratus-red-team.cloud/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, emulation, cloud, grade-C}
+}
+
+@misc{stride-lm,
+  author       = {{CSF Tools}},
+  title        = {{STRIDE-LM}},
+  url          = {https://csf.tools/reference/stride-lm/},
+  urldate      = {2026-10-19},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-E}
+}
+
+@misc{stride-microsoft,
+  author       = {{Microsoft}},
+  title        = {{Microsoft STRIDE}},
+  url          = {https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats},
+  urldate      = {2026-10-24},
+  langid       = {portuguese},
+  keywords     = {threat-modeling, grade-A}
+}
+
+@misc{stridegpt,
+  author       = {Matthew Adams},
+  title        = {{STRIDE GPT: AI-powered threat modeling using the STRIDE methodology}},
+  howpublished = {GitHub repository mrwadams/stride-gpt (also on PyPI and Docker Hub)},
+  year         = {2023},
+  url          = {https://github.com/mrwadams/stride-gpt},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, threat-modeling, grade-B}
+}
+
+@article{strom2017finding,
+  author       = {Blake E. Strom and Joseph A. Battaglia and Michael S. Kemmerer and William Kupersanin and Douglas P. Miller and Craig Wampler and Sean M. Whitley and Ross D. Wolf},
+  title        = {{Finding Cyber Threats with ATT\&CK-Based Analytics}},
+  journal      = {McLean, VA: The MITRE Corporation, June 2017. Technical Report MTR170202},
+  year         = {2017},
+  url          = {https://www.mitre.org/news-insights/publication/finding-cyber-threats-attck-based-analytics},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, grade-A}
+}
+
+@article{strom2018attack,
+  author       = {Blake E. Strom and Andy Applebaum and Douglas P. Miller and Kathryn C. Nickels and Adam G. Pennington and Cody B. Thomas},
+  title        = {{MITRE ATT\&CK: Design and Philosophy}},
+  journal      = {McLean, VA: The MITRE Corporation, July 2018; revised March 2020. Technical report},
+  year         = {2018},
+  url          = {https://www.mitre.org/news-insights/publication/mitre-attck-design-and-philosophy},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, threat-modeling, detection-engineering, grade-A, essential}
+}
+
+@inproceedings{suciu2022expected,
+  author       = {Octavian Suciu and Connor Nelson and Zhuoer Lyu and Tiffany Bao and Tudor Dumitraș},
+  title        = {{Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits}},
+  booktitle    = {31st USENIX Security Symposium (USENIX Security 22), Boston; arXiv:2102.07869},
+  year         = {2022},
+  url          = {https://www.usenix.org/conference/usenixsecurity22/presentation/suciu},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-A}
+}
+
+@misc{summiting-the-pyramid,
+  author       = {{MITRE CTID}},
+  title        = {{Summiting the Pyramid}},
+  url          = {https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, grade-A}
+}
+
+@article{sun2023cti,
+  author       = {Nan Sun and others},
+  title        = {{Cyber Threat Intelligence Mining for Proactive Cybersecurity Defense: A Survey and New Perspectives}},
+  journal      = {IEEE Communications Surveys \& Tutorials, v. 25, n. 3, p. 1748-1774},
+  year         = {2023},
+  doi          = {10.1109/COMST.2023.3273282},
+  url          = {https://doi.org/10.1109/COMST.2023.3273282},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@inproceedings{sundaramurthy2015burnout,
+  author       = {Sathya Chandran Sundaramurthy and others},
+  title        = {{A Human Capital Model for Mitigating Security Analyst Burnout}},
+  booktitle    = {Eleventh Symposium on Usable Privacy and Security (SOUPS 2015), Ottawa. USENIX Association, p. 347-359},
+  year         = {2015},
+  isbn         = {978-1-931971-24-9},
+  url          = {https://www.usenix.org/conference/soups2015/proceedings/presentation/sundaramurthy},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, psychology, grade-A}
+}
+
+@inproceedings{syed2016uco,
+  author       = {Zareen Syed and Ankur Padia and Tim Finin and Lisa Mathews and Anupam Joshi},
+  title        = {{UCO: A Unified Cybersecurity Ontology}},
+  booktitle    = {AAAI Workshop on Artificial Intelligence for Cyber Security (AICS 2016), Phoenix, AZ, Feb},
+  year         = {2016},
+  url          = {https://cdn.aaai.org/ocs/ws/ws0163/12574-57427-1-PB.pdf},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, provenance, grade-A}
+}
+
+@misc{sysmon-modular,
+  author       = {Olaf Hartong},
+  title        = {{sysmon-modular}},
+  url          = {https://github.com/olafhartong/sysmon-modular},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@book{tambe2011security,
+  author       = {Milind Tambe},
+  title        = {{Security and Game Theory: Algorithms, Deployed Systems, Lessons Learned}},
+  publisher    = {Cambridge: Cambridge University Press},
+  year         = {2011},
+  doi          = {10.1017/CBO9780511973031},
+  url          = {https://doi.org/10.1017/CBO9780511973031},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, grade-B}
+}
+
+@article{tan2026observability,
+  author       = {Zhuoran Tan and Wenbo Guo and Jiewen Luo and Taylor Brierley and Jeremy Singer and Christos Anagnostopoulos},
+  title        = {{An Empirical Study of Observability Limits in Advanced Software Supply Chain Attacks}},
+  journal      = {arXiv preprint arXiv:2603.16694 (v2)},
+  year         = {2026},
+  url          = {https://arxiv.org/abs/2603.16694},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, supply-chain, grade-B}
+}
+
+@book{tarandach-coles-practical-guide,
+  author       = {Izar Tarandach and Matthew J. Coles},
+  title        = {{Threat Modeling: A Practical Guide for Development Teams}},
+  publisher    = {Sebastopol: O'Reilly Media},
+  year         = {2020},
+  url          = {https://www.oreilly.com/library/view/threat-modeling/9781492056546/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, detection-engineering, grade-B}
+}
+
+@article{tatam-apt-modelling-review,
+  author       = {Mark Tatam and Bharanidharan Shanmugam and Sami Azam and Krishnan Kannoorpatti},
+  title        = {{A review of threat modelling approaches for APT-style attacks}},
+  journal      = {Heliyon, v. 7, n. 1, art. e05969},
+  year         = {2021},
+  doi          = {10.1016/j.heliyon.2021.e05969},
+  url          = {https://doi.org/10.1016/j.heliyon.2021.e05969},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {apt, threat-modeling, grade-A}
+}
+
+@book{tetlock2015superforecasting,
+  author       = {Philip E. Tetlock and Dan Gardner},
+  title        = {{Superforecasting: The Art and Science of Prediction}},
+  publisher    = {New York: Crown Publishers},
+  year         = {2015},
+  isbn         = {978-0-8041-3669-3},
+  url          = {https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner/},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, psychology, grade-B}
+}
+
+@misc{theharvester,
+  author       = {Christian Martorella},
+  title        = {{theHarvester}},
+  url          = {https://github.com/laramies/theHarvester},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {osint, grade-B}
+}
+
+@misc{threagile,
+  author       = {Christian Schneider},
+  title        = {{Threagile}},
+  url          = {https://threagile.io/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{threat-hunter-playbook,
+  author       = {Open Threat Research Forge},
+  title        = {{Threat Hunter Playbook}},
+  url          = {https://github.com/OTRF/ThreatHunter-Playbook},
+  urldate      = {2026-10-23},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-B}
+}
+
+@misc{threat-modeling-at-scale,
+  author       = {{SAFECode}},
+  title        = {{Threat Modeling at Scale}},
+  year         = {2023},
+  url          = {https://safecode.org/resource-publications/threat-modeling-at-scale/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{threat-modeling-capabilities,
+  author       = {{Autores do Manifesto}},
+  title        = {{Threat Modeling Capabilities}},
+  year         = {2020},
+  url          = {https://www.threatmodelingmanifesto.org/capabilities/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{threat-modeling-connect,
+  author       = {Threat Modeling Connect},
+  title        = {{Threat Modeling Connect — On Demand}},
+  url          = {https://www.threatmodelingconnect.com/resources/on-demand},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-C}
+}
+
+@misc{threat-modeling-manifesto,
+  author       = {{Comunidade de autores}},
+  title        = {{Threat Modeling Manifesto}},
+  year         = {2020},
+  url          = {https://www.threatmodelingmanifesto.org/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B, essential}
+}
+
+@misc{threat-models-space-time,
+  author       = {Partha Das Chowdhury and others},
+  title        = {{Threat Models over Space and Time: A Case Study of E2EE Messaging Applications}},
+  year         = {2023},
+  url          = {https://arxiv.org/abs/2301.05653},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, privacy, grade-B}
+}
+
+@misc{threatmodcon,
+  author       = {{ThreatModCon}},
+  title        = {{ThreatModCon}},
+  url          = {https://www.threatmodcon.com/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@misc{tidal-cyber,
+  author       = {Tidal Cyber},
+  title        = {{Tidal Cyber}},
+  url          = {https://www.tidalcyber.com/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {cti, threat-modeling, grade-C}
+}
+
+@misc{tm-cps-in-practice,
+  author       = {Ameerah-Muhsinah Jamil and Lotfi ben Othmane and Altaz Valani},
+  title        = {{Threat Modeling of Cyber-Physical Systems in Practice}},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2103.04226},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, ics-cps, grade-B}
+}
+
+@misc{tm-with-attack,
+  author       = {{MITRE CTID}},
+  title        = {{Threat Modeling with ATT\&CK}},
+  url          = {https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-A}
+}
+
+@misc{tm-with-attack-bsides-ct,
+  author       = {{MITRE CTID}},
+  title        = {{Threat Modeling with ATT\&CK — BSides Connecticut}},
+  url          = {https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/presentations/tmwa-bsides-ct.pdf},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, cti, grade-A}
+}
+
+@article{tounsi2018survey,
+  author       = {Wiem Tounsi and Helmi Rais},
+  title        = {{A survey on technical threat intelligence in the age of sophisticated cyber attacks}},
+  journal      = {Computers \& Security, v. 72, p. 212-233},
+  year         = {2018},
+  doi          = {10.1016/j.cose.2017.09.001},
+  url          = {https://doi.org/10.1016/j.cose.2017.09.001},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A}
+}
+
+@misc{towards-realistic-threat-modeling,
+  author       = {Luca Allodi and Sandro Etalle},
+  title        = {{Towards Realistic Threat Modeling: Attack Commodification, Irrelevant Vulnerabilities, and Unrealistic Assumptions}},
+  year         = {2018},
+  url          = {https://arxiv.org/abs/1801.04569},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-B}
+}
+
+@article{tuma2018threat,
+  author       = {Katja Tuma and Gül Çalikli and Riccardo Scandariato},
+  title        = {{Threat analysis of software systems: A systematic literature review}},
+  journal      = {Journal of Systems and Software, v. 144, p. 275-294},
+  year         = {2018},
+  doi          = {10.1016/j.jss.2018.06.073},
+  url          = {https://doi.org/10.1016/j.jss.2018.06.073},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, research-methods, grade-A}
+}
+
+@misc{unicorn,
+  author       = {Xueyuan Han and others},
+  title        = {{UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats}},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2001.01525},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {apt, provenance, grade-B}
+}
+
+@misc{velociraptor,
+  author       = {{Velocidex}},
+  title        = {{Velociraptor}},
+  url          = {https://github.com/Velocidex/velociraptor},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {detection-engineering, cti, grade-B}
+}
+
+@inproceedings{verendel2009quantified,
+  author       = {Vilhelm Verendel},
+  title        = {{Quantified Security is a Weak Hypothesis: A critical survey of results and assumptions}},
+  booktitle    = {Proceedings of the New Security Paradigms Workshop (NSPW '09), Oxford, UK, p. 37-49},
+  year         = {2009},
+  doi          = {10.1145/1719030.1719036},
+  url          = {https://doi.org/10.1145/1719030.1719036},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {risk, research-methods, grade-A, essential}
+}
+
+@misc{veris,
+  author       = {{VERIS Community}},
+  title        = {{VERIS — Vocabulary for Event Recording and Incident Sharing}},
+  url          = {https://verisframework.org/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, threat-modeling, grade-B}
+}
+
+@inproceedings{virkud2024edr,
+  author       = {Apurva Virkud and Muhammad Adil Inam and Andy Riddle and Jason Liu and Gang Wang and Adam Bates},
+  title        = {{How does Endpoint Detection use the MITRE ATT\&CK Framework?}},
+  booktitle    = {33rd USENIX Security Symposium (USENIX Security 24), Philadelphia, PA. USENIX Association, p. 3891-3908},
+  year         = {2024},
+  isbn         = {978-1-939133-44-1},
+  url          = {https://www.usenix.org/conference/usenixsecurity24/presentation/virkud},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {detection-engineering, grade-A, essential}
+}
+
+@article{wagner2019cti,
+  author       = {Thomas D. Wagner and Khaled Mahbub and Esther Palomar and Ali E. Abdallah},
+  title        = {{Cyber threat intelligence sharing: Survey and research directions}},
+  journal      = {Computers \& Security, v. 87, art. 101589},
+  year         = {2019},
+  doi          = {10.1016/j.cose.2019.101589},
+  url          = {https://doi.org/10.1016/j.cose.2019.101589},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {cti, grade-A, essential}
+}
+
+@article{wang2006minimum,
+  author       = {Lingyu Wang and Steven Noel and Sushil Jajodia},
+  title        = {{Minimum-cost network hardening using attack graphs}},
+  journal      = {Computer Communications, v. 29, n. 18, p. 3812-3824},
+  year         = {2006},
+  doi          = {10.1016/j.comcom.2006.06.018},
+  url          = {https://doi.org/10.1016/j.comcom.2006.06.018},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {attack-graphs, risk, grade-A}
+}
+
+@article{wendt2011ciberguerra,
+  author       = {Emerson Wendt},
+  title        = {{Ciberguerra, inteligência cibernética e segurança virtual: alguns aspectos}},
+  journal      = {Revista Brasileira de Inteligência, n. 6, p. 15-26},
+  year         = {2011},
+  url          = {https://repositorio.enap.gov.br/handle/1/4648},
+  urldate      = {2026-10-30},
+  langid       = {portuguese},
+  keywords     = {cti, grade-A}
+}
+
+@article{widel2023mal,
+  author       = {Wojciech Wideł and Simon Hacks and Mathias Ekstedt and Pontus Johnson and Robert Lagerström},
+  title        = {{The meta attack language – a formal description}},
+  journal      = {Computers \& Security},
+  year         = {2023},
+  doi          = {10.1016/j.cose.2023.103284},
+  url          = {https://doi.org/10.1016/j.cose.2023.103284},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, attack-graphs, grade-A}
+}
+
+@book{wieringa2014design,
+  author       = {Roel J. Wieringa},
+  title        = {{Design Science Methodology for Information Systems and Software Engineering}},
+  publisher    = {Springer, Berlin, Heidelberg},
+  year         = {2014},
+  isbn         = {978-3-662-43838-1},
+  doi          = {10.1007/978-3-662-43839-8},
+  url          = {https://doi.org/10.1007/978-3-662-43839-8},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-B, essential}
+}
+
+@book{wohlin2012experimentation,
+  author       = {Claes Wohlin and Per Runeson and Martin Höst and Magnus C. Ohlsson and Björn Regnell and Anders Wesslén},
+  title        = {{Experimentation in Software Engineering}},
+  publisher    = {Springer, Berlin, Heidelberg},
+  year         = {2012},
+  isbn         = {978-3-642-29044-2},
+  doi          = {10.1007/978-3-642-29044-2},
+  url          = {https://doi.org/10.1007/978-3-642-29044-2},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {research-methods, grade-B}
+}
+
+@misc{words-estimative-probability,
+  author       = {Sherman Kent},
+  title        = {{Words of Estimative Probability}},
+  year         = {1964},
+  url          = {https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {psychology, cti, grade-A}
+}
+
+@inproceedings{wuyts2020linddungo,
+  author       = {Kim Wuyts and Laurens Sion and Wouter Joosen},
+  title        = {{LINDDUN GO: A Lightweight Approach to Privacy Threat Modeling}},
+  booktitle    = {2020 IEEE European Symposium on Security and Privacy Workshops (EuroS\&PW), Genoa, Italy, p. 302-309},
+  year         = {2020},
+  doi          = {10.1109/EuroSPW51379.2020.00047},
+  url          = {https://doi.org/10.1109/EuroSPW51379.2020.00047},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, privacy, grade-A}
+}
+
+@article{xiong-lagerstrom-slr-2019,
+  author       = {Wenjun Xiong and Robert Lagerström},
+  title        = {{Threat modeling — A systematic literature review}},
+  journal      = {Computers \& Security, v. 84, p. 53-69},
+  year         = {2019},
+  doi          = {10.1016/j.cose.2019.03.010},
+  url          = {https://doi.org/10.1016/j.cose.2019.03.010},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {threat-modeling, grade-A, essential}
 }
 
 @article{xu2025llm4security,
-  author       = {Xu, Hanxiang and Wang, Shenao and Li, Ningke and Wang, Kailong and Zhao, Yanjie and Chen, Kai and Yu, Ting and Liu, Yang and Wang, Haoyu},
+  author       = {Hanxiang Xu and Shenao Wang and Ningke Li and Kailong Wang and Yanjie Zhao and Kai Chen and Ting Yu and Yang Liu and Haoyu Wang},
   title        = {{Large Language Models for Cyber Security: A Systematic Literature Review}},
   journal      = {ACM Transactions on Software Engineering and Methodology},
   year         = {2025},
   doi          = {10.1145/3769676},
-  keywords     = {eixo-11, status-V}
+  url          = {https://doi.org/10.1145/3769676},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, grade-A}
+}
+
+@misc{yara,
+  author       = {{VirusTotal}},
+  title        = {{YARA}},
+  url          = {https://virustotal.github.io/yara/},
+  urldate      = {2026-11-08},
+  langid       = {english},
+  keywords     = {cti, detection-engineering, grade-B}
+}
+
+@inproceedings{yskout2020infancy,
+  author       = {Koen Yskout and Thomas Heyman and Dimitri Van Landuyt and Laurens Sion and Kim Wuyts and Wouter Joosen},
+  title        = {{Threat modeling: from infancy to maturity}},
+  booktitle    = {ICSE-NIER '20: 42nd International Conference on Software Engineering, New Ideas and Emerging Results, p. 9-12 (ACM)},
+  year         = {2020},
+  doi          = {10.1145/3377816.3381741},
+  url          = {https://doi.org/10.1145/3377816.3381741},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {threat-modeling, research-methods, grade-A}
 }
 
 @inproceedings{zaratiana2024gliner,
-  author       = {Zaratiana, Urchade and Tomeh, Nadi and Holat, Pierre and Charnois, Thierry},
-  title        = {{GLiNER}: Generalist Model for Named Entity Recognition using Bidirectional Transformer},
-  booktitle    = {Proceedings of NAACL-HLT 2024},
-  volume       = {1},
-  pages        = {5364--5376},
-  publisher    = {ACL},
+  author       = {Urchade Zaratiana and Nadi Tomeh and Pierre Holat and Thierry Charnois},
+  title        = {{GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer}},
+  booktitle    = {Proceedings of NAACL-HLT 2024, ACL, v. 1, p. 5364-5376},
   year         = {2024},
   doi          = {10.18653/v1/2024.naacl-long.300},
-  keywords     = {eixo-11, status-V}
+  url          = {https://doi.org/10.18653/v1/2024.naacl-long.300},
+  urldate      = {2026-10-30},
+  langid       = {english},
+  keywords     = {ai, cti, grade-A}
 }
 
-@misc{ctid_tram,
-  author       = {{MITRE Center for Threat-Informed Defense}},
-  title        = {{TRAM}: Threat Report {ATT\&CK} Mapper},
-  url          = {https://github.com/center-for-threat-informed-defense/tram},
-  keywords     = {eixo-11, status-V}
-}
-
-@article{parasuraman2010complacency,
-  author       = {Parasuraman, Raja and Manzey, Dietrich H.},
-  title        = {{Complacency and Bias in Human Use of Automation: An Attentional Integration}},
-  journal      = {Human Factors},
-  volume       = {52},
-  number       = {3},
-  pages        = {381--410},
-  year         = {2010},
-  keywords     = {eixo-11, status-C}
-}
-
-@book{kahneman2011thinking,
-  author       = {Kahneman, Daniel},
-  title        = {{R{\'a}pido e devagar: duas formas de pensar}},
-  publisher    = {Objetiva},
-  address      = {Rio de Janeiro},
-  year         = {2012},
-  note         = {Original: Thinking, Fast and Slow, 2011},
-  keywords     = {eixo-12, status-C}
-}
-
-@book{klein1998sources,
-  author       = {Klein, Gary},
-  title        = {{Sources of Power: How People Make Decisions}},
-  publisher    = {MIT Press},
-  address      = {Cambridge},
-  year         = {1998},
-  keywords     = {eixo-12, status-C}
-}
-
-@article{hevner2004design,
-  author       = {Hevner, Alan R. and March, Salvatore T. and Park, Jinsoo and Ram, Sudha},
-  title        = {{Design Science in Information Systems Research}},
-  journal      = {MIS Quarterly},
-  volume       = {28},
-  number       = {1},
-  pages        = {75--105},
-  year         = {2004},
-  keywords     = {eixo-13, status-C, essencial}
-}
-
-@article{peffers2007dsrm,
-  author       = {Peffers, Ken and Tuunanen, Tuure and Rothenberger, Marcus A. and Chatterjee, Samir},
-  title        = {{A Design Science Research Methodology for Information Systems Research}},
-  journal      = {Journal of Management Information Systems},
-  volume       = {24},
-  number       = {3},
-  pages        = {45--77},
-  year         = {2007},
-  keywords     = {eixo-13, status-C, essencial}
-}
-
-@book{wieringa2014design,
-  author       = {Wieringa, Roel J.},
-  title        = {{Design Science Methodology for Information Systems and Software Engineering}},
-  publisher    = {Springer},
-  address      = {Berlin},
-  year         = {2014},
-  keywords     = {eixo-13, status-C, essencial}
-}
-
-@techreport{kitchenham2007guidelines,
-  author       = {Kitchenham, Barbara and Charters, Stuart},
-  title        = {{Guidelines for performing Systematic Literature Reviews in Software Engineering}},
-  number       = {EBSE-2007-01},
-  institution  = {Keele University and Durham University},
-  year         = {2007},
-  keywords     = {eixo-13, status-C}
-}
-
-@article{petersen2015mapping,
-  author       = {Petersen, Kai and Vakkalanka, Sairam and Kuzniarz, Ludwik},
-  title        = {{Guidelines for conducting systematic mapping studies in software engineering: An update}},
-  journal      = {Information and Software Technology},
-  volume       = {64},
-  pages        = {1--18},
-  year         = {2015},
-  keywords     = {eixo-13, status-C}
-}
-
-@incollection{basili1994gqm,
-  author       = {Basili, Victor R. and Caldiera, Gianluigi and Rombach, H. Dieter},
-  title        = {{The Goal Question Metric Approach}},
-  booktitle    = {Encyclopedia of Software Engineering},
-  publisher    = {Wiley},
-  year         = {1994},
-  keywords     = {eixo-13, status-C}
-}
-
-@book{wohlin2012experimentation,
-  author       = {Wohlin, Claes and others},
-  title        = {{Experimentation in Software Engineering}},
-  publisher    = {Springer},
-  address      = {Berlin},
-  year         = {2012},
-  keywords     = {eixo-13, status-C}
-}
-
-@article{runeson2009case,
-  author       = {Runeson, Per and H{\"o}st, Martin},
-  title        = {{Guidelines for conducting and reporting case study research in software engineering}},
-  journal      = {Empirical Software Engineering},
-  volume       = {14},
-  number       = {2},
-  pages        = {131--164},
-  year         = {2009},
-  keywords     = {eixo-13, status-C}
-}
-
-@techreport{mead2005square,
-  author       = {Mead, Nancy R. and Hough, Eric D. and Stehney, Theodore R.},
-  title        = {{Security Quality Requirements Engineering ({SQUARE}) Methodology}},
-  number       = {CMU/SEI-2005-TR-009},
-  institution  = {CMU/SEI},
-  year         = {2005},
-  keywords     = {eixo-13, status-C}
-}
-
-@article{haley2008security,
-  author       = {Haley, Charles B. and Laney, Robin and Moffett, Jonathan D. and Nuseibeh, Bashar},
-  title        = {{Security Requirements Engineering: A Framework for Representation and Analysis}},
-  journal      = {IEEE Transactions on Software Engineering},
-  volume       = {34},
-  number       = {1},
-  pages        = {133--153},
-  year         = {2008},
-  keywords     = {eixo-13, status-C}
+@misc{zhang-attack-apt-risk-propagation,
+  author       = {{Zhang} and others},
+  title        = {{ATT\&CK-based Advanced Persistent Threat attacks risk propagation assessment model for zero trust networks}},
+  year         = {2024},
+  url          = {https://doi.org/10.1016/j.comnet.2024.110376},
+  urldate      = {2026-10-24},
+  langid       = {english},
+  keywords     = {apt, cti, grade-A}
 }

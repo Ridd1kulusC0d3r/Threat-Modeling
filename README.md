@@ -14,7 +14,7 @@
 **Português** · [English](README.en.md)
 <!-- /lang-bar -->
 
-**[Acervo completo](docs/AWESOME.md)** · [Por tema](docs/TEMAS.md) · [Métodos](docs/METODOS.md) · [Metodologia](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Bibliografia ABNT](docs/BIBLIOGRAFIA-COMENTADA.md) · [Trilha de leitura](docs/TRILHA-DE-LEITURA.md) · [Contribuir](CONTRIBUTING.md)
+**[Acervo completo](docs/AWESOME.md)** · [Por tema](docs/TEMAS.md) · [Métodos](docs/METODOS.md) · [Trilha de leitura](docs/TRILHA-DE-LEITURA.md) · [Citar (ABNT/BibTeX)](docs/REFERENCIAS-ABNT.md) · [Metodologia](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contribuir](CONTRIBUTING.md)
 
 > **Estado do acervo:** curadoria e documentação. Os seis cases são propostas de laboratório, ainda não executadas. O catálogo não declara cobertura operacional, e listar uma ferramenta não é avaliá-la.
 
@@ -24,13 +24,13 @@
 
 | Recursos | Métodos | Tipos | Temas | Links verificados |
 |:---:|:---:|:---:|:---:|:---:|
-| **152** | **19** | **10** | **13** | **100** |
+| **289** | **29** | **10** | **17** | **98** |
 
 | Grau | Recursos | Significado |
 |:---:|:---:|---|
-| **A** | 56 | Fonte primária ou institucional: padrão, órgão público, publicação com revisão por pares ou mantenedor do método. |
-| **B** | 72 | Fonte primária sem revisão formal: livro, preprint, guia de comunidade, página do autor ou repositório do mantenedor. |
-| **C** | 19 | Material de fornecedor, proponente comercial ou ferramenta de terceiros. |
+| **A** | 157 | Fonte primária ou institucional: padrão, órgão público, publicação com revisão por pares ou mantenedor do método. |
+| **B** | 103 | Fonte primária sem revisão formal: livro, preprint, guia de comunidade, página do autor ou repositório do mantenedor. |
+| **C** | 24 | Material de fornecedor, proponente comercial ou ferramenta de terceiros. |
 | **D** | 1 | Comentário ou fonte secundária. |
 | **E** | 4 | Legado: herdado do acervo anterior e ainda não revalidado. |
 
@@ -82,7 +82,8 @@ Grau mede o **tipo de fonte**, não a qualidade das ideias: um guia de comunidad
 | **Acervo** | Recursos com grau de fonte, acesso, nível e limite, em dados estruturados | [`data/resources.json`](data/resources.json) · [Acervo completo](docs/AWESOME.md) |
 | **Métodos** | Cada método com a pergunta que responde, o que produz, quando usar e o limite | [Métodos](docs/METODOS.md) · [`data/methods.json`](data/methods.json) |
 | **Temas** | Lista no formato awesome por tema: CTI, detecção, APT, IA agêntica, psicologia da análise | [Por tema](docs/TEMAS.md) |
-| **Guias** | Rota guiada, bibliografia comentada, engenharia de detecção e conferências | [Comece aqui](docs/COMECE-AQUI.md) |
+| **Guias** | Rota guiada, bibliografia comentada, trilha de leitura, engenharia de detecção e conferências | [Comece aqui](docs/COMECE-AQUI.md) · [Trilha de leitura](docs/TRILHA-DE-LEITURA.md) |
+| **Citar** | Todo o acervo em referências ABNT e BibTeX, gerados dos dados | [Referências ABNT](docs/REFERENCIAS-ABNT.md) · [`referencias.bib`](referencias/referencias.bib) |
 | **Cases** | Roteiros de laboratório com hipótese, benignos, variantes e degradação | [Cases](cases/README.md) · [Template](templates/CASE-DETECCAO.md) |
 | **Ferramentas** | Busca, validação e geração em Python, só biblioteca padrão | [Guia rápido](#guia-rápido) |
 
@@ -92,19 +93,23 @@ Grau mede o **tipo de fonte**, não a qualidade das ideias: um guia de comunidad
 
 | Tema | Recursos |
 |---|:---:|
-| [Modelagem de ameaças](docs/TEMAS.md#modelagem-de-ameaças) | 71 |
-| [Engenharia de detecção](docs/TEMAS.md#engenharia-de-detecção) | 39 |
-| [Inteligência de ameaças (CTI)](docs/TEMAS.md#inteligência-de-ameaças-cti) | 50 |
+| [Modelagem de ameaças](docs/TEMAS.md#modelagem-de-ameaças) | 110 |
+| [Engenharia de detecção](docs/TEMAS.md#engenharia-de-detecção) | 59 |
+| [Inteligência de ameaças (CTI)](docs/TEMAS.md#inteligência-de-ameaças-cti) | 80 |
 | [APT e campanhas persistentes](docs/TEMAS.md#apt-e-campanhas-persistentes) | 6 |
-| [IA e sistemas agênticos](docs/TEMAS.md#ia-e-sistemas-agênticos) | 12 |
-| [ICS e sistemas ciberfísicos](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 4 |
-| [Privacidade](docs/TEMAS.md#privacidade) | 3 |
-| [Psicologia, vieses e análise](docs/TEMAS.md#psicologia-vieses-e-análise) | 6 |
+| [IA e sistemas agênticos](docs/TEMAS.md#ia-e-sistemas-agênticos) | 19 |
+| [ICS e sistemas ciberfísicos](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 6 |
+| [Privacidade](docs/TEMAS.md#privacidade) | 6 |
+| [Psicologia, vieses e análise](docs/TEMAS.md#psicologia-vieses-e-análise) | 16 |
 | [Emulação adversária](docs/TEMAS.md#emulação-adversária) | 9 |
-| [Proveniência e grafos](docs/TEMAS.md#proveniência-e-grafos) | 4 |
-| [Nuvem](docs/TEMAS.md#nuvem) | 3 |
-| [Cadeia de suprimentos](docs/TEMAS.md#cadeia-de-suprimentos) | 2 |
+| [Proveniência e grafos](docs/TEMAS.md#proveniência-e-grafos) | 8 |
+| [Nuvem](docs/TEMAS.md#nuvem) | 2 |
+| [Cadeia de suprimentos](docs/TEMAS.md#cadeia-de-suprimentos) | 3 |
 | [OSINT e fontes abertas](docs/TEMAS.md#osint-e-fontes-abertas) | 8 |
+| [Árvores e grafos de ataque](docs/TEMAS.md#árvores-e-grafos-de-ataque) | 24 |
+| [Risco e priorização](docs/TEMAS.md#risco-e-priorização) | 41 |
+| [Arquitetura e identidade](docs/TEMAS.md#arquitetura-e-identidade) | 10 |
+| [Método de pesquisa](docs/TEMAS.md#método-de-pesquisa) | 16 |
 
 <!-- gen:topics:end -->
 

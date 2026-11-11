@@ -24,7 +24,7 @@ Seleção organizada por finalidade. Links históricos não consultados nesta ro
 
 ## Livros e leitura acadêmica
 
-Livros, artigos e normas estão na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 15 semanas.
+Livros, artigos e normas estão na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 16 semanas.
 
 ## Métodos complementares
 
