@@ -8,7 +8,7 @@
 [Português](README.md) · **English**
 <!-- /lang-bar -->
 
-**[Full collection](docs/AWESOME.md)** · [By topic](docs/TEMAS.md) · [Methods](docs/METODOS.md) · [Methodology](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contributing](CONTRIBUTING.md)
+**[Full collection](docs/AWESOME.md)** · [By topic](docs/TEMAS.md) · [Methods](docs/METODOS.md) · [Reading path](docs/TRILHA-DE-LEITURA.md) · [Cite (ABNT/BibTeX)](docs/REFERENCIAS-ABNT.md) · [Methodology](docs/METODOLOGIA.md) · [Cases](cases/README.md) · [Contributing](CONTRIBUTING.md)
 
 > The guides and record text are written in Portuguese; titles, authors and sources are original. Source grades, topics and filters work the same in both languages, and `python scripts/query.py` is language-neutral.
 >
@@ -20,15 +20,15 @@
 
 | Resources | Methods | Types | Topics | Links checked |
 |:---:|:---:|:---:|:---:|:---:|
-| **117** | **19** | **10** | **11** | **79** |
+| **289** | **29** | **10** | **17** | **98** |
 
 | Grade | Resources | Meaning |
 |:---:|:---:|---|
-| **A** | 36 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
-| **B** | 59 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
-| **C** | 13 | Vendor or commercial proponent material, or a third-party tool. |
+| **A** | 157 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
+| **B** | 103 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
+| **C** | 24 | Vendor or commercial proponent material, or a third-party tool. |
 | **D** | 1 | Commentary or secondary source. |
-| **E** | 8 | Legacy: inherited from the earlier collection and not yet revalidated. |
+| **E** | 4 | Legacy: inherited from the earlier collection and not yet revalidated. |
 
 <!-- gen:stats:end -->
 
@@ -69,17 +69,23 @@ A grade measures the **kind of source**, not the quality of its ideas: a communi
 
 | Topic | Resources |
 |---|:---:|
-| [Threat modeling](docs/TEMAS.md#modelagem-de-ameaças) | 64 |
-| [Detection engineering](docs/TEMAS.md#engenharia-de-detecção) | 31 |
-| [Cyber threat intelligence](docs/TEMAS.md#inteligência-de-ameaças-cti) | 35 |
-| [APT and persistent campaigns](docs/TEMAS.md#apt-e-campanhas-persistentes) | 5 |
-| [AI and agentic systems](docs/TEMAS.md#ia-e-sistemas-agênticos) | 7 |
-| [ICS and cyber-physical systems](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 3 |
-| [Privacy](docs/TEMAS.md#privacidade) | 3 |
-| [Psychology, bias and analysis](docs/TEMAS.md#psicologia-vieses-e-análise) | 2 |
-| [Adversary emulation](docs/TEMAS.md#emulação-adversária) | 8 |
-| [Provenance and graphs](docs/TEMAS.md#proveniência-e-grafos) | 4 |
-| [Cloud](docs/TEMAS.md#nuvem) | 3 |
+| [Threat modeling](docs/TEMAS.md#modelagem-de-ameaças) | 110 |
+| [Detection engineering](docs/TEMAS.md#engenharia-de-detecção) | 59 |
+| [Cyber threat intelligence](docs/TEMAS.md#inteligência-de-ameaças-cti) | 80 |
+| [APT and persistent campaigns](docs/TEMAS.md#apt-e-campanhas-persistentes) | 6 |
+| [AI and agentic systems](docs/TEMAS.md#ia-e-sistemas-agênticos) | 19 |
+| [ICS and cyber-physical systems](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 6 |
+| [Privacy](docs/TEMAS.md#privacidade) | 6 |
+| [Psychology, bias and analysis](docs/TEMAS.md#psicologia-vieses-e-análise) | 16 |
+| [Adversary emulation](docs/TEMAS.md#emulação-adversária) | 9 |
+| [Provenance and graphs](docs/TEMAS.md#proveniência-e-grafos) | 8 |
+| [Cloud](docs/TEMAS.md#nuvem) | 2 |
+| [Supply chain](docs/TEMAS.md#cadeia-de-suprimentos) | 3 |
+| [OSINT](docs/TEMAS.md#osint-e-fontes-abertas) | 8 |
+| [Attack trees and graphs](docs/TEMAS.md#árvores-e-grafos-de-ataque) | 24 |
+| [Risk and prioritization](docs/TEMAS.md#risco-e-priorização) | 41 |
+| [Architecture and identity](docs/TEMAS.md#arquitetura-e-identidade) | 10 |
+| [Research methods](docs/TEMAS.md#método-de-pesquisa) | 16 |
 
 <!-- gen:topics:end -->
 

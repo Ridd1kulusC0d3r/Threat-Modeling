@@ -18,13 +18,13 @@ Seleção organizada por finalidade. Links históricos não consultados nesta ro
 | [Microsoft STRIDE](https://learn.microsoft.com/pt-br/azure/security/develop/threat-modeling-tool-threats) | Categorias de ameaça em desenho de sistemas | Link herdado; conferir versão atual |
 | [PASTA — VerSprite](https://versprite.com/blog/what-is-pasta-threat-modeling/) | Abordagem orientada a risco e análise de ataques | Material do proponente; não comparação independente |
 | [AWS Threat Modeling Workshop](https://catalog.workshops.aws/threatmodel/en-US/introduction/what-is-threat-modeling) | Aplicação em exercícios | Link herdado; conferir requisitos |
-| [GitLab AppSec Threat Modeling](https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/) | Processo de uma equipe de produto | Contexto específico de organização |
+| [GitLab AppSec Threat Modeling](https://handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/application-security/runbooks/threat-modeling/) | Processo de uma equipe de produto | Contexto específico de organização; endereço atualizado em 31/10/2026 (o anterior retornava 404) |
 | [OpenStack Threat Analysis](https://wiki.openstack.org/wiki/Security/Threat_Analysis) | Exemplo de processo em plataforma | Material histórico; conferir atualidade |
 | [Elevation of Privilege](https://github.com/adamshostack/eop) | Facilitação com cartas | Ferramenta de discussão; não substitui análise |
 
 ## Livros e leitura acadêmica
 
-Livros, artigos e normas estão na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 15 semanas.
+Livros, artigos e normas estão na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md) (131 obras em 13 eixos, ABNT + BibTeX), com uma [trilha de leitura](TRILHA-DE-LEITURA.md) de 16 semanas.
 
 ## Métodos complementares
 

@@ -1,5 +1,7 @@
 # Bibliografia comentada — Threat Modeling
 
+> **Edição histórica (22/10/2026).** Este documento foi mantido como estava. A lista vigente e gerada está em [Referências ABNT](REFERENCIAS-ABNT.md), no [acervo completo](AWESOME.md) e na [bibliografia](BIBLIOGRAFIA.md); o BibTeX em `referencias/referencias.bib` é gerado a partir de `data/resources.json`. **35 das 131 chaves BibTeX desta edição não existem no acervo estruturado** (por exemplo `abin_doutrina`, `basili1994gqm`, `bautista2018practical`, as normas ABNT NBR ISO/IEC 27001/27002): a rodada de 30/10/2026 deixou de fora obras sem link oficial estável. Use esta edição para consulta, não como fonte das chaves.
+
 Referencial organizado por eixo, em ABNT NBR 6023:2018, com chave BibTeX para cada obra. Consolidado em **22/10/2026** a partir de pesquisa em indexadores (ACM DL, IEEE Xplore, dblp, Semantic Scholar, arXiv, ACL Anthology) e sites oficiais.
 
 A inclusão indica pertinência ao estudo de modelagem de ameaças e de disciplinas vizinhas, não endosso. O arquivo BibTeX completo está em [`referencias/referencias.bib`](../referencias/referencias.bib).
