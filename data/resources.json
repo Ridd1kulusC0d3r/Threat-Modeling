@@ -2277,5 +2277,237 @@
     "summary": "Plataforma de threat-informed defense que operacionaliza ATT&CK; listada para estudo comparativo.",
     "origin": "notion",
     "added": "2026-10-24"
+  },
+  {
+    "id": "threat-composer",
+    "title": "AWS Threat Composer",
+    "url": "https://github.com/awslabs/threat-composer",
+    "authors": "AWS Labs",
+    "year": null,
+    "type": "tool",
+    "topics": [
+      "threat-modeling",
+      "cloud"
+    ],
+    "access": "free",
+    "grade": "B",
+    "level": "intro",
+    "lang": "en",
+    "summary": "Declarações de ameaça estruturadas e mitigação, em ferramenta de código aberto.",
+    "limit": "Orientada a times de produto; confirmar manutenção e licença antes de adotar.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "enterpriselang",
+    "title": "enterpriseLang (MAL)",
+    "url": "https://github.com/mal-lang/enterpriselang",
+    "authors": "Mal-lang",
+    "year": null,
+    "type": "tool",
+    "topics": [
+      "threat-modeling"
+    ],
+    "access": "free",
+    "grade": "B",
+    "level": "advanced",
+    "lang": "en",
+    "summary": "Linguagem para simular caminhos de ataque em arquiteturas corporativas.",
+    "limit": "Simulação depende de parâmetros e de um modelo fiel da arquitetura.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "tram",
+    "title": "TRAM — Threat Report ATT&CK Mapper",
+    "url": "https://github.com/center-for-threat-informed-defense/tram",
+    "authors": "MITRE Center for Threat-Informed Defense",
+    "year": null,
+    "type": "tool",
+    "topics": [
+      "cti"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Mapeia relatórios de ameaça para técnicas ATT&CK com apoio de ML.",
+    "limit": "A saída exige revisão humana; o mapeamento não comprova eficácia.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "dettect-repo",
+    "title": "DeTT&CT",
+    "url": "https://github.com/rabobank-cdc/DeTTECT",
+    "authors": "Rabobank CDC",
+    "year": null,
+    "type": "tool",
+    "topics": [
+      "detection-engineering"
+    ],
+    "access": "free",
+    "grade": "B",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Visibilidade e qualidade de fontes de dados por técnica ATT&CK.",
+    "limit": "Pontuação autodeclarada; visibilidade não equivale a detecção.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "nist-sp-800-30",
+    "title": "NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments",
+    "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+    "authors": "NIST",
+    "year": 2012,
+    "type": "guide",
+    "topics": [
+      "threat-modeling"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Processo de avaliação de risco.",
+    "limit": "Conferir a versão vigente antes de citar.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "nist-sp-800-207",
+    "title": "NIST SP 800-207 — Zero Trust Architecture",
+    "url": "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "authors": "NIST",
+    "year": 2020,
+    "type": "guide",
+    "topics": [
+      "threat-modeling"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Arquitetura zero trust.",
+    "limit": "Conferir a versão vigente antes de citar.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "nist-csf-2",
+    "title": "NIST Cybersecurity Framework 2.0",
+    "url": "https://www.nist.gov/cyberframework",
+    "authors": "NIST",
+    "year": 2024,
+    "type": "guide",
+    "topics": [
+      "threat-modeling"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intro",
+    "lang": "en",
+    "summary": "Estrutura de gestão de cibersegurança.",
+    "limit": "Estrutura de gestão, não método de modelagem de ameaças.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "cvss-v4",
+    "title": "FIRST CVSS v4.0 — Specification",
+    "url": "https://www.first.org/cvss/v4.0/specification-document",
+    "authors": "FIRST",
+    "year": 2023,
+    "type": "guide",
+    "topics": [
+      "cti"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Severidade técnica de vulnerabilidades.",
+    "limit": "Mede severidade, não risco nem probabilidade de exploração.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "epss",
+    "title": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "authors": "FIRST",
+    "year": null,
+    "type": "guide",
+    "topics": [
+      "cti"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Probabilidade de exploração de vulnerabilidades.",
+    "limit": "Estimativa estatística; não substitui contexto do ambiente.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "cisa-kev",
+    "title": "CISA Known Exploited Vulnerabilities Catalog",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "authors": "CISA",
+    "year": null,
+    "type": "guide",
+    "topics": [
+      "cti"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intro",
+    "lang": "en",
+    "summary": "Vulnerabilidades com exploração confirmada.",
+    "limit": "Ausência do catálogo não indica ausência de exploração.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
+  },
+  {
+    "id": "ssvc",
+    "title": "CERT/CC SSVC",
+    "url": "https://certcc.github.io/SSVC/",
+    "authors": "CERT/CC",
+    "year": null,
+    "type": "method",
+    "topics": [
+      "cti"
+    ],
+    "access": "free",
+    "grade": "A",
+    "level": "intermediate",
+    "lang": "en",
+    "summary": "Priorização de vulnerabilidades por árvore de decisão.",
+    "limit": "Árvores de decisão precisam ser ajustadas ao contexto da organização.",
+    "origin": "catalogo",
+    "added": "2026-10-24",
+    "checked": null,
+    "featured": false
   }
 ]

@@ -4,6 +4,8 @@
 
 > **Lista estruturada:** os links desta tabela também estão em [`data/resources.json`](../data/resources.json), com grau, acesso e limite, e na [lista gerada](AWESOME.md). Este texto mantém o comentário editorial.
 
+> **Referencial acadêmico:** 131 obras em 13 eixos, com referência ABNT NBR 6023:2018 e chave BibTeX, na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md); caminho de estudo na [trilha de leitura](TRILHA-DE-LEITURA.md).
+
 Consolidada em **23/10/2026** a partir da pesquisa desta conversa. Consulta não significa leitura integral de todos os livros nem validação operacional. As relações com cases são sínteses editoriais. Manifestos completos permanecem nas fontes; obras não são redistribuídas. Acesso aberto e licença de reutilização são coisas diferentes.
 
 ## Manifestos e princípios

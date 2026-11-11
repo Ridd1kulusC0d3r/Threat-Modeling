@@ -35,6 +35,9 @@ Keynote da SANS sobre IA agêntica → MAESTRO → MITRE ATLAS → OWASP Top 10 
 
 **Entregável:** modelo que separa modelo, ferramentas, memória e permissões, com as fronteiras de confiança entre eles.
 
+## Para estudar em profundidade
+Siga a [trilha de leitura](TRILHA-DE-LEITURA.md): 15 semanas, uma leitura por vez, cada uma com uma saída concreta. As obras estão na [bibliografia ABNT](BIBLIOGRAFIA-COMENTADA.md).
+
 ## Sessão inicial
 Escolha uma pergunta concreta, leia uma fonte e preencha missão, hipótese e lacunas no [template](../templates/CASE-DETECCAO.md). Não preencha resultados antes de executar.
 

@@ -20,12 +20,12 @@
 
 | Resources | Methods | Types | Topics | Links checked |
 |:---:|:---:|:---:|:---:|:---:|
-| **106** | **19** | **10** | **11** | **79** |
+| **117** | **19** | **10** | **11** | **79** |
 
 | Grade | Resources | Meaning |
 |:---:|:---:|---|
-| **A** | 28 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
-| **B** | 56 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
+| **A** | 36 | Primary or institutional: standard, public body, peer-reviewed or the method's maintainer. |
+| **B** | 59 | Primary without formal review: book, preprint, community guide, author page or maintainer repository. |
 | **C** | 13 | Vendor or commercial proponent material, or a third-party tool. |
 | **D** | 1 | Commentary or secondary source. |
 | **E** | 8 | Legacy: inherited from the earlier collection and not yet revalidated. |
@@ -69,9 +69,9 @@ A grade measures the **kind of source**, not the quality of its ideas: a communi
 
 | Topic | Resources |
 |---|:---:|
-| [Threat modeling](docs/TEMAS.md#modelagem-de-ameaças) | 59 |
-| [Detection engineering](docs/TEMAS.md#engenharia-de-detecção) | 30 |
-| [Cyber threat intelligence](docs/TEMAS.md#inteligência-de-ameaças-cti) | 30 |
+| [Threat modeling](docs/TEMAS.md#modelagem-de-ameaças) | 64 |
+| [Detection engineering](docs/TEMAS.md#engenharia-de-detecção) | 31 |
+| [Cyber threat intelligence](docs/TEMAS.md#inteligência-de-ameaças-cti) | 35 |
 | [APT and persistent campaigns](docs/TEMAS.md#apt-e-campanhas-persistentes) | 5 |
 | [AI and agentic systems](docs/TEMAS.md#ia-e-sistemas-agênticos) | 7 |
 | [ICS and cyber-physical systems](docs/TEMAS.md#ics-e-sistemas-ciberfísicos) | 3 |
@@ -79,7 +79,7 @@ A grade measures the **kind of source**, not the quality of its ideas: a communi
 | [Psychology, bias and analysis](docs/TEMAS.md#psicologia-vieses-e-análise) | 2 |
 | [Adversary emulation](docs/TEMAS.md#emulação-adversária) | 8 |
 | [Provenance and graphs](docs/TEMAS.md#proveniência-e-grafos) | 4 |
-| [Cloud](docs/TEMAS.md#nuvem) | 2 |
+| [Cloud](docs/TEMAS.md#nuvem) | 3 |
 
 <!-- gen:topics:end -->
 
