@@ -42,23 +42,23 @@
     "featured": false
   },
   {
-    "year": null,
+    "year": 2024,
     "authors": "Guisso",
     "topics": [
       "threat-modeling"
     ],
     "access": "free",
-    "grade": "D",
+    "grade": "B",
     "level": "intro",
     "lang": "pt",
-    "limit": "O caminho original /posts/threat-modeling-intro/ retornou 404 em 24/10/2026; apontamos para a raiz do site até localizar o novo endereço.",
+    "limit": "Post de blog de 2024 de um único autor; não é revisado por pares nem compara métodos.",
     "checked": "2026-10-24",
     "featured": false,
     "id": "guisso-threat-modeling-intro",
-    "title": "Threat Modeling Intro — Guisso",
-    "url": "https://guisso.dev/",
+    "title": "Threat Modeling Express: guia prático",
+    "url": "https://guisso.dev/blog/threat-modeling-intro/",
     "type": "article",
-    "summary": "Introdução em português a threat modeling, anotada nas notas de estudo do Notion.",
+    "summary": "Guia prático em português: como engajar o time, mapear ativos críticos e aplicar controles rápidos com o Threat Modeling Express.",
     "origin": "notion",
     "added": "2026-10-24"
   },
@@ -377,7 +377,7 @@
       "ics-cps"
     ],
     "access": "free",
-    "grade": "B",
+    "grade": "A",
     "level": "intermediate",
     "lang": "en",
     "summary": "Aerospace Village, DEF CON 2023; slides.",
@@ -412,7 +412,7 @@
   },
   {
     "year": null,
-    "authors": "Threat Modeling Connect / comunidade",
+    "authors": "ThreatModCon (comunidade e palestrantes de threat modeling)",
     "topics": [
       "threat-modeling"
     ],
@@ -420,7 +420,7 @@
     "grade": "B",
     "level": "intermediate",
     "lang": "en",
-    "limit": "Qualidade varia por talk; confira se há gravação pública antes de planejar o estudo.",
+    "limit": "Qualidade varia por talk; o site lista palestrantes de fornecedores. Organização do evento não verificada; confira se há gravação pública antes de planejar o estudo.",
     "checked": "2026-10-24",
     "featured": true,
     "id": "threatmodcon",
@@ -616,7 +616,7 @@
       "cloud"
     ],
     "access": "free",
-    "grade": "E",
+    "grade": "C",
     "level": "intermediate",
     "lang": "en",
     "summary": "Aplicação em exercícios",
@@ -714,7 +714,7 @@
   {
     "id": "gitlab-appsec-tm",
     "title": "GitLab AppSec Threat Modeling",
-    "url": "https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/threat-modeling/",
+    "url": "https://handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/application-security/runbooks/threat-modeling/",
     "authors": "GitLab",
     "year": null,
     "type": "guide",
@@ -722,14 +722,14 @@
       "threat-modeling"
     ],
     "access": "free",
-    "grade": "E",
+    "grade": "C",
     "level": "intermediate",
     "lang": "en",
     "summary": "Processo de uma equipe de produto",
-    "limit": "Link herdado retornou 404 em 24/10/2026 (handbook reorganizado); localizar o endereço atual antes de usar. Contexto específico de uma organização.",
+    "limit": "Processo de uma organização específica; o handbook foi reorganizado e o endereço antigo retornava 404, então fixe a versão que usar.",
     "origin": "acervo",
     "added": "2026-10-19",
-    "checked": null,
+    "checked": "2026-10-31",
     "featured": false
   },
   {
@@ -995,7 +995,7 @@
       "threat-modeling"
     ],
     "access": "free",
-    "grade": "E",
+    "grade": "C",
     "level": "intermediate",
     "lang": "en",
     "summary": "Abordagem orientada a risco e análise de ataques",
@@ -1016,7 +1016,7 @@
       "threat-modeling"
     ],
     "access": "free",
-    "grade": "C",
+    "grade": "A",
     "level": "intermediate",
     "lang": "en",
     "summary": "Refinamento no ciclo de vida.",
@@ -1060,7 +1060,7 @@
       "cti"
     ],
     "access": "free",
-    "grade": "B",
+    "grade": "D",
     "level": "intermediate",
     "lang": "en",
     "summary": "Avaliar abordagem CTID.",
@@ -1123,7 +1123,7 @@
       "threat-modeling"
     ],
     "access": "free",
-    "grade": "E",
+    "grade": "A",
     "level": "intermediate",
     "lang": "pt",
     "summary": "Categorias de ameaça em desenho de sistemas",
@@ -1902,7 +1902,7 @@
       "detection-engineering"
     ],
     "access": "free",
-    "grade": "B",
+    "grade": "A",
     "level": "intermediate",
     "lang": "en",
     "summary": "Análise de rede com Zeek.",
@@ -1923,7 +1923,7 @@
       "detection-engineering"
     ],
     "access": "free",
-    "grade": "B",
+    "grade": "C",
     "level": "intermediate",
     "lang": "en",
     "summary": "Análise EVTX / Sigma.",
@@ -1990,7 +1990,7 @@
       "detection-engineering"
     ],
     "access": "free",
-    "grade": "B",
+    "grade": "C",
     "level": "intermediate",
     "lang": "en",
     "summary": "Desenvolvimento e validação de regras.",

@@ -9,7 +9,7 @@ Registro do que entrou no acervo vindo das notas de estudo do Notion e do que fi
 | Item da nota | Recurso | Observação |
 |---|---|---|
 | ThreatModCon | [`threatmodcon`](../data/resources.json) | Conferência dedicada a threat modeling; a nota pede extrair ideias das talks |
-| Threat Modeling Intro (guisso.dev) | `guisso-threat-modeling-intro` | O caminho original retornou **404** em 24/10/2026; o registro aponta para a raiz do site |
+| Threat Modeling Intro (guisso.dev) | `guisso-threat-modeling-intro` | O caminho da nota (`/posts/...`) retornava 404; o post está em `/blog/threat-modeling-intro/` e se chama *Threat Modeling Express: guia prático* (28/09/2024). Corrigido em 31/10/2026 |
 | CTI Academy | `cti-academy` | Plataforma de estudo; parte exige conta |
 | Anvilogic e Tidal Cyber | `anvilogic`, `tidal-cyber` | Plataformas comerciais anotadas para estudo; grau C; não avaliadas aqui |
 | Artigo na ScienceDirect (Heliyon) | `tatam-apt-modelling-review` | Título e autoria resolvidos pelo DOI via Crossref |
