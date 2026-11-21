@@ -10,6 +10,7 @@ the site itself. Only reachable links are ever stamped.
     python scripts/check_links.py                 # report only
     python scripts/check_links.py --write         # stamp reachable links
     python scripts/check_links.py --id holmes     # one record
+    python scripts/check_links.py --report r.md   # also write a Markdown report (used by CI issues)
 """
 
 from __future__ import annotations
@@ -53,12 +54,33 @@ def probe(url: str, timeout: float) -> tuple[str, str]:
     return ("broken" if last.isdigit() else "unreachable"), last
 
 
+def render_report(rows: list[tuple[str, str, str, str]], counts: dict, total: int) -> str:
+    """Markdown for the CI issue: broken links first, then blocked and unreachable ones."""
+    lines = [
+        f"Verificação de {total} links: ok={counts['ok']}, quebrados={counts['broken']}, "
+        f"bloqueados={counts['blocked']}, inacessíveis={counts['unreachable']}.",
+        "",
+        "Quebrado exige correção ou remoção. Bloqueado (401/403/429) e inacessível (DNS, TLS, timeout) "
+        "dizem pouco sobre o site; reavaliar à mão.",
+        "",
+    ]
+    for state in ("broken", "blocked", "unreachable"):
+        group = [r for r in rows if r[0] == state]
+        if not group:
+            continue
+        lines += [f"### {state} ({len(group)})", "", "| Código | id | URL |", "|---|---|---|"]
+        lines += [f"| {detail} | `{rid}` | {url} |" for _, detail, rid, url in group]
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--write", action="store_true", help="stamp `checked` on reachable links")
     parser.add_argument("--id", action="append", help="check only this id (repeatable)")
     parser.add_argument("--timeout", type=float, default=20.0)
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--report", metavar="FILE", help="write a Markdown report of non-ok links")
     args = parser.parse_args()
 
     path = DATA / "resources.json"
@@ -69,8 +91,11 @@ def main() -> int:
 
     today = date.today().isoformat()
     counts = {"ok": 0, "blocked": 0, "broken": 0, "unreachable": 0}
+    rows = []
     for item, (state, detail) in zip(todo, results):
         counts[state] += 1
+        if state != "ok":
+            rows.append((state, detail, item["id"], item["url"]))
         if state != "ok":
             print(f"{state.upper():8} {detail:>16}  {item['id']}  {item['url']}")
         elif args.write:
@@ -79,6 +104,8 @@ def main() -> int:
         f"\nreachable={counts['ok']} blocked={counts['blocked']} "
         f"unreachable={counts['unreachable']} broken={counts['broken']} of {len(todo)}"
     )
+    if args.report:
+        Path(args.report).write_text(render_report(rows, counts, len(todo)), encoding="utf-8")
     if args.write:
         path.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return 1 if counts["broken"] else 0

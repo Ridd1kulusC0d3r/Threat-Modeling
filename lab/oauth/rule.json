@@ -1,0 +1,28 @@
+{
+  "id": "lab-oauth-001",
+  "title": "Consentimento a escopos sensíveis por app sem publicador verificado",
+  "case": "cases/02-oauth.md",
+  "description": "Consentimento de usuário a escopos de e-mail/arquivos para aplicação sem publicador verificado.",
+  "required_fields": [
+    "operation",
+    "scopes",
+    "publisher_verified"
+  ],
+  "selections": {
+    "consent": {
+      "operation": "Consent to application"
+    },
+    "sensitive_scope": {
+      "scopes|contains": [
+        "Mail.Read",
+        "Mail.Send",
+        "Files.ReadWrite.All",
+        "Files.Read.All"
+      ]
+    },
+    "verified": {
+      "publisher_verified": true
+    }
+  },
+  "condition": "consent and sensitive_scope and not verified"
+}

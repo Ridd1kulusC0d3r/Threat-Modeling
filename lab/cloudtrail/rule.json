@@ -1,0 +1,27 @@
+{
+  "id": "lab-cloudtrail-001",
+  "title": "Alteração que reduz a auditoria do CloudTrail",
+  "case": "cases/03-cloudtrail.md",
+  "description": "Operações que param, removem ou reduzem a captura de uma trilha, exceto pelo papel de automação aprovado.",
+  "required_fields": [
+    "event_source",
+    "event_name",
+    "actor"
+  ],
+  "selections": {
+    "tamper": {
+      "event_source": "cloudtrail.amazonaws.com",
+      "event_name": [
+        "StopLogging",
+        "DeleteTrail",
+        "UpdateTrail",
+        "PutEventSelectors",
+        "PutInsightSelectors"
+      ]
+    },
+    "approved_automation": {
+      "actor|contains": "assumed-role/terraform-trail-admin/"
+    }
+  },
+  "condition": "tamper and not approved_automation"
+}

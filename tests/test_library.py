@@ -168,6 +168,15 @@ class LinkClassification(unittest.TestCase):
             self.assertEqual(check_links.probe("https://x", 1)[0], "unreachable")
 
 
+class LinkReport(unittest.TestCase):
+    def test_report_lists_broken_before_blocked_and_skips_empty_groups(self):
+        rows = [("blocked", "403", "b", "https://b"), ("broken", "404", "a", "https://a")]
+        md = check_links.render_report(rows, {"ok": 3, "broken": 1, "blocked": 1, "unreachable": 0}, 5)
+        self.assertLess(md.index("### broken"), md.index("### blocked"))
+        self.assertNotIn("### unreachable", md)
+        self.assertIn("| 404 | `a` | https://a |", md)
+
+
 class CitationTests(unittest.TestCase):
     def test_bibtex_keys_unique_and_braces_balanced(self):
         bib = citations.render_bib(RES)

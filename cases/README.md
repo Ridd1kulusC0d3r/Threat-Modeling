@@ -2,7 +2,7 @@
 
 [Início](../README.md) · [Guia de engenharia](../docs/ENGENHARIA-DE-DETECCAO.md) · [Template](../templates/CASE-DETECCAO.md)
 
-**Seis roteiros documentais; nenhum executado ou validado nesta edição.**
+**Seis roteiros documentais. Três (DCSync, OAuth, CloudTrail) têm também regra e fixtures sintéticas em [`lab/`](../lab/README.md), executadas no CI; isso valida a lógica, não a telemetria real nem o ruído de produção.**
 
 | Case | Domínio | Entrega |
 |---|---|---|

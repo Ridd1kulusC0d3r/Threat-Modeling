@@ -1,0 +1,7 @@
+{"name": "app desconhecido pede Mail.ReadWrite", "class": "positive", "expect": "match", "event": {"operation": "Consent to application", "consent_type": "user", "scopes": ["User.Read", "Mail.ReadWrite", "offline_access"], "publisher_verified": false}}
+{"name": "app desconhecido pede Files.ReadWrite.All", "class": "positive", "expect": "match", "event": {"operation": "Consent to application", "consent_type": "user", "scopes": ["Files.ReadWrite.All"], "publisher_verified": false}}
+{"name": "variante: escopo em minúsculas", "class": "variant", "expect": "match", "event": {"operation": "Consent to application", "consent_type": "user", "scopes": ["mail.send"], "publisher_verified": false}}
+{"name": "publicador verificado com Mail.Read", "class": "benign", "expect": "no_match", "event": {"operation": "Consent to application", "consent_type": "user", "scopes": ["Mail.Read"], "publisher_verified": true}}
+{"name": "escopo básico sem risco", "class": "benign", "expect": "no_match", "event": {"operation": "Consent to application", "consent_type": "user", "scopes": ["User.Read", "openid", "profile"], "publisher_verified": false}}
+{"name": "outra operação", "class": "benign", "expect": "no_match", "event": {"operation": "Add service principal", "consent_type": "user", "scopes": ["Mail.Read"], "publisher_verified": false}}
+{"name": "publisher_verified ausente no log", "class": "degraded", "expect": "degraded", "event": {"operation": "Consent to application", "consent_type": "user", "scopes": ["Mail.ReadWrite"]}}

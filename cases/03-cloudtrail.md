@@ -2,7 +2,7 @@
 
 [Cases](README.md) · [Template](../templates/CASE-DETECCAO.md)
 
-> **Proposta documental — não executada.** Não há regra pronta, dataset local ou resultado validado neste roteiro.
+> **Proposta documental.** Há regra e fixtures **sintéticas** em [`lab/`](../lab/README.md) (lógica apenas). Não há dataset real, replay nem emulação executados.
 
 ## Missão e pergunta
 **Domínio:** Nuvem / AWS. Distinguir mudança administrativa, falha de entrega e possível evasão.

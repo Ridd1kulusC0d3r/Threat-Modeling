@@ -1,0 +1,31 @@
+{
+  "id": "lab-dcsync-001",
+  "title": "Replicação de diretório por conta não-controladora",
+  "case": "cases/01-dcsync.md",
+  "description": "Evento 4662 com direitos de replicação (Get-Changes/-All) cujo sujeito não é conta de máquina nem replicador aprovado.",
+  "required_fields": [
+    "event_id",
+    "subject_user",
+    "properties"
+  ],
+  "selections": {
+    "replication": {
+      "event_id": 4662,
+      "properties|contains": [
+        "1131f6aa-9c07-11d1-f79f-00c04fc2dcd2",
+        "1131f6ad-9c07-11d1-f79f-00c04fc2dcd2",
+        "89e95b76-444d-4c62-991a-0facbeda640c"
+      ]
+    },
+    "machine_account": {
+      "subject_user|endswith": "$"
+    },
+    "approved": {
+      "subject_user": [
+        "svc-adconnect",
+        "svc-azure-sync"
+      ]
+    }
+  },
+  "condition": "replication and not (machine_account or approved)"
+}
