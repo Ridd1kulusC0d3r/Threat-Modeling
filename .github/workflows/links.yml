@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   report:
@@ -21,5 +22,28 @@ jobs:
           python-version: "3.12"
 
       - name: Check links
-        # Report only. Blocked and unreachable results are not failures; 404s are.
-        run: python scripts/check_links.py | tee -a "$GITHUB_STEP_SUMMARY"
+        id: check
+        # Broken links (404/410) make the script exit 1. Blocked and unreachable ones do not.
+        run: |
+          set +e
+          python scripts/check_links.py --report link-report.md | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          cat link-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update the issue
+        if: steps.check.outputs.status != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Links quebrados detectados"
+          gh label create link-check --color BFD4F2 --description "Relatório automático de links" 2>/dev/null || true
+          number=$(gh issue list --label link-check --state open --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body-file link-report.md
+          else
+            gh issue create --title "$title" --label link-check --body-file link-report.md
+          fi
+
+      - name: Fail when links are broken
+        if: steps.check.outputs.status != '0'
+        run: exit 1

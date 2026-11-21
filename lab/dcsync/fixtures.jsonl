@@ -1,0 +1,8 @@
+{"name": "usuário comum solicita Get-Changes-All", "class": "positive", "expect": "match", "event": {"event_id": 4662, "subject_user": "jdoe", "properties": "%{1131f6ad-9c07-11d1-f79f-00c04fc2dcd2}"}}
+{"name": "conta de serviço desconhecida com Get-Changes", "class": "positive", "expect": "match", "event": {"event_id": 4662, "subject_user": "svc-backup", "properties": "%{1131f6aa-9c07-11d1-f79f-00c04fc2dcd2}"}}
+{"name": "variante: GUID em maiúsculas", "class": "variant", "expect": "match", "event": {"event_id": 4662, "subject_user": "jdoe", "properties": "%{1131F6AD-9C07-11D1-F79F-00C04FC2DCD2}"}}
+{"name": "replicação entre controladores (conta de máquina)", "class": "benign", "expect": "no_match", "event": {"event_id": 4662, "subject_user": "DC02$", "properties": "%{1131f6ad-9c07-11d1-f79f-00c04fc2dcd2}"}}
+{"name": "Entra Connect aprovado", "class": "benign", "expect": "no_match", "event": {"event_id": 4662, "subject_user": "svc-adconnect", "properties": "%{1131f6aa-9c07-11d1-f79f-00c04fc2dcd2}"}}
+{"name": "4662 sem direito de replicação", "class": "benign", "expect": "no_match", "event": {"event_id": 4662, "subject_user": "jdoe", "properties": "%{bf967aba-0de6-11d0-a285-00aa003049e2}"}}
+{"name": "campo properties ausente", "class": "degraded", "expect": "degraded", "event": {"event_id": 4662, "subject_user": "jdoe"}}
+{"name": "auditoria sem subject_user", "class": "degraded", "expect": "degraded", "event": {"event_id": 4662, "properties": "%{1131f6ad-9c07-11d1-f79f-00c04fc2dcd2}"}}

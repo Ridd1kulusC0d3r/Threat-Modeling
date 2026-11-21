@@ -36,6 +36,16 @@ make check     # valida, testa e confere se os arquivos gerados estão em dia
 python scripts/check_links.py --id seu-id --write   # opcional, precisa de rede
 ```
 
+## Ferramentas de apoio
+
+```bash
+make lab                                   # regras e fixtures sintéticas de lab/ (também no CI)
+python scripts/ingest_feeds.py ../feeds/feeds.opml                        # domínios do OPML ainda fora do acervo
+python scripts/ingest_feeds.py ../feeds/feeds.opml --category osint --fetch --topic osint --since 60 --out candidatos.json
+```
+
+`ingest_feeds.py` só sugere: lê o OPML do repositório [feeds](https://github.com/Ridd1kulusC0d3r/feeds), filtra entradas recentes por palavras-chave de tema e gera registros com grau `D` e limite "pendente de revisão". Revise fonte, grau, nível e limite antes de colar em `data/resources.json`.
+
 Não edite os arquivos gerados à mão: o CI recusa PR cujos arquivos gerados não correspondam aos dados.
 
 ## Disciplina de evidência
